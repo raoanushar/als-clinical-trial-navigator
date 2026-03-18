@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: als-clinical-trial-navigator
+    runtime: node
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /api/health
+    envVars:
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: STORAGE_DIR
+        value: /opt/render/project/src

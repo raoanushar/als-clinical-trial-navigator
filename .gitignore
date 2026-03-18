@@ -1,0 +1,4 @@
+data/trials-cache.json
+data/agent-analyses.json
+.env
+reports/

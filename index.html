@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ALS Clinical Trial Navigator</title>
+    <link rel="icon" href="data:," />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar">
+        <div class="topbar-copy">
+          <p class="eyebrow">Clinician Tool</p>
+          <h1>ALS Clinical Trial Navigator</h1>
+        </div>
+        <div class="topbar-actions">
+          <button id="sync-button" class="secondary-button">Sync CT.gov</button>
+          <div class="sync-status">
+            <span class="eyebrow">Last sync</span>
+            <strong id="sync-timestamp">Loading...</strong>
+          </div>
+        </div>
+      </header>
+
+      <nav class="tabs">
+        <button class="tab-button is-active" data-panel-target="copilot-panel">Search</button>
+        <button class="tab-button" data-panel-target="dashboard-panel">Dashboard</button>
+        <button class="tab-button" data-panel-target="agent-panel">Suspicious Listings</button>
+      </nav>
+
+      <main class="panel-stack">
+        <section id="copilot-panel" class="panel is-active">
+          <div class="section-header">
+            <div class="section-title">
+              <p class="eyebrow">Search Copilot</p>
+              <h2>Ask for ALS trials in plain language.</h2>
+            </div>
+            <div class="chip-row">
+              <button class="chip" data-query="Find recruiting interventional ALS trials">Recruiting</button>
+              <button class="chip" data-query="Show gene therapy ALS studies">Gene therapy</button>
+              <button class="chip" data-query="">All ALS trials</button>
+            </div>
+          </div>
+
+          <div class="query-panel">
+            <label class="field-label" for="query-input">Clinician query</label>
+            <div class="query-row">
+              <input id="query-input" type="text" placeholder="Recruiting ALS trials, gene therapy, NCT ID..." aria-label="Clinician query" />
+              <button id="run-query" class="primary-button">Search</button>
+            </div>
+            <div id="filter-summary" class="filter-summary"></div>
+            <p id="copilot-summary" class="copilot-summary">Loading ALS trials...</p>
+            <p id="query-error" class="error-text" hidden></p>
+          </div>
+
+          <div class="results-card">
+            <div class="results-header">
+              <div class="section-title">
+                <p class="eyebrow">Results</p>
+                <h3 id="results-title">Matched ALS trials</h3>
+              </div>
+              <span id="results-count" class="results-count">0 results</span>
+            </div>
+            <div id="trial-results" class="trial-results"></div>
+          </div>
+        </section>
+
+        <section id="dashboard-panel" class="panel">
+          <div class="section-header">
+            <div class="section-title">
+              <p class="eyebrow">Dashboard</p>
+              <h2>Current ALS trial activity at a glance.</h2>
+            </div>
+          </div>
+
+          <div class="dashboard-grid">
+            <article class="content-card">
+              <p class="eyebrow">Recruitment status</p>
+              <div id="status-bars" class="bar-list"></div>
+            </article>
+            <article class="content-card">
+              <p class="eyebrow">Top cities</p>
+              <div id="city-list" class="simple-list"></div>
+            </article>
+            <article class="content-card">
+              <p class="eyebrow">Recently updated</p>
+              <div id="recent-updates" class="simple-list"></div>
+            </article>
+          </div>
+        </section>
+
+        <section id="agent-panel" class="panel">
+          <div class="section-header">
+            <div class="section-title">
+              <p class="eyebrow">Suspicious Listing Agent</p>
+              <h2>Run our LLM agent on recent ALS trials to flag potentially suspicious listings.</h2>
+            </div>
+          </div>
+
+          <div class="agent-run-shell">
+            <article class="content-card">
+              <p class="eyebrow">Run agent</p>
+              <div class="agent-form">
+                <div class="single-field">
+                  <label class="field-label" for="agent-nct-id">Specific NCT ID</label>
+                  <input id="agent-nct-id" type="text" placeholder="NCT07287397" />
+                  <p class="field-help">Use this when you want the agent to review one exact trial.</p>
+                </div>
+
+                <div class="divider-label">
+                  <span>Or run on a recent set of trials</span>
+                </div>
+
+                <div class="form-grid form-grid-wide">
+                  <div>
+                    <label class="field-label" for="agent-limit">Number of latest trials</label>
+                    <input id="agent-limit" type="number" min="5" max="100" step="5" value="20" />
+                    <p class="field-help">How many recent ALS trials to send to the agent in a batch.</p>
+                  </div>
+                  <div>
+                    <label class="field-label" for="agent-days">Time period</label>
+                    <input id="agent-days" type="number" min="0" max="3650" step="30" value="365" list="agent-day-presets" />
+                    <datalist id="agent-day-presets">
+                      <option value="30"></option>
+                      <option value="90"></option>
+                      <option value="180"></option>
+                      <option value="365"></option>
+                      <option value="730"></option>
+                      <option value="1825"></option>
+                      <option value="3650"></option>
+                      <option value="0"></option>
+                    </datalist>
+                    <p class="field-help">Enter any number of days up to 3650. Use 0 to include all stored ALS trials.</p>
+                  </div>
+                  <div>
+                    <label class="field-label" for="agent-query">Optional trial filter</label>
+                    <input id="agent-query" type="text" value="recruiting" placeholder="recruiting, Boston, gene therapy..." />
+                    <p class="field-help">Only used when no NCT ID is provided.</p>
+                  </div>
+                </div>
+
+                <label class="checkbox-row">
+                  <input id="skip-processed" type="checkbox" checked />
+                  <span>Skip trials that already have stored agent results</span>
+                </label>
+
+                <div class="run-agent-row">
+                  <a class="secondary-button button-link" href="/api/agent/export">Download all analyzed trials CSV</a>
+                  <a class="secondary-button button-link" href="/api/agent/export-flagged">Download flagged trials CSV</a>
+                  <a class="secondary-button button-link" href="/api/agent/export-flagged-html" target="_blank" rel="noreferrer">Open flagged report</a>
+                  <a class="secondary-button button-link" href="/api/agent/export-flagged-doc">Download flagged report for Word</a>
+                  <div class="sort-toggle-group" aria-label="Agent result sort">
+                    <button id="sort-score" class="secondary-button is-active" type="button">Sort by suspicion</button>
+                    <button id="sort-recency" class="secondary-button" type="button">Sort by recency</button>
+                  </div>
+                  <div class="run-action-group">
+                    <button id="continue-agent" class="secondary-button" type="button" disabled>Continue run</button>
+                    <button id="run-agent" class="primary-button">Run agent</button>
+                  </div>
+                </div>
+
+                <p id="agent-error" class="error-text" hidden></p>
+              </div>
+            </article>
+          </div>
+
+          <div class="agent-results-grid agent-results-grid-single">
+            <article class="content-card">
+              <p class="eyebrow">Flagged trials</p>
+              <div id="medium-risk-results" class="listing-queue">
+                <article class="listing-card">
+                  <p>No stored flagged trials yet.</p>
+                </article>
+              </div>
+            </article>
+            <article class="content-card">
+              <p class="eyebrow">Other trials screened</p>
+              <div id="screened-summary" class="screened-summary-row"></div>
+              <div id="screened-results" class="screened-list">
+                <article class="listing-card">
+                  <p>No screened low-risk trials yet.</p>
+                </article>
+              </div>
+            </article>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <div id="trial-detail-modal" class="modal-shell" hidden>
+      <div class="modal-backdrop" data-close-modal="true"></div>
+      <section class="modal-card" role="dialog" aria-modal="true" aria-labelledby="trial-detail-title">
+        <div class="modal-header">
+          <div class="section-title">
+            <p id="trial-detail-kicker" class="eyebrow">Trial details</p>
+            <h2 id="trial-detail-title">Loading trial...</h2>
+          </div>
+          <button id="close-trial-detail" class="secondary-button" type="button">Close</button>
+        </div>
+        <div id="trial-detail-body" class="modal-body"></div>
+      </section>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

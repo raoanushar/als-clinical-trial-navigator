@@ -1,0 +1,13 @@
+{
+  "name": "als-clinical-trial-navigator",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ALS Clinical Trial Navigator with ClinicalTrials.gov ingestion and flagged-trial reporting.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
