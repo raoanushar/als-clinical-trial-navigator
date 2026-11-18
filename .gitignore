@@ -1,4 +1,5 @@
 data/trials-cache.json
 data/agent-analyses.json
+data/inconsistency-analyses.json
 .env
 reports/

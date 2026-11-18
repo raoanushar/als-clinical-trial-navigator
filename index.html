@@ -3,58 +3,69 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ALS Clinical Trial Navigator</title>
+    <title>SAVA AI · Expert Portal</title>
     <link rel="icon" href="data:," />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Poppins:wght@500;600&amp;display=swap" />
+    <link rel="stylesheet" href="./design/expert-portal/tokens.css" />
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
     <div class="app-shell">
+      <aside class="portal-sidebar">
+        <a class="portal-brand" href="#dashboard-panel"><span class="brand-mark" aria-hidden="true"></span><span><strong>SAVA AI</strong><small>Expert Portal</small></span></a>
+        <nav class="tabs" aria-label="Portal">
+          <button class="tab-button is-active" data-panel-target="dashboard-panel" aria-current="page">Dashboard</button>
+          <button class="tab-button" data-panel-target="saved-trials-panel">Saved trials</button>
+          <button class="tab-button" data-panel-target="trial-data-panel">Trial data</button>
+          <button class="tab-button" data-panel-target="copilot-panel">Search &amp; Explore</button>
+          <div class="sidebar-saved"><p class="eyebrow">Saved views</p><div id="saved-view-list"></div><button class="tab-button saved-center-link" data-panel-target="targeting-panel">Targeted populations</button></div>
+          <button class="tab-button" data-panel-target="agent-panel">Review &amp; Update <span id="portal-flag-count" class="nav-count" hidden></span></button>
+          <details class="sidebar-tools"><summary>More tools</summary>
+            <button class="tab-button" data-panel-target="nyu-panel">New York Search</button>
+          </details>
+        </nav>
+        <button class="tab-button profile-link" data-panel-target="profile-panel"><img class="profile-avatar" src="assets/jinsy-andrews.png" alt="Dr. Jinsy Andrews" /><span><strong>Dr. Jinsy Andrews</strong></span></button>
+      </aside>
       <header class="topbar">
-        <div class="topbar-copy">
-          <p class="eyebrow">Clinician Tool</p>
-          <h1>ALS Clinical Trial Navigator</h1>
-        </div>
-        <div class="topbar-actions">
-          <button id="sync-button" class="secondary-button">Sync CT.gov</button>
-          <div class="sync-status">
-            <span class="eyebrow">Last sync</span>
-            <strong id="sync-timestamp">Loading...</strong>
-          </div>
-        </div>
+        <div class="topbar-actions"><div class="sync-status"><span class="eyebrow">Registry last synced</span><strong id="sync-timestamp">Loading...</strong></div><button id="sync-button" class="secondary-button">Sync data</button></div>
       </header>
-
-      <nav class="tabs">
-        <button class="tab-button is-active" data-panel-target="copilot-panel">Search</button>
-        <button class="tab-button" data-panel-target="dashboard-panel">Dashboard</button>
-        <button class="tab-button" data-panel-target="agent-panel">Suspicious Listings</button>
-      </nav>
-
       <main class="panel-stack">
-        <section id="copilot-panel" class="panel is-active">
+        <section id="triage-panel" class="panel">
+          <div class="section-header"><div class="section-title"><p class="eyebrow">Curator workspace</p><h2>Curate expert queue</h2><p class="subtle">Choose which AI flags need an expert. Your reasons are saved for improving the flagging agent.</p></div></div>
+          <div class="triage-toolbar"><label>Show<select id="triage-filter"><option value="pending">Needs a decision</option><option value="keep">Keep for experts</option><option value="exclude">Not needed</option><option value="all">All flagged trials</option></select></label><a class="secondary-button" href="/api/review-triage/export" download>Export training data</a><button id="triage-publish" class="primary-button">Publish expert queue</button></div>
+          <div id="triage-summary" class="review-progress"></div><p id="triage-feedback" role="status"></p><p id="triage-error" class="error-text" role="alert" hidden></p>
+          <div class="triage-workspace"><nav id="triage-list" class="review-queue" aria-label="Flagged trial curation"></nav><div id="triage-detail" class="review-detail"></div></div>
+        </section>
+        <section id="copilot-panel" class="panel" data-search-mode="ask">
           <div class="section-header">
             <div class="section-title">
-              <p class="eyebrow">Search Copilot</p>
-              <h2>Ask for ALS trials in plain language.</h2>
-            </div>
-            <div class="chip-row">
-              <button class="chip" data-query="Find recruiting interventional ALS trials">Recruiting</button>
-              <button class="chip" data-query="Show gene therapy ALS studies">Gene therapy</button>
-              <button class="chip" data-query="">All ALS trials</button>
+              <h2>Search &amp; Explore</h2>
             </div>
           </div>
 
+          <div class="portal-search-toolbar"><div class="mode-switch" aria-label="Search mode"><button id="ask-mode" class="secondary-button is-active" aria-pressed="true">Ask SAVA</button><button id="filters-mode" class="secondary-button" aria-pressed="false">Filters</button></div><div class="chip-row"><button id="sava-reset" class="secondary-button" hidden>New conversation</button><button id="save-view" class="secondary-button" hidden>Save this view</button></div></div>
+          <form id="save-view-form" class="query-panel" hidden><label for="view-name">View name</label><div class="query-row"><input id="view-name" maxlength="60" required placeholder="My recruiting trials" /><button class="primary-button" type="submit">Save</button><button id="cancel-save-view" class="secondary-button" type="button">Cancel</button></div><p id="save-view-message" role="status"></p></form>
+          <div id="sava-conversation" class="sava-conversation" role="log" aria-label="Conversation with SAVA" aria-live="polite"></div>
           <div class="query-panel">
-            <label class="field-label" for="query-input">Clinician query</label>
+            <label class="field-label" for="query-input">Ask about ALS trials</label>
             <div class="query-row">
-              <input id="query-input" type="text" placeholder="Recruiting ALS trials, gene therapy, NCT ID..." aria-label="Clinician query" />
-              <button id="run-query" class="primary-button">Search</button>
+              <textarea id="query-input" rows="1" maxlength="2000" placeholder="Ask SAVA about ALS trials…" aria-label="Message SAVA"></textarea>
+              <button id="run-query" class="primary-button chat-send" aria-label="Send message" title="Send message"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5m-6 6 6-6 6 6"/></svg></button>
             </div>
-            <div id="filter-summary" class="filter-summary"></div>
-            <p id="copilot-summary" class="copilot-summary">Loading ALS trials...</p>
-            <p id="query-error" class="error-text" hidden></p>
+            <div id="portal-filters" class="portal-filter-grid" hidden>
+              <label>Recruitment status<select id="search-status"><option value="">Any status</option><option>Recruiting</option><option>Not Yet Recruiting</option><option>Active Not Recruiting</option><option>Enrolling By Invitation</option><option>Completed</option></select></label>
+              <label>Study type<select id="search-type"><option value="">Any study type</option><option>Interventional</option><option>Observational</option><option>Expanded Access</option></select></label>
+              <label>Phase<select id="search-phase"><option value="">Any phase</option><option>Phase 1</option><option>Phase 2</option><option>Phase 3</option><option>Phase 4</option></select></label>
+              <label>City<input id="search-city" placeholder="e.g. Boston" /></label>
+              <button id="clear-filters" class="secondary-button" type="button">Clear filters</button>
+            </div>
+            <div id="filter-summary" class="filter-summary" hidden></div>
+            <p id="copilot-summary" class="copilot-summary" hidden></p>
+            <p id="query-error" class="error-text" role="alert" hidden></p>
           </div>
 
-          <div class="results-card">
+          <div id="search-results-card" class="results-card" hidden>
             <div class="results-header">
               <div class="section-title">
                 <p class="eyebrow">Results</p>
@@ -66,39 +77,141 @@
           </div>
         </section>
 
-        <section id="dashboard-panel" class="panel">
+        <section id="saved-trials-panel" class="panel">
+          <div class="section-header"><div class="section-title"><h2>Saved trials</h2><p class="subtle">Keep trials together with collections and notes.</p></div></div>
+          <article class="content-card">
+            <div class="saved-toolbar"><input id="saved-search" type="search" placeholder="Search saved trials…" aria-label="Search saved trials"><select id="saved-collection-filter" aria-label="Collection"><option value="">All collections</option></select><form id="saved-new-collection"><input name="name" aria-label="New collection name" placeholder="New collection name" maxlength="80" required><button class="secondary-button">Create collection</button></form></div>
+            <p class="subtle">Saved to this prototype’s shared profile.</p><p id="saved-message" role="status"></p><div id="saved-trial-list"></div>
+          </article>
+        </section>
+
+        <section id="trial-data-panel" class="panel">
+          <div class="section-header"><div class="section-title"><h2>Trial data</h2><p class="subtle">Registry fields and saved analyses, side by side.</p></div></div>
+          <article class="content-card">
+            <div class="trial-data-subtabs" aria-label="Data views"><button type="button" data-data-view="all" aria-pressed="true">All fields</button><button type="button" data-data-view="placebo" aria-pressed="false">Placebo review</button></div>
+            <p id="placebo-review-note" class="subtle" hidden>Interventional trials only. Compare the dashboard label with the saved AI rationale. The dashboard uses current AI results, with expert decisions taking priority.</p>
+            <div class="trial-data-controls">
+              <fieldset id="trial-data-source"><legend>Show columns</legend><label><input type="radio" name="data-source" value="both" checked> Both</label><label><input type="radio" name="data-source" value="registry"> CT.gov</label><label><input type="radio" name="data-source" value="ai"> AI extracted / enhanced</label></fieldset>
+              <label>Search trials<input type="search" id="trial-data-search" placeholder="Trial, NCT ID, gene, or tag…"></label>
+              <button id="placebo-direct-conflicts" type="button" class="secondary-button" aria-pressed="false" hidden>Placebo ↔ No placebo only</button>
+              <button id="placebo-differences" type="button" class="secondary-button" aria-pressed="false" hidden>Differences only</button>
+              <label id="placebo-ai-only-wrap" class="checkbox-row" hidden><input type="checkbox" id="placebo-ai-only"> AI-screened only</label>
+              <label id="placebo-label-filter-wrap" hidden>Placebo label<select id="placebo-label-filter"><option value="">All labels</option><option>Placebo</option><option>No placebo</option><option>Not specified</option><option>Not relevant</option></select></label>
+              <label class="checkbox-row"><input type="checkbox" id="trial-data-ongoing" checked> Ongoing only</label>
+            </div>
+            <p id="trial-data-general-note" class="subtle">CT.gov columns show the saved registry import. Curated categories and portal edits are labeled separately. AI tags retain their inclusion/exclusion relationships; missing analysis is not a negative finding.</p>
+            <p id="trial-data-state" role="status"></p>
+            <div class="trial-data-scroll" tabindex="0" role="region" aria-label="Trial data table"><table id="trial-data-table"></table></div>
+            <div class="trial-data-pagination"><button id="trial-data-prev" class="secondary-button">Previous</button><span id="trial-data-page"></span><button id="trial-data-next" class="secondary-button">Next</button></div>
+          </article>
+        </section>
+
+        <section id="targeting-panel" class="panel">
           <div class="section-header">
             <div class="section-title">
-              <p class="eyebrow">Dashboard</p>
-              <h2>Current ALS trial activity at a glance.</h2>
+              <p class="eyebrow">Phenotype &amp; Gene Targeting</p>
+              <h2>Who trials are designed for</h2>
             </div>
+            <span id="targeting-results-count" class="results-count">Loading...</span>
           </div>
 
+          <div class="content-card targeting-guide">
+            <p id="targeting-summary" class="copilot-summary">Loading the interventional targeting landscape...</p>
+            <details class="targeting-definitions"><summary>Understanding targeting labels</summary><div class="targeting-legend" aria-label="Targeting relationship definitions">
+              <span><strong>Required</strong> defines who can enroll</span>
+              <span><strong>Cohort</strong> applies to one arm or subgroup</span>
+              <span><strong>With exceptions</strong> targets the subgroup but removes narrower cases</span>
+              <span><strong>Conditional exclusion</strong> applies only in stated circumstances</span>
+              <span><strong>Excluded</strong> means the subgroup cannot enroll</span>
+            </div></details>
+          </div>
+
+          <div id="targeting-results" class="targeting-dashboard">
+            <article class="content-card"><p>Loading landscape...</p></article>
+          </div>
+        </section>
+
+        <section id="dashboard-panel" class="panel is-active">
+          <div class="section-header">
+            <div class="section-title"><h2>ALS Clinical Trial Landscape</h2></div>
+            <div class="dashboard-scope">
+              <label class="dashboard-scope-toggle" for="dashboard-active-only">
+                <input id="dashboard-active-only" type="checkbox" role="switch" checked />
+                <span>Ongoing trials only</span>
+              </label>
+              <details class="dashboard-scope-help"><summary>About this filter</summary><p id="dashboard-filter-help">Includes recruiting, active—not recruiting, not yet recruiting, and available expanded-access records. Active—not recruiting studies are not accepting new participants. Turn off to show all statuses.</p></details>
+            </div>
+          </div>
+          <p id="dashboard-filter-error" class="error-text" role="alert" hidden></p>
+
+          <div id="portal-kpis" class="stats-grid" aria-live="polite"></div>
           <div class="dashboard-grid">
             <article class="content-card">
-              <p class="eyebrow">Recruitment status</p>
+              <p class="eyebrow">Recruitment Status</p>
+              <h3>Studies by Recruitment Status</h3>
               <div id="status-bars" class="bar-list"></div>
             </article>
             <article class="content-card">
-              <p class="eyebrow">Top cities</p>
-              <div id="city-list" class="simple-list"></div>
+              <p class="eyebrow">Study Type</p>
+              <h3>Studies by Study Type</h3>
+              <div id="study-type-breakdown" class="dashboard-breakdown"></div>
             </article>
             <article class="content-card">
-              <p class="eyebrow">Recently updated</p>
-              <div id="recent-updates" class="simple-list"></div>
+              <p class="eyebrow">Phase</p>
+              <h3>Interventional Trials by Phase</h3>
+              <div id="phase-breakdown" class="phase-pie" aria-describedby="phase-footnote"></div>
+              <p id="phase-footnote" class="subtle dashboard-card-note">*FDA phases apply to drug and biologic development. Device, behavioral, diagnostic, and similar intervention studies are usually marked not applicable.</p>
             </article>
+<article class="content-card"><p class="eyebrow">Study design</p><h3>Placebo in Interventional Trials</h3><div id="placebo-breakdown" class="phase-pie"></div><p class="subtle dashboard-card-note">Based on saved AI classifications, with expert decisions applied where available. Sham controls count as placebo.</p></article>
+<!-- Archived comparison card: keep its data and filtering code available, but do not show it on the dashboard. -->
+<article class="content-card" id="registry-placebo-card" hidden><p class="eyebrow">CT.gov record</p><h3>Placebo Split from CT.gov</h3><div id="registry-placebo-breakdown" class="dashboard-breakdown"></div><p class="subtle dashboard-card-note">Derived from registered arm types and intervention wording; this is not an AI classification.</p></article>
+<div class="dashboard-side-stack">            <article class="content-card"><p class="eyebrow">Targeted populations</p><h3>Who trials are designed for</h3><div id="population-breakdown" class="dashboard-breakdown"></div><p id="population-note" class="subtle dashboard-card-note"></p><button id="explore-targeting" class="secondary-button">Explore populations →</button></article><article class="content-card"><p class="eyebrow">Top cities</p><h3>Cities with the Most Studies</h3><div id="dashboard-top-cities"></div></article></div>
+            <article class="content-card" id="grouped-landscape"><p class="eyebrow">Interventions</p><h3>What’s being studied?</h3><div id="landscape-bars"></div></article>
           </div>
+
+
+          <article class="content-card dashboard-opportunities" id="recently-posted-trials" tabindex="-1">
+            <div class="results-header">
+              <div class="section-title">
+                <h3>Trials posted in the last 30 days</h3>
+              </div>
+            </div>
+            <div id="new-opportunity-list" class="opportunity-grid"></div>
+            <button id="toggle-recent-trials" class="secondary-button" type="button" aria-controls="new-opportunity-list" aria-expanded="false" hidden>Show all trials</button>
+          </article>
+
+          <details class="content-card dashboard-report-card"><summary>Study classification report</summary>
+            <div class="results-header">
+              <div class="section-title">
+                <p class="eyebrow">Classification report</p>
+                <h3>CT.gov study type compared with AI classification</h3>
+              </div>
+              <a id="dashboard-export" class="secondary-button button-link" href="/api/inconsistency/export-excel?ongoingOnly=true">Download Excel report</a>
+            </div>
+            <p id="classification-report-summary" class="copilot-summary">Loading classification report...</p>
+            <div id="classification-report-results" class="classification-report-list">
+              <article class="listing-card">
+                <p>Loading classification report...</p>
+              </article>
+            </div>
+          </details>
         </section>
 
         <section id="agent-panel" class="panel">
           <div class="section-header">
             <div class="section-title">
-              <p class="eyebrow">Suspicious Listing Agent</p>
-              <h2>Run our LLM agent on recent ALS trials to flag potentially suspicious listings.</h2>
+              <h2>Review &amp; Update</h2>
             </div>
           </div>
 
-          <div class="agent-run-shell">
+          <div class="review-toolbar"><div class="mode-switch" aria-label="Review queue"><button id="review-flagged-tab" class="secondary-button is-active" aria-pressed="true">Review Unverified Trials</button><button id="review-assistant-tab" class="secondary-button" aria-pressed="false">Ask for an update</button><button id="review-center-tab" class="secondary-button" aria-pressed="false">My center’s trials</button></div><label class="review-history-switch"><input id="review-show-history" type="checkbox" /> Show reviewed</label></div>
+          <div id="review-progress" class="review-progress"></div>
+          <p id="review-feedback" class="review-feedback" role="status"></p>
+          <p id="review-error" class="error-text" role="alert" hidden></p>
+          <div id="update-assistant-view" hidden><div id="general-update-chat" class="update-chat"></div></div>
+          <div class="review-workspace"><aside id="review-queue" class="review-queue" aria-label="Trial review queue"><p>Loading your queue…</p></aside><article id="review-detail" class="content-card review-detail"><p>Select a trial to begin.</p></article><aside id="center-update-chat" class="update-chat" hidden></aside></div>
+
+          <details class="portal-advanced"><summary>Run screening &amp; export reports</summary><div class="agent-run-shell">
             <article class="content-card">
               <p class="eyebrow">Run agent</p>
               <div class="agent-form">
@@ -165,9 +278,10 @@
             </article>
           </div>
 
-          <div class="agent-results-grid agent-results-grid-single">
+          </details>
+          <div class="agent-results-grid agent-results-grid-single" hidden>
             <article class="content-card">
-              <p class="eyebrow">Flagged trials</p>
+              <p class="eyebrow">Review Unverified Trials</p>
               <div id="medium-risk-results" class="listing-queue">
                 <article class="listing-card">
                   <p>No stored flagged trials yet.</p>
@@ -182,6 +296,232 @@
                   <p>No screened low-risk trials yet.</p>
                 </article>
               </div>
+            </article>
+          </div>
+        </section>
+
+        <section id="profile-panel" class="panel">
+          <div class="section-header"><div class="section-title"><p class="eyebrow">Profile</p><h2>Dr. Jinsy Andrews</h2></div></div>
+          <article class="content-card expert-profile-card"><img class="profile-avatar" src="assets/jinsy-andrews.png" alt="Dr. Jinsy Andrews" /><div><h3>Dr. Jinsy Andrews</h3></div></article>
+          <article class="content-card expert-center-card"><p class="eyebrow">Selected center</p><h3>NYU Langone Health</h3><p id="profile-center-summary" class="subtle">Loading center trials…</p><p class="subtle">This prototype uses NYU as the selected trial workspace.</p><button id="profile-open-center" class="primary-button">Review NYU trials</button></article>
+        </section>
+
+        <section id="verification-panel" class="panel">
+          <div class="section-header">
+            <div class="section-title">
+              <p class="eyebrow">Verification Agent</p>
+              <h2>Trial Verification Review</h2>
+            </div>
+          </div>
+
+          <div class="agent-results-grid verification-results-grid">
+            <article class="content-card">
+              <p class="eyebrow">Needs Physician Review</p>
+              <div id="physician-review-results" class="listing-queue">
+                <article class="listing-card">
+                  <p>Loading physician-review trials...</p>
+                </article>
+              </div>
+            </article>
+            <article class="content-card">
+              <p class="eyebrow">Needs Registry Update</p>
+              <div id="registry-update-results" class="listing-queue">
+                <article class="listing-card">
+                  <p>Loading registry-update trials...</p>
+                </article>
+              </div>
+            </article>
+          </div>
+
+          <article class="content-card verification-verified-card">
+            <div class="results-header">
+              <div class="section-title">
+                <p class="eyebrow">Verified examples</p>
+                <h3>Records that are complete enough for navigation</h3>
+              </div>
+              <span id="verified-results-count" class="results-count">0 examples</span>
+            </div>
+            <div id="verified-results" class="screened-list"></div>
+          </article>
+        </section>
+
+        <section id="inconsistency-panel" class="panel">
+          <div class="section-header">
+            <div class="section-title">
+              <p class="eyebrow">Consistency Agent</p>
+              <h2>Find study-type mismatches and subtype interventional ALS trials as drug or other.</h2>
+            </div>
+          </div>
+
+          <div class="agent-run-shell">
+            <article class="content-card">
+              <p class="eyebrow">Run agent</p>
+              <div class="agent-form">
+                <div class="single-field">
+                  <label class="field-label" for="inconsistency-nct-id">Specific NCT ID</label>
+                  <input id="inconsistency-nct-id" type="text" placeholder="NCT07287397" />
+                  <p class="field-help">Use this when you want the agent to review one exact trial.</p>
+                </div>
+
+                <div class="divider-label">
+                  <span>Or run on a recent set of trials</span>
+                </div>
+
+                <div class="form-grid form-grid-wide">
+                  <div>
+                    <label class="field-label" for="inconsistency-limit">Number of latest trials</label>
+                    <input id="inconsistency-limit" type="number" min="5" max="100" step="5" value="20" />
+                    <p class="field-help">How many recent ALS trials to send to the agent in a batch.</p>
+                  </div>
+                  <div>
+                    <label class="field-label" for="inconsistency-days">Time period</label>
+                    <input id="inconsistency-days" type="number" min="0" max="3650" step="30" value="0" list="inconsistency-day-presets" />
+                    <datalist id="inconsistency-day-presets">
+                      <option value="30"></option>
+                      <option value="90"></option>
+                      <option value="180"></option>
+                      <option value="365"></option>
+                      <option value="730"></option>
+                      <option value="0"></option>
+                    </datalist>
+                    <p class="field-help">Enter any number of days up to 3650. Use 0 to include all stored ALS trials.</p>
+                  </div>
+                  <div>
+                    <label class="field-label" for="inconsistency-query">Optional trial filter</label>
+                    <input id="inconsistency-query" type="text" placeholder="interventional, Boston, gene therapy..." />
+                    <p class="field-help">Adds a text filter on top of the selected statuses when no NCT ID is provided.</p>
+                  </div>
+                </div>
+
+                <fieldset class="status-filter-group">
+                  <legend class="field-label">Recruitment statuses to include</legend>
+                  <div class="status-filter-options">
+                    <label class="checkbox-row">
+                      <input class="inconsistency-status-filter" type="checkbox" value="Not Yet Recruiting" checked />
+                      <span>Not yet recruiting</span>
+                    </label>
+                    <label class="checkbox-row">
+                      <input class="inconsistency-status-filter" type="checkbox" value="Recruiting" checked />
+                      <span>Recruiting</span>
+                    </label>
+                    <label class="checkbox-row">
+                      <input class="inconsistency-status-filter" type="checkbox" value="Active Not Recruiting" checked />
+                      <span>Active, not recruiting</span>
+                    </label>
+                    <label class="checkbox-row">
+                      <input class="inconsistency-status-filter" type="checkbox" value="Enrolling By Invitation" checked />
+                      <span>Enrolling by invitation</span>
+                    </label>
+                  </div>
+                  <p class="field-help">Status filters are ignored when you enter a specific NCT ID.</p>
+                </fieldset>
+
+                <label class="checkbox-row">
+                  <input id="skip-inconsistency-processed" type="checkbox" checked />
+                  <span>Skip trials that already have stored consistency results</span>
+                </label>
+
+                <div class="run-agent-row">
+                  <a class="secondary-button button-link" href="/api/inconsistency/export">Download consistency CSV</a>
+                  <div class="run-action-group">
+                    <button id="continue-inconsistency" class="secondary-button" type="button" disabled>Continue run</button>
+                    <button id="run-inconsistency" class="primary-button">Run agent</button>
+                  </div>
+                </div>
+
+                <p id="inconsistency-error" class="error-text" hidden></p>
+                <p id="inconsistency-summary" class="copilot-summary">No consistency reviews stored yet.</p>
+              </div>
+            </article>
+
+            <article class="content-card">
+              <div class="results-header">
+                <div class="section-title">
+                  <p class="eyebrow">Run preview</p>
+                  <h3>Trials selected for the next consistency run</h3>
+                </div>
+                <span id="inconsistency-preview-count" class="results-count">Loading...</span>
+              </div>
+              <p id="inconsistency-preview-summary" class="copilot-summary">Loading selected trials...</p>
+              <div id="inconsistency-preview-results" class="screened-list">
+                <article class="listing-card">
+                  <p>Loading selected trials...</p>
+                </article>
+              </div>
+            </article>
+          </div>
+
+          <div class="agent-results-grid verification-results-grid">
+            <article class="content-card">
+              <p class="eyebrow">Study-type mismatches</p>
+              <div id="inconsistency-mismatch-results" class="listing-queue">
+                <article class="listing-card">
+                  <p>No stored study-type mismatches yet.</p>
+                </article>
+              </div>
+            </article>
+            <article class="content-card">
+              <p class="eyebrow">Interventional: drug</p>
+              <div id="inconsistency-drug-results" class="listing-queue">
+                <article class="listing-card">
+                  <p>No stored drug-subtype trials yet.</p>
+                </article>
+              </div>
+            </article>
+          </div>
+
+          <article class="content-card verification-verified-card">
+            <div class="results-header">
+              <div class="section-title">
+                <p class="eyebrow">Interventional: other</p>
+                <h3>Devices, BCI, procedures, behavioral, and similar non-drug trials</h3>
+              </div>
+              <span id="inconsistency-other-count" class="results-count">0 trials</span>
+            </div>
+            <div id="inconsistency-other-results" class="listing-queue">
+              <article class="listing-card">
+                <p>No stored other-subtype trials yet.</p>
+              </article>
+            </div>
+          </article>
+        </section>
+
+        <section id="nyu-panel" class="panel">
+          <div class="section-header">
+            <div class="section-title">
+              <p class="eyebrow">New York Search</p>
+              <h2>Chat with a cleaned database of New York ALS trials.</h2>
+            </div>
+          </div>
+
+          <div class="new-york-search-stack">
+            <article class="content-card new-york-chat-card">
+              <div id="new-york-chat-log" class="chat-log">
+                <article class="chat-bubble assistant-bubble">
+                  <p>Ask about New York ALS trials, expanded access, sponsors, sites, or specific NCT IDs.</p>
+                </article>
+              </div>
+              <div class="agent-form">
+                <label class="field-label" for="new-york-question">Question</label>
+                <textarea id="new-york-question" placeholder="Which New York trials are expanded access programs for ALS?"></textarea>
+                <div class="run-agent-row">
+                  <button id="new-york-reset-chat" class="secondary-button" type="button">New chat</button>
+                  <button id="run-new-york-chat" class="primary-button" type="button">Ask chatbot</button>
+                </div>
+                <p id="new-york-chat-error" class="error-text" hidden></p>
+              </div>
+            </article>
+
+            <article class="content-card">
+              <div class="results-header">
+                <div class="section-title">
+                  <p class="eyebrow">New York database</p>
+                  <h3 id="nyu-results-title">New York ALS trial entries</h3>
+                </div>
+                <span id="nyu-results-count" class="results-count">0 results</span>
+              </div>
+              <p id="nyu-summary" class="copilot-summary">Loading New York studies...</p>
+              <div id="nyu-results" class="trial-results"></div>
             </article>
           </div>
         </section>
@@ -202,6 +542,14 @@
       </section>
     </div>
 
+    <dialog id="phase-drawer" aria-labelledby="phase-drawer-title"><header><div><h2 id="phase-drawer-title">Trials by phase</h2></div><button id="phase-drawer-close" aria-label="Close results" class="phase-close">×</button></header><div id="phase-drawer-filters"></div><label class="phase-search-label"><input id="phase-drawer-search" type="search" aria-label="Search these trials" placeholder="Search trials…" /></label><p id="phase-drawer-count" role="status"></p><div id="phase-drawer-results"></div></dialog>
+    <script src="./phase-drawer.js"></script>
+    <script src="./chat-ui.js"></script>
     <script src="./app.js"></script>
+    <script src="./trial-data-ui.js"></script>
+    <script src="./saved-trials-ui.js"></script>
+    <script src="./update-chat-ui.js"></script>
+    <script src="./review-ui.js"></script>
+    <script src="./triage-ui.js"></script>
   </body>
 </html>

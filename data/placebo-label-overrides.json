@@ -1,0 +1,14 @@
+{
+  "NCT06551649": {
+    "label": "Not relevant",
+    "reason": "Manual label decision: not relevant for the placebo view.",
+    "updatedAt": "2026-11-10",
+    "source": "Expert review"
+  },
+  "NCT06877143": {
+    "label": "Placebo",
+    "reason": "Manual label decision: placebo.",
+    "updatedAt": "2026-11-10",
+    "source": "Expert review"
+  }
+}

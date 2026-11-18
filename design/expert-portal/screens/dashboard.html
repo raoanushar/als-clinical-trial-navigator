@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SAVA AI Expert Portal · Dashboard</title>
+<link rel="stylesheet" href="../tokens.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Poppins:wght@500;600&amp;display=swap">
+<style>
+body{margin:0;background:#faf8f7;color:#0b1e3c;font-family:Inter,"Segoe UI",system-ui,sans-serif}
+a{color:#a83a47}a:hover{color:#0b1e3c}
+h1,h2,h3,p{margin:0}
+h1,h2,h3{font-family:Poppins,Inter,sans-serif;font-weight:600}
+.nav{display:block;padding:10px 14px;border-radius:999px;color:#e3e7ee;text-decoration:none;font-size:15px}
+.nav:hover{background:rgba(255,255,255,.08);color:#ffffff}
+.nav-on{background:#fce8ea;color:#0b1e3c;font-weight:600}
+.nav-on:hover{background:#fce8ea;color:#0b1e3c}
+.nav-sub{display:block;padding:7px 14px 7px 28px;color:#b9c1d0;text-decoration:none;font-size:14px;border-radius:999px}
+.nav-sub:hover{background:rgba(255,255,255,.08);color:#ffffff}
+.pill{display:inline-flex;align-items:center;padding:5px 10px;border-radius:999px;border:1px solid #ece6e4;background:#f4f1f0;color:#52536d;font-size:13px;white-space:nowrap}
+.ok{color:#1f6b4a;background:#e8f4ee;border-color:#c5e3d2}
+.warn{color:#8a5a00;background:#fdf3dc;border-color:#f1dca5}
+.btn{display:inline-flex;align-items:center;min-height:44px;box-sizing:border-box;padding:0 20px;border-radius:999px;border:1px solid #cf5d67;background:#ffffff;color:#a83a47;font:inherit;font-size:15px;font-weight:600;text-decoration:none;cursor:pointer;white-space:nowrap}
+.btn:hover{background:#fce8ea;color:#a83a47}
+.btn-primary{background:#0b1e3c;border-color:#0b1e3c;color:#ffffff}
+.btn-primary:hover{background:#1c3157;color:#ffffff}
+.card{background:#ffffff;border:1px solid #ece6e4;border-radius:16px;box-shadow:0 1px 2px rgba(11,30,60,.04)}
+.ctitle{font-size:17px}
+.note{font-size:13px;color:#52536d;line-height:1.45}
+.leg{display:flex;justify-content:space-between;align-items:center;gap:12px;font-size:14px;padding:8px 0;border-top:1px solid #f1ecea}
+.dot{display:inline-block;width:10px;height:10px;border-radius:999px;margin-right:10px;vertical-align:0}
+.bar{display:grid;grid-template-columns:120px minmax(0,1fr) 32px;gap:12px;align-items:center;font-size:14px}
+.track{height:10px;border-radius:999px;background:#f4f1f0;overflow:hidden}
+.fill{display:block;height:100%;border-radius:999px;background:#0b1e3c}
+.num{text-align:right;font-weight:600}
+.opp{display:flex;flex-direction:column;gap:10px;padding:16px;border:1px solid #ece6e4;border-radius:14px;text-decoration:none;color:#0b1e3c;background:#ffffff}
+.opp:hover{border-color:#cf5d67}
+</style>
+</head>
+<body>
+<div style="display: flex; flex-wrap: wrap; gap: 24px; max-width: 1280px; margin: 0 auto; padding: 24px; box-sizing: border-box; align-items: flex-start">
+
+  <aside style="flex: 1 1 220px; max-width: 100%; display: flex; flex-direction: column; gap: 24px; background: #0b1e3c; border-radius: 16px; padding: 22px 18px; box-sizing: border-box">
+    <div style="display: flex; align-items: center; gap: 10px; padding: 0 6px">
+      <span aria-hidden="true" style="width: 28px; height: 28px; border-radius: 999px; background: #cf5d67; box-shadow: inset -6px -6px 0 #cc9572; flex: 0 0 auto"></span>
+      <span style="display: flex; flex-direction: column; gap: 2px">
+        <strong style="font-family: Poppins, Inter, sans-serif; font-size: 18px; font-weight: 600; color: #ffffff; letter-spacing: .02em">SAVA AI</strong>
+        <span style="font-size: 11px; color: #b9c1d0; letter-spacing: .14em; text-transform: uppercase">Expert Portal</span>
+      </span>
+    </div>
+    <nav aria-label="Portal" style="display: flex; flex-direction: column; gap: 2px">
+      <a class="nav nav-on" href="dashboard.html" aria-current="page">Dashboard</a>
+      <a class="nav" href="search-ask.html">Search &amp; Explore</a>
+      <div style="display: flex; flex-direction: column; padding: 2px 0 6px">
+        <span style="padding: 6px 14px 4px 28px; color: #b9c1d0; font-size: 11px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase">Saved views</span>
+        <a class="nav-sub" href="search-filters.html">MGH trials</a>
+        <a class="nav-sub" href="search-filters.html">Actively recruiting ALS trials</a>
+        <a class="nav-sub" href="search-filters.html">Trials missing site contacts</a>
+      </div>
+      <a class="nav" href="trial-updates-my-center.html" style="display: flex; justify-content: space-between; align-items: center">Trial Updates <span style="padding: 1px 8px; border-radius: 999px; background: #cf5d67; color: #ffffff; font-size: 12px; font-weight: 600">8</span></a>
+    </nav>
+    <a href="profile.html" style="display: flex; gap: 12px; align-items: center; padding: 12px; border-radius: 12px; background: rgba(255,255,255,.06); text-decoration: none; color: #ffffff">
+      <span aria-hidden="true" style="display: grid; place-items: center; width: 40px; height: 40px; border-radius: 999px; background: #fce8ea; color: #a83a47; font-weight: 600; font-size: 14px; flex: 0 0 auto">ER</span>
+      <span style="display: flex; flex-direction: column; gap: 2px; min-width: 0">
+        <strong style="font-size: 14px">Dr. Elena Ruiz</strong>
+        <span style="font-size: 12px; color: #b9c1d0">Neurologist · Site PI</span>
+      </span>
+    </a>
+  </aside>
+
+  <main style="flex: 999 1 560px; min-width: 0; display: flex; flex-direction: column; gap: 18px">
+
+    <header style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 16px; align-items: center; padding: 6px 2px 0">
+      <h1 style="font-size: 30px; letter-spacing: -0.01em">ALS trial landscape</h1>
+      <div role="group" aria-label="Trials shown" style="display: flex; gap: 4px; padding: 4px; border-radius: 999px; background: #f1ecea">
+        <button type="button" aria-pressed="true" style="min-height: 36px; padding: 0 14px; border: 0; border-radius: 999px; background: #0b1e3c; color: #ffffff; font: inherit; font-size: 14px; font-weight: 600">Ongoing trials</button>
+        <button type="button" aria-pressed="false" style="min-height: 36px; padding: 0 14px; border: 0; border-radius: 999px; background: transparent; color: #52536d; font: inherit; font-size: 14px">All statuses</button>
+      </div>
+    </header>
+
+    <a href="trial-updates-my-center.html" style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 12px; padding: 14px 20px; border-radius: 14px; background: #fce8ea; color: #0b1e3c; text-decoration: none">
+      <span style="font-size: 15px"><strong>5 of your center's trials</strong> need an up-to-date check · <strong>3 flagged trials</strong> to screen</span>
+      <span style="font-size: 14px; font-weight: 600; color: #a83a47">Go to Trial Updates →</span>
+    </a>
+
+    <section aria-label="Overview" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 14px">
+      <div class="card" style="display: flex; flex-direction: column; gap: 6px; padding: 18px 20px">
+        <span style="color: #52536d; font-size: 14px">Ongoing ALS trials</span>
+        <strong style="font-family: Poppins, Inter, sans-serif; font-size: 30px; font-weight: 600">105</strong>
+      </div>
+      <div class="card" style="display: flex; flex-direction: column; gap: 6px; padding: 18px 20px">
+        <span style="color: #52536d; font-size: 14px">Recruiting now</span>
+        <strong style="font-family: Poppins, Inter, sans-serif; font-size: 30px; font-weight: 600">58</strong>
+      </div>
+      <div class="card" style="display: flex; flex-direction: column; gap: 6px; padding: 18px 20px">
+        <span style="color: #52536d; font-size: 14px">Interventional</span>
+        <strong style="font-family: Poppins, Inter, sans-serif; font-size: 30px; font-weight: 600">72</strong>
+      </div>
+      <div class="card" style="display: flex; flex-direction: column; gap: 6px; padding: 18px 20px">
+        <span style="color: #52536d; font-size: 14px">Posted in last 30 days</span>
+        <strong style="font-family: Poppins, Inter, sans-serif; font-size: 30px; font-weight: 600; color: #cf5d67">6</strong>
+      </div>
+    </section>
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 18px">
+
+      <section class="card" style="display: flex; flex-direction: column; gap: 14px; padding: 22px">
+        <h2 class="ctitle">Recruitment status</h2>
+        <div style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center">
+          <div style="position: relative; width: 150px; height: 150px; flex: 0 0 auto">
+            <svg viewBox="0 0 120 120" width="150" height="150" role="img" aria-label="Recruitment status of 105 ongoing trials">
+              <g transform="rotate(-90 60 60)" fill="none" stroke-width="16">
+                <circle cx="60" cy="60" r="52" stroke="#0b1e3c" stroke-dasharray="180.48 326.73"></circle>
+                <circle cx="60" cy="60" r="52" stroke="#cf5d67" stroke-dasharray="52.90 326.73" stroke-dashoffset="-180.48"></circle>
+                <circle cx="60" cy="60" r="52" stroke="#cc9572" stroke-dasharray="74.68 326.73" stroke-dashoffset="-233.38"></circle>
+                <circle cx="60" cy="60" r="52" stroke="#8fa3c4" stroke-dasharray="18.67 326.73" stroke-dashoffset="-308.06"></circle>
+              </g>
+            </svg>
+            <div style="position: absolute; inset: 0; display: grid; place-content: center; text-align: center">
+              <strong style="font-family: Poppins, Inter, sans-serif; font-size: 24px">105</strong>
+              <span style="font-size: 12px; color: #52536d">trials</span>
+            </div>
+          </div>
+          <div style="flex: 1 1 160px; display: flex; flex-direction: column">
+            <div class="leg"><span><span class="dot" style="background: #0b1e3c"></span>Recruiting</span><strong>58</strong></div>
+            <div class="leg"><span><span class="dot" style="background: #cf5d67"></span>Not yet recruiting</span><strong>17</strong></div>
+            <div class="leg"><span><span class="dot" style="background: #cc9572"></span>Active, not recruiting</span><strong>24</strong></div>
+            <div class="leg"><span><span class="dot" style="background: #8fa3c4"></span>Enrolling by invitation</span><strong>6</strong></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="card" style="display: flex; flex-direction: column; gap: 14px; padding: 22px">
+        <h2 class="ctitle">Interventional vs observational</h2>
+        <div role="img" aria-label="72 interventional, 27 observational, 6 expanded access" style="display: flex; height: 18px; border-radius: 999px; overflow: hidden; gap: 3px">
+          <span style="flex: 72; background: #0b1e3c"></span>
+          <span style="flex: 27; background: #cf5d67"></span>
+          <span style="flex: 6; background: #cc9572"></span>
+        </div>
+        <div style="display: flex; flex-direction: column">
+          <div class="leg"><span><span class="dot" style="background: #0b1e3c"></span>Interventional</span><span><strong>72</strong> <span style="color: #52536d">· 69%</span></span></div>
+          <div class="leg"><span><span class="dot" style="background: #cf5d67"></span>Observational</span><span><strong>27</strong> <span style="color: #52536d">· 26%</span></span></div>
+          <div class="leg"><span><span class="dot" style="background: #cc9572"></span>Expanded access</span><span><strong>6</strong> <span style="color: #52536d">· 6%</span></span></div>
+        </div>
+        <p class="note">Expanded-access programs are shown as their own ClinicalTrials.gov study type.</p>
+      </section>
+
+      <section class="card" style="display: flex; flex-direction: column; gap: 14px; padding: 22px">
+        <h2 class="ctitle">Interventional trials by phase</h2>
+        <div style="display: flex; flex-direction: column; gap: 12px">
+          <div class="bar"><span>Phase 1</span><span class="track"><span class="fill" style="width: 38.5%"></span></span><span class="num">10</span></div>
+          <div class="bar"><span>Phase 1/2</span><span class="track"><span class="fill" style="width: 30.8%"></span></span><span class="num">8</span></div>
+          <div class="bar"><span>Phase 2</span><span class="track"><span class="fill" style="width: 100%"></span></span><span class="num">26</span></div>
+          <div class="bar"><span>Phase 2/3</span><span class="track"><span class="fill" style="width: 26.9%"></span></span><span class="num">7</span></div>
+          <div class="bar"><span>Phase 3</span><span class="track"><span class="fill" style="width: 42.3%"></span></span><span class="num">11</span></div>
+          <div class="bar"><span>Not applicable</span><span class="track"><span class="fill" style="width: 38.5%; background: #8fa3c4"></span></span><span class="num">10</span></div>
+        </div>
+        <p class="note">Device, behavioral and diagnostic studies are usually marked not applicable.</p>
+      </section>
+
+      <section class="card" style="display: flex; flex-direction: column; gap: 14px; padding: 22px">
+        <h2 class="ctitle">Intervention type</h2>
+        <div style="display: flex; flex-direction: column; gap: 12px">
+          <div class="bar"><span>Drug</span><span class="track"><span class="fill" style="width: 100%; background: #cf5d67"></span></span><span class="num">38</span></div>
+          <div class="bar"><span>Device / BCI</span><span class="track"><span class="fill" style="width: 28.9%; background: #cf5d67"></span></span><span class="num">11</span></div>
+          <div class="bar"><span>Gene therapy</span><span class="track"><span class="fill" style="width: 23.7%; background: #cf5d67"></span></span><span class="num">9</span></div>
+          <div class="bar"><span>Cell / biologic</span><span class="track"><span class="fill" style="width: 21.1%; background: #cf5d67"></span></span><span class="num">8</span></div>
+          <div class="bar"><span>Behavioral / other</span><span class="track"><span class="fill" style="width: 15.8%; background: #cf5d67"></span></span><span class="num">6</span></div>
+        </div>
+      </section>
+
+      <section class="card" style="display: flex; flex-direction: column; gap: 14px; padding: 22px">
+        <h2 class="ctitle">Top U.S. cities</h2>
+        <div style="display: flex; flex-direction: column; gap: 12px">
+          <div class="bar"><span>Boston, MA</span><span class="track"><span class="fill" style="width: 100%; background: #cc9572"></span></span><span class="num">21</span></div>
+          <div class="bar"><span>New York, NY</span><span class="track"><span class="fill" style="width: 81%; background: #cc9572"></span></span><span class="num">17</span></div>
+          <div class="bar"><span>Baltimore, MD</span><span class="track"><span class="fill" style="width: 57%; background: #cc9572"></span></span><span class="num">12</span></div>
+          <div class="bar"><span>Philadelphia, PA</span><span class="track"><span class="fill" style="width: 52%; background: #cc9572"></span></span><span class="num">11</span></div>
+          <div class="bar"><span>Ann Arbor, MI</span><span class="track"><span class="fill" style="width: 43%; background: #cc9572"></span></span><span class="num">9</span></div>
+        </div>
+        <p class="note">Counts are unique trials with a site in the city, not facilities.</p>
+      </section>
+
+      <section class="card" style="display: flex; flex-direction: column; gap: 14px; padding: 22px">
+        <h2 class="ctitle">Targeted populations</h2>
+        <div style="display: flex; flex-direction: column">
+          <div class="leg"><span>Gene-defined (SOD1, C9orf72, FUS)</span><strong>12</strong></div>
+          <div class="leg"><span>Phenotype-defined</span><strong>18</strong></div>
+          <div class="leg"><span>Onset or progression rule</span><strong>9</strong></div>
+          <div class="leg"><span>No specific population</span><strong>41</strong></div>
+        </div>
+        <p class="note">Of 72 interventional trials. Exclusions are not counted as targets.</p>
+      </section>
+    </div>
+
+    <section class="card" style="display: flex; flex-direction: column; gap: 14px; padding: 22px">
+      <div style="display: flex; justify-content: space-between; align-items: baseline; gap: 12px">
+        <h2 class="ctitle">New opportunities</h2>
+        <a href="search-ask.html" style="font-size: 14px; font-weight: 600; text-decoration: none">See all new trials</a>
+      </div>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px">
+        <a class="opp" href="search-ask.html">
+          <span style="display: flex; justify-content: space-between; gap: 8px; align-items: center"><span class="pill ok">Recruiting</span><span style="font-size: 12px; color: #52536d">Posted Oct 14</span></span>
+          <strong style="font-size: 15px; font-weight: 600; line-height: 1.35">Wearable speech device for people with ALS</strong>
+          <span class="note">Tests whether a device helps people communicate as speech changes.</span>
+        </a>
+        <a class="opp" href="search-ask.html">
+          <span style="display: flex; justify-content: space-between; gap: 8px; align-items: center"><span class="pill warn">Not yet recruiting</span><span style="font-size: 12px; color: #52536d">Posted Oct 9</span></span>
+          <strong style="font-size: 15px; font-weight: 600; line-height: 1.35">Antisense therapy for FUS-ALS</strong>
+          <span class="note">A gene-targeted drug for people with a FUS gene change.</span>
+        </a>
+        <a class="opp" href="search-ask.html">
+          <span style="display: flex; justify-content: space-between; gap: 8px; align-items: center"><span class="pill ok">Recruiting</span><span style="font-size: 12px; color: #52536d">Posted Sep 30</span></span>
+          <strong style="font-size: 15px; font-weight: 600; line-height: 1.35">Natural history registry of bulbar-onset ALS</strong>
+          <span class="note">Follows people over time to learn how bulbar ALS progresses.</span>
+        </a>
+      </div>
+    </section>
+
+  </main>
+</div>
+</body>
+</html>

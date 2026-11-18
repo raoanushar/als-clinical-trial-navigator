@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SAVA AI Expert Portal · My center's trials</title>
+<link rel="stylesheet" href="../tokens.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Poppins:wght@500;600&amp;display=swap">
+<style>
+body{margin:0;background:#faf8f7;color:#0b1e3c;font-family:Inter,"Segoe UI",system-ui,sans-serif}
+a{color:#a83a47}a:hover{color:#0b1e3c}
+h1,h2,h3,p{margin:0}
+h1,h2,h3{font-family:Poppins,Inter,sans-serif;font-weight:600}
+.nav{display:block;padding:10px 14px;border-radius:999px;color:#e3e7ee;text-decoration:none;font-size:15px}
+.nav:hover{background:rgba(255,255,255,.08);color:#ffffff}
+.nav-on{background:#fce8ea;color:#0b1e3c;font-weight:600}
+.nav-on:hover{background:#fce8ea;color:#0b1e3c}
+.nav-sub{display:flex;justify-content:space-between;align-items:center;padding:7px 14px 7px 28px;color:#b9c1d0;text-decoration:none;font-size:14px;border-radius:999px}
+.nav-sub:hover{background:rgba(255,255,255,.08);color:#ffffff}
+.nav-sub-on{color:#ffffff;font-weight:600;background:rgba(255,255,255,.1)}
+.pill{display:inline-flex;align-items:center;gap:6px;padding:5px 10px;border-radius:999px;border:1px solid #ece6e4;background:#f4f1f0;color:#52536d;font-size:13px;white-space:nowrap}
+.ok{color:#1f6b4a;background:#e8f4ee;border-color:#c5e3d2}
+.warn{color:#8a5a00;background:#fdf3dc;border-color:#f1dca5}
+.risk{color:#a83a47;background:#fce8ea;border-color:#f3c3c8}
+.btn{display:inline-flex;align-items:center;gap:8px;min-height:44px;box-sizing:border-box;padding:0 18px;border-radius:999px;border:1px solid #cf5d67;background:#ffffff;color:#a83a47;font:inherit;font-size:14px;font-weight:600;text-decoration:none;cursor:pointer;white-space:nowrap}
+.btn:hover{background:#fce8ea;color:#a83a47}
+.btn-primary{background:#0b1e3c;border-color:#0b1e3c;color:#ffffff}
+.btn-primary:hover{background:#1c3157;color:#ffffff}
+.btn-quiet{border-color:#ece6e4;color:#0b1e3c;font-weight:500}
+.btn-quiet:hover{background:#f4f1f0;color:#0b1e3c}
+.card{background:#ffffff;border:1px solid #ece6e4;border-radius:16px;box-shadow:0 1px 2px rgba(11,30,60,.04)}
+.mode{display:inline-flex;align-items:center;gap:8px;min-height:40px;padding:0 16px;border-radius:999px;color:#52536d;text-decoration:none;font-size:14px}
+.mode:hover{color:#0b1e3c}
+.mode-on{background:#0b1e3c;color:#ffffff;font-weight:600}
+.mode-on:hover{color:#ffffff}
+.trow{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:10px 16px;align-items:center;padding:16px 18px;border-top:1px solid #f1ecea}
+.chk{display:grid;grid-template-columns:28px 130px minmax(0,1fr) auto;gap:12px;align-items:center;padding:12px 0;border-top:1px solid #f1ecea;font-size:14px}
+.ic{display:grid;place-items:center;width:24px;height:24px;border-radius:999px;font-size:13px;font-weight:700}
+.ic-ok{background:#e8f4ee;color:#1f6b4a}
+.ic-warn{background:#fdf3dc;color:#8a5a00}
+.input{width:100%;box-sizing:border-box;min-height:40px;padding:0 12px;border:1px solid #d9d1ce;border-radius:10px;background:#ffffff;color:#0b1e3c;font:inherit;font-size:14px}
+.sug{display:inline-flex;align-items:center;min-height:36px;padding:0 14px;border-radius:999px;border:1px solid #f3c3c8;background:#fdf8f8;color:#a83a47;font:inherit;font-size:13px;cursor:pointer;text-align:left}
+.sug:hover{background:#fce8ea}
+</style>
+</head>
+<body>
+<div style="display: flex; flex-wrap: wrap; gap: 24px; max-width: 1440px; margin: 0 auto; padding: 24px; box-sizing: border-box; align-items: flex-start">
+
+  <aside style="flex: 1 1 220px; max-width: 100%; display: flex; flex-direction: column; gap: 24px; background: #0b1e3c; border-radius: 16px; padding: 22px 18px; box-sizing: border-box">
+    <div style="display: flex; align-items: center; gap: 10px; padding: 0 6px">
+      <span aria-hidden="true" style="width: 28px; height: 28px; border-radius: 999px; background: #cf5d67; box-shadow: inset -6px -6px 0 #cc9572; flex: 0 0 auto"></span>
+      <span style="display: flex; flex-direction: column; gap: 2px">
+        <strong style="font-family: Poppins, Inter, sans-serif; font-size: 18px; font-weight: 600; color: #ffffff; letter-spacing: .02em">SAVA AI</strong>
+        <span style="font-size: 11px; color: #b9c1d0; letter-spacing: .14em; text-transform: uppercase">Expert Portal</span>
+      </span>
+    </div>
+    <nav aria-label="Portal" style="display: flex; flex-direction: column; gap: 2px">
+      <a class="nav" href="dashboard.html">Dashboard</a>
+      <a class="nav" href="search-ask.html">Search &amp; Explore</a>
+      <div style="display: flex; flex-direction: column; padding: 2px 0 6px">
+        <span style="padding: 6px 14px 4px 28px; color: #b9c1d0; font-size: 11px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase">Saved views</span>
+        <a class="nav-sub" href="search-filters.html">MGH trials</a>
+        <a class="nav-sub" href="search-filters.html">Actively recruiting ALS trials</a>
+        <a class="nav-sub" href="search-filters.html">Trials missing site contacts</a>
+      </div>
+      <a class="nav nav-on" href="trial-updates-my-center.html" style="display: flex; justify-content: space-between; align-items: center">Trial Updates <span style="padding: 1px 8px; border-radius: 999px; background: #cf5d67; color: #ffffff; font-size: 12px; font-weight: 600">8</span></a>
+      <div style="display: flex; flex-direction: column; padding: 4px 0 0">
+        <a class="nav-sub nav-sub-on" href="trial-updates-my-center.html" aria-current="page">My center's trials <span>5</span></a>
+        <a class="nav-sub" href="trial-updates-screening.html">Flagged for screening <span>3</span></a>
+      </div>
+    </nav>
+    <a href="profile.html" style="display: flex; gap: 12px; align-items: center; padding: 12px; border-radius: 12px; background: rgba(255,255,255,.06); text-decoration: none; color: #ffffff">
+      <span aria-hidden="true" style="display: grid; place-items: center; width: 40px; height: 40px; border-radius: 999px; background: #fce8ea; color: #a83a47; font-weight: 600; font-size: 14px; flex: 0 0 auto">ER</span>
+      <span style="display: flex; flex-direction: column; gap: 2px; min-width: 0">
+        <strong style="font-size: 14px">Dr. Elena Ruiz</strong>
+        <span style="font-size: 12px; color: #b9c1d0">Neurologist · Site PI</span>
+      </span>
+    </a>
+  </aside>
+
+  <main style="flex: 999 1 560px; min-width: 0; display: flex; flex-direction: column; gap: 16px">
+
+    <header style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 16px; align-items: center; padding: 6px 2px 0">
+      <h1 style="font-size: 30px; letter-spacing: -0.01em">Trial Updates</h1>
+      <nav aria-label="Trial Updates sections" style="display: flex; gap: 4px; padding: 4px; border-radius: 999px; background: #f1ecea">
+        <a class="mode mode-on" href="trial-updates-my-center.html" aria-current="page">My center's trials</a>
+        <a class="mode" href="trial-updates-screening.html">Flagged for screening <span style="padding: 1px 8px; border-radius: 999px; background: #cf5d67; color: #ffffff; font-size: 12px; font-weight: 600">3</span></a>
+      </nav>
+    </header>
+
+    <div style="display: flex; flex-wrap: wrap; gap: 18px; align-items: flex-start">
+
+      <div style="flex: 999 1 520px; min-width: 0; display: flex; flex-direction: column; gap: 16px">
+
+        <section class="card" style="display: flex; flex-direction: column; gap: 14px; padding: 22px">
+          <div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 14px; align-items: flex-start">
+            <div style="display: flex; flex-direction: column; gap: 6px">
+              <h2 style="font-size: 20px">Up-to-date check · NYU Langone Health</h2>
+              <p style="color: #52536d; font-size: 14px">14 trials list your center as a site. Last full check Sep 30.</p>
+            </div>
+            <button class="btn btn-primary" type="button">Check next trial</button>
+          </div>
+          <div role="img" aria-label="9 of 14 trials confirmed up to date" style="display: flex; height: 10px; border-radius: 999px; overflow: hidden; background: #f4f1f0">
+            <span style="width: 64%; background: #0b1e3c"></span>
+          </div>
+          <div style="display: flex; flex-wrap: wrap; gap: 16px; font-size: 14px">
+            <span><strong>9</strong> confirmed up to date</span>
+            <span style="color: #8a5a00"><strong>5</strong> need your check</span>
+          </div>
+        </section>
+
+        <section class="card" style="display: flex; flex-direction: column; overflow: hidden">
+          <div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 10px; padding: 16px 18px">
+            <h2 style="font-size: 17px">Needs your check</h2>
+            <span style="font-size: 13px; color: #52536d">Sorted by oldest check</span>
+          </div>
+
+          <div style="border-top: 1px solid #f1ecea; background: #fdf8f8; padding: 18px; display: flex; flex-direction: column; gap: 6px">
+            <div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 10px; align-items: flex-start">
+              <div style="display: flex; flex-direction: column; gap: 4px; min-width: 0">
+                <span style="font-size: 12px; color: #52536d; font-weight: 600">NCT00000101 · Last checked Jun 12</span>
+                <strong style="font-size: 16px; font-weight: 600">Phase 2 study of an oral therapy in early ALS</strong>
+              </div>
+              <span class="pill warn">2 items to fix</span>
+            </div>
+            <div style="display: flex; flex-direction: column; margin-top: 8px">
+              <div class="chk">
+                <span class="ic ic-warn" aria-hidden="true">!</span>
+                <span style="color: #52536d">Recruitment status</span>
+                <span>Listed as <span class="pill ok">Recruiting</span> · enrollment target may be reached</span>
+                <span style="display: flex; gap: 6px"><button class="btn btn-quiet" type="button" style="min-height: 36px">Still recruiting</button><button class="btn" type="button" style="min-height: 36px">Change</button></span>
+              </div>
+              <div class="chk">
+                <span class="ic ic-warn" aria-hidden="true">!</span>
+                <span style="color: #52536d">Site contact</span>
+                <label style="display: flex; flex-direction: column; gap: 4px"><span style="font-size: 12px; color: #8a5a00">Missing for NYU Langone</span><input class="input" type="text" placeholder="Coordinator name, email or phone" aria-label="NYU site contact"></label>
+                <span></span>
+              </div>
+              <div class="chk">
+                <span class="ic ic-ok" aria-hidden="true">✓</span>
+                <span style="color: #52536d">Eligibility</span>
+                <span>Matches the registry</span>
+                <span></span>
+              </div>
+              <div class="chk">
+                <span class="ic ic-ok" aria-hidden="true">✓</span>
+                <span style="color: #52536d">Timeline</span>
+                <span>Enrollment closes Oct 2026 · Primary completion Jun 2027</span>
+                <span></span>
+              </div>
+            </div>
+            <div style="display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 10px; padding-top: 12px">
+              <button class="btn btn-quiet" type="button">Not my trial</button>
+              <button class="btn btn-primary" type="button">Confirm and submit</button>
+            </div>
+          </div>
+
+          <div class="trow">
+            <div style="display: flex; flex-direction: column; gap: 4px; min-width: 0">
+              <span style="font-size: 12px; color: #52536d; font-weight: 600">NCT00000104 · Last checked May 3</span>
+              <strong style="font-size: 15px; font-weight: 600">Wearable speech device for people with ALS</strong>
+            </div>
+            <span class="pill warn">Contact missing</span>
+          </div>
+          <div class="trow">
+            <div style="display: flex; flex-direction: column; gap: 4px; min-width: 0">
+              <span style="font-size: 12px; color: #52536d; font-weight: 600">NCT00000107 · Last checked Apr 20</span>
+              <strong style="font-size: 15px; font-weight: 600">Platform trial of multiple investigational drugs</strong>
+            </div>
+            <span class="pill warn">Dates passed</span>
+          </div>
+          <div class="trow">
+            <div style="display: flex; flex-direction: column; gap: 4px; min-width: 0">
+              <span style="font-size: 12px; color: #52536d; font-weight: 600">NCT00000103 · Never checked</span>
+              <strong style="font-size: 15px; font-weight: 600">Natural history registry of bulbar-onset ALS</strong>
+            </div>
+            <span class="pill">Not checked</span>
+          </div>
+          <div class="trow">
+            <div style="display: flex; flex-direction: column; gap: 4px; min-width: 0">
+              <span style="font-size: 12px; color: #52536d; font-weight: 600">NCT00000109 · Never checked</span>
+              <strong style="font-size: 15px; font-weight: 600">Brain-computer interface communication study</strong>
+            </div>
+            <span class="pill">Not checked</span>
+          </div>
+          <div style="padding: 14px 18px; border-top: 1px solid #f1ecea">
+            <a href="#" style="font-size: 14px; font-weight: 600; text-decoration: none">Show 9 confirmed trials</a>
+          </div>
+        </section>
+      </div>
+
+      <aside class="card" aria-label="Ask SAVA to make a change" style="flex: 1 1 320px; min-width: 0; display: flex; flex-direction: column; gap: 14px; padding: 20px">
+        <div style="display: flex; align-items: center; gap: 10px">
+          <span aria-hidden="true" style="width: 24px; height: 24px; border-radius: 999px; background: #cf5d67; box-shadow: inset -5px -5px 0 #cc9572; flex: 0 0 auto"></span>
+          <h2 style="font-size: 16px">Ask SAVA to make a change</h2>
+        </div>
+
+        <div style="align-self: flex-end; max-width: 88%; padding: 12px 14px; border-radius: 16px 16px 4px 16px; background: #f1ecea; font-size: 14px; line-height: 1.5">Can you add NYU as a site for the Spinogenix trial?</div>
+
+        <div style="display: flex; flex-direction: column; gap: 10px; font-size: 14px; line-height: 1.5">
+          <p>Here is the change I'll submit. Check the contact before sending.</p>
+          <div style="display: flex; flex-direction: column; gap: 10px; padding: 14px; border: 1px solid #f3c3c8; border-radius: 12px; background: #fdf8f8">
+            <span style="font-size: 12px; font-weight: 600; color: #a83a47; text-transform: uppercase; letter-spacing: .06em">Proposed change</span>
+            <strong style="font-weight: 600">Add site to Spinogenix trial</strong>
+            <span style="color: #52536d; font-size: 13px">[NCT ID]</span>
+            <dl style="margin: 0; display: grid; grid-template-columns: 70px minmax(0,1fr); gap: 6px 10px; font-size: 13px">
+              <dt style="color: #52536d">Site</dt><dd style="margin: 0">NYU Langone Health, New York, NY</dd>
+              <dt style="color: #52536d">Status</dt><dd style="margin: 0">Recruiting</dd>
+              <dt style="color: #52536d">Contact</dt><dd style="margin: 0">[Coordinator name] · [email]</dd>
+            </dl>
+            <div style="display: flex; gap: 8px; flex-wrap: wrap">
+              <button class="btn btn-primary" type="button" style="min-height: 38px">Submit change</button>
+              <button class="btn btn-quiet" type="button" style="min-height: 38px">Edit</button>
+            </div>
+          </div>
+        </div>
+
+        <div style="display: flex; flex-direction: column; gap: 8px; align-items: flex-start">
+          <button class="sug" type="button">Mark all my trials as checked</button>
+          <button class="sug" type="button">Update our site contact on every trial</button>
+        </div>
+
+        <form style="display: flex; gap: 8px; align-items: center; padding: 6px 6px 6px 16px; border-radius: 999px; background: #f4f1f0">
+          <label for="ask2" style="position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0)">Ask SAVA to make a change</label>
+          <input id="ask2" type="text" placeholder="Describe a change..." style="flex: 1 1 auto; min-width: 0; border: 0; background: transparent; font: inherit; font-size: 14px; color: #0b1e3c; min-height: 40px">
+          <button type="button" aria-label="Send" style="display: grid; place-items: center; width: 40px; height: 40px; border: 0; border-radius: 999px; background: #0b1e3c; color: #ffffff; cursor: pointer; flex: 0 0 auto">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5"></path><path d="M5 12l7-7 7 7"></path></svg>
+          </button>
+        </form>
+      </aside>
+    </div>
+
+  </main>
+</div>
+</body>
+</html>

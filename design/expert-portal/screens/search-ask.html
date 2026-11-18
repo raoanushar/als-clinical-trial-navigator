@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SAVA AI Expert Portal · Ask SAVA</title>
+<link rel="stylesheet" href="../tokens.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Poppins:wght@500;600&amp;display=swap">
+<style>
+body{margin:0;background:#faf8f7;color:#0b1e3c;font-family:Inter,"Segoe UI",system-ui,sans-serif}
+a{color:#a83a47}a:hover{color:#0b1e3c}
+h1,h2,h3,p{margin:0}
+h1,h2,h3{font-family:Poppins,Inter,sans-serif;font-weight:600}
+.nav{display:block;padding:10px 14px;border-radius:999px;color:#e3e7ee;text-decoration:none;font-size:15px}
+.nav:hover{background:rgba(255,255,255,.08);color:#ffffff}
+.nav-on{background:#fce8ea;color:#0b1e3c;font-weight:600}
+.nav-on:hover{background:#fce8ea;color:#0b1e3c}
+.nav-sub{display:block;padding:7px 14px 7px 28px;color:#b9c1d0;text-decoration:none;font-size:14px;border-radius:999px}
+.nav-sub:hover{background:rgba(255,255,255,.08);color:#ffffff}
+.pill{display:inline-flex;align-items:center;padding:5px 10px;border-radius:999px;border:1px solid #ece6e4;background:#f4f1f0;color:#52536d;font-size:13px;white-space:nowrap}
+.ok{color:#1f6b4a;background:#e8f4ee;border-color:#c5e3d2}
+.warn{color:#8a5a00;background:#fdf3dc;border-color:#f1dca5}
+.chip{display:inline-flex;align-items:center;gap:6px;padding:6px 12px;border-radius:999px;background:#0b1e3c;color:#ffffff;font-size:13px;white-space:nowrap}
+.btn{display:inline-flex;align-items:center;gap:8px;min-height:44px;box-sizing:border-box;padding:0 20px;border-radius:999px;border:1px solid #cf5d67;background:#ffffff;color:#a83a47;font:inherit;font-size:15px;font-weight:600;text-decoration:none;cursor:pointer;white-space:nowrap}
+.btn:hover{background:#fce8ea;color:#a83a47}
+.card{background:#ffffff;border:1px solid #ece6e4;border-radius:16px;box-shadow:0 1px 2px rgba(11,30,60,.04)}
+.mode{display:inline-flex;align-items:center;min-height:40px;padding:0 18px;border-radius:999px;color:#52536d;text-decoration:none;font-size:14px}
+.mode:hover{color:#0b1e3c}
+.mode-on{background:#0b1e3c;color:#ffffff;font-weight:600}
+.mode-on:hover{color:#ffffff}
+.view{display:inline-flex;align-items:center;min-height:36px;box-sizing:border-box;padding:0 14px;border-radius:999px;border:1px solid #ece6e4;background:#ffffff;color:#0b1e3c;font-size:13px;text-decoration:none;white-space:nowrap}
+.view:hover{border-color:#cf5d67;color:#0b1e3c}
+.res{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:6px 14px;padding:14px 16px;border:1px solid #ece6e4;border-radius:12px;text-decoration:none;color:#0b1e3c;background:#ffffff}
+.res:hover{border-color:#cf5d67}
+.follow{display:inline-flex;align-items:center;min-height:40px;padding:0 16px;border-radius:999px;border:1px solid #f3c3c8;background:#fdf8f8;color:#a83a47;font:inherit;font-size:14px;cursor:pointer}
+.follow:hover{background:#fce8ea}
+</style>
+</head>
+<body>
+<div style="display: flex; flex-wrap: wrap; gap: 24px; max-width: 1280px; margin: 0 auto; padding: 24px; box-sizing: border-box; align-items: flex-start">
+
+  <aside style="flex: 1 1 220px; max-width: 100%; display: flex; flex-direction: column; gap: 24px; background: #0b1e3c; border-radius: 16px; padding: 22px 18px; box-sizing: border-box">
+    <div style="display: flex; align-items: center; gap: 10px; padding: 0 6px">
+      <span aria-hidden="true" style="width: 28px; height: 28px; border-radius: 999px; background: #cf5d67; box-shadow: inset -6px -6px 0 #cc9572; flex: 0 0 auto"></span>
+      <span style="display: flex; flex-direction: column; gap: 2px">
+        <strong style="font-family: Poppins, Inter, sans-serif; font-size: 18px; font-weight: 600; color: #ffffff; letter-spacing: .02em">SAVA AI</strong>
+        <span style="font-size: 11px; color: #b9c1d0; letter-spacing: .14em; text-transform: uppercase">Expert Portal</span>
+      </span>
+    </div>
+    <nav aria-label="Portal" style="display: flex; flex-direction: column; gap: 2px">
+      <a class="nav" href="dashboard.html">Dashboard</a>
+      <a class="nav nav-on" href="search-ask.html" aria-current="page">Search &amp; Explore</a>
+      <div style="display: flex; flex-direction: column; padding: 2px 0 6px">
+        <span style="padding: 6px 14px 4px 28px; color: #b9c1d0; font-size: 11px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase">Saved views</span>
+        <a class="nav-sub" href="search-filters.html">MGH trials</a>
+        <a class="nav-sub" href="search-filters.html">Actively recruiting ALS trials</a>
+        <a class="nav-sub" href="search-filters.html">Trials missing site contacts</a>
+      </div>
+      <a class="nav" href="trial-updates-my-center.html" style="display: flex; justify-content: space-between; align-items: center">Trial Updates <span style="padding: 1px 8px; border-radius: 999px; background: #cf5d67; color: #ffffff; font-size: 12px; font-weight: 600">8</span></a>
+    </nav>
+    <a href="profile.html" style="display: flex; gap: 12px; align-items: center; padding: 12px; border-radius: 12px; background: rgba(255,255,255,.06); text-decoration: none; color: #ffffff">
+      <span aria-hidden="true" style="display: grid; place-items: center; width: 40px; height: 40px; border-radius: 999px; background: #fce8ea; color: #a83a47; font-weight: 600; font-size: 14px; flex: 0 0 auto">ER</span>
+      <span style="display: flex; flex-direction: column; gap: 2px; min-width: 0">
+        <strong style="font-size: 14px">Dr. Elena Ruiz</strong>
+        <span style="font-size: 12px; color: #b9c1d0">Neurologist · Site PI</span>
+      </span>
+    </a>
+  </aside>
+
+  <main style="flex: 999 1 560px; min-width: 0; display: flex; flex-direction: column; gap: 16px">
+
+    <header style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 16px; align-items: center; padding: 6px 2px 0">
+      <h1 style="font-size: 30px; letter-spacing: -0.01em">Search &amp; Explore</h1>
+      <nav aria-label="Search mode" style="display: flex; gap: 4px; padding: 4px; border-radius: 999px; background: #f1ecea">
+        <a class="mode mode-on" href="search-ask.html" aria-current="page">Ask SAVA</a>
+        <a class="mode" href="search-filters.html">Filters</a>
+      </nav>
+    </header>
+
+    <div style="display: flex; flex-wrap: wrap; gap: 8px; align-items: center">
+      <span style="font-size: 13px; color: #52536d; margin-right: 4px">Saved views</span>
+      <a class="view" href="search-filters.html">MGH trials</a>
+      <a class="view" href="search-filters.html">Actively recruiting ALS trials</a>
+      <a class="view" href="search-filters.html">Trials missing site contacts</a>
+    </div>
+
+    <section class="card" aria-label="Conversation" style="display: flex; flex-direction: column; gap: 22px; padding: 26px">
+
+      <div style="align-self: flex-end; max-width: 78%; padding: 14px 18px; border-radius: 18px 18px 4px 18px; background: #f1ecea; font-size: 15px; line-height: 1.5">
+        Which gene therapy trials are recruiting SOD1 patients within 50 miles of Boston?
+      </div>
+
+      <div style="display: flex; gap: 14px; align-items: flex-start">
+        <span aria-hidden="true" style="width: 28px; height: 28px; border-radius: 999px; background: #cf5d67; box-shadow: inset -6px -6px 0 #cc9572; flex: 0 0 auto; margin-top: 2px"></span>
+        <div style="flex: 1 1 auto; min-width: 0; display: flex; flex-direction: column; gap: 14px">
+          <p style="font-size: 15px; line-height: 1.6">I found <strong>3 trials</strong> that match. Two are recruiting at Massachusetts General Hospital. One opens next month in Worcester.</p>
+
+          <div style="display: flex; flex-wrap: wrap; gap: 8px; align-items: center; padding: 12px 14px; border-radius: 12px; background: #faf8f7">
+            <span style="font-size: 13px; color: #52536d; margin-right: 2px">Search used</span>
+            <span class="chip">Recruiting or not yet</span>
+            <span class="chip">Gene therapy</span>
+            <span class="chip">SOD1</span>
+            <span class="chip">Within 50 mi of Boston</span>
+            <a href="search-filters.html" style="font-size: 13px; font-weight: 600; text-decoration: none; margin-left: auto">Edit in filters</a>
+          </div>
+
+          <div style="display: flex; flex-direction: column; gap: 10px">
+            <a class="res" href="trial-updates-my-center.html">
+              <span style="display: flex; flex-direction: column; gap: 4px; min-width: 0">
+                <strong style="font-size: 15px; font-weight: 600">Gene-targeted antisense therapy for SOD1 ALS</strong>
+                <span style="font-size: 13px; color: #52536d">NCT00000102 · Phase 3 · Boston, MA · 4 mi</span>
+              </span>
+              <span class="pill ok" style="align-self: start">Recruiting</span>
+            </a>
+            <a class="res" href="trial-updates-my-center.html">
+              <span style="display: flex; flex-direction: column; gap: 4px; min-width: 0">
+                <strong style="font-size: 15px; font-weight: 600">Open-label extension for SOD1 antisense therapy</strong>
+                <span style="font-size: 13px; color: #52536d">NCT00000111 · Phase 3 · Boston, MA · 4 mi</span>
+              </span>
+              <span class="pill ok" style="align-self: start">Recruiting</span>
+            </a>
+            <a class="res" href="trial-updates-my-center.html">
+              <span style="display: flex; flex-direction: column; gap: 4px; min-width: 0">
+                <strong style="font-size: 15px; font-weight: 600">AAV gene therapy for SOD1 ALS, dose-finding</strong>
+                <span style="font-size: 13px; color: #52536d">NCT00000112 · Phase 1/2 · Worcester, MA · 41 mi</span>
+              </span>
+              <span class="pill warn" style="align-self: start">Not yet recruiting</span>
+            </a>
+          </div>
+
+          <div style="display: flex; flex-wrap: wrap; gap: 10px; align-items: center">
+            <a class="btn" href="search-filters.html" style="min-height: 40px; font-size: 14px">Open as table</a>
+            <button class="btn" type="button" style="min-height: 40px; font-size: 14px; border-color: #ece6e4; color: #0b1e3c; font-weight: 500">Save as view</button>
+          </div>
+        </div>
+      </div>
+
+      <div style="display: flex; flex-wrap: wrap; gap: 8px; padding-left: 42px">
+        <button class="follow" type="button">Compare these 3 side by side</button>
+        <button class="follow" type="button">Which sites are missing contacts?</button>
+        <button class="follow" type="button">Include C9orf72 trials too</button>
+      </div>
+
+      <form style="display: flex; gap: 10px; align-items: flex-end; padding: 10px 10px 10px 20px; border-radius: 24px; background: #f4f1f0; margin-top: 6px">
+        <label for="ask" style="position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0)">Ask SAVA about trials</label>
+        <textarea id="ask" rows="2" placeholder="Ask about trials, sites, eligibility or recent changes..." style="flex: 1 1 auto; border: 0; background: transparent; resize: none; font: inherit; font-size: 15px; color: #0b1e3c; padding: 10px 0; outline-offset: 4px"></textarea>
+        <button type="button" aria-label="Send" style="display: grid; place-items: center; width: 44px; height: 44px; border: 0; border-radius: 999px; background: #0b1e3c; color: #ffffff; cursor: pointer; flex: 0 0 auto">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5"></path><path d="M5 12l7-7 7 7"></path></svg>
+        </button>
+      </form>
+    </section>
+
+  </main>
+</div>
+</body>
+</html>

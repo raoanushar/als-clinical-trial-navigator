@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SAVA AI Expert Portal · Search &amp; Explore</title>
+<link rel="stylesheet" href="../tokens.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Poppins:wght@500;600&amp;display=swap">
+<style>
+body{margin:0;background:#faf8f7;color:#0b1e3c;font-family:Inter,"Segoe UI",system-ui,sans-serif}
+a{color:#a83a47}a:hover{color:#0b1e3c}
+h1,h2,h3,p{margin:0}
+h1,h2,h3{font-family:Poppins,Inter,sans-serif;font-weight:600}
+.nav{display:block;padding:10px 14px;border-radius:999px;color:#e3e7ee;text-decoration:none;font-size:15px}
+.nav:hover{background:rgba(255,255,255,.08);color:#ffffff}
+.nav-on{background:#fce8ea;color:#0b1e3c;font-weight:600}
+.nav-on:hover{background:#fce8ea;color:#0b1e3c}
+.nav-sub{display:block;padding:7px 14px 7px 28px;color:#b9c1d0;text-decoration:none;font-size:14px;border-radius:999px}
+.nav-sub:hover{background:rgba(255,255,255,.08);color:#ffffff}
+.nav-sub-on{color:#ffffff;font-weight:600;background:rgba(255,255,255,.1)}
+.eyebrow{color:#a83a47;font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase}
+.pill{display:inline-flex;align-items:center;padding:5px 10px;border-radius:999px;border:1px solid #ece6e4;background:#f4f1f0;color:#52536d;font-size:13px;white-space:nowrap}
+.ok{color:#1f6b4a;background:#e8f4ee;border-color:#c5e3d2}
+.warn{color:#8a5a00;background:#fdf3dc;border-color:#f1dca5}
+.risk{color:#a83a47;background:#fce8ea;border-color:#f3c3c8}
+.info{color:#2f5f9e;background:#edf4fe;border-color:#cfe0f7}
+.btn{display:inline-flex;align-items:center;gap:8px;min-height:44px;box-sizing:border-box;padding:0 20px;border-radius:999px;border:1px solid #cf5d67;background:#ffffff;color:#a83a47;font:inherit;font-size:15px;font-weight:600;text-decoration:none;cursor:pointer;white-space:nowrap}
+.btn:hover{background:#fce8ea;color:#a83a47}
+.btn-primary{background:#0b1e3c;border-color:#0b1e3c;color:#ffffff}
+.btn-primary:hover{background:#1c3157;color:#ffffff}
+.btn-quiet{border-color:#ece6e4;color:#0b1e3c;font-weight:500}
+.btn-quiet:hover{background:#f4f1f0;color:#0b1e3c}
+.card{background:#ffffff;border:1px solid #ece6e4;border-radius:16px;box-shadow:0 1px 2px rgba(11,30,60,.04)}
+.view{display:inline-flex;align-items:center;gap:8px;min-height:40px;box-sizing:border-box;padding:0 16px;border-radius:999px;border:1px solid #ece6e4;background:#ffffff;color:#0b1e3c;font:inherit;font-size:14px;cursor:pointer;white-space:nowrap}
+.view:hover{border-color:#cf5d67}
+.view-on{background:#0b1e3c;border-color:#0b1e3c;color:#ffffff}
+.view-on:hover{border-color:#0b1e3c}
+.field{display:flex;flex-direction:column;gap:8px}
+.label{font-size:13px;font-weight:600;color:#0b1e3c}
+.check{display:flex;align-items:center;gap:10px;font-size:14px;color:#0b1e3c;min-height:32px}
+.check input{width:18px;height:18px;margin:0;accent-color:#0b1e3c}
+select,.input{width:100%;box-sizing:border-box;min-height:44px;padding:0 14px;border:1px solid #d9d1ce;border-radius:12px;background:#ffffff;color:#0b1e3c;font:inherit;font-size:14px}
+th{padding:12px;text-align:left;color:#52536d;font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:.06em;white-space:nowrap}
+td{padding:14px 12px;border-top:1px solid #f1ecea;vertical-align:top}
+tr.sel td{background:#fdf6f6}
+</style>
+</head>
+<body>
+<div style="display: flex; flex-wrap: wrap; gap: 24px; max-width: 1280px; margin: 0 auto; padding: 24px; box-sizing: border-box; align-items: flex-start">
+
+  <aside style="flex: 1 1 220px; max-width: 100%; display: flex; flex-direction: column; gap: 24px; background: #0b1e3c; border-radius: 16px; padding: 22px 18px; box-sizing: border-box">
+    <div style="display: flex; align-items: center; gap: 10px; padding: 0 6px">
+      <span aria-hidden="true" style="width: 28px; height: 28px; border-radius: 999px; background: #cf5d67; box-shadow: inset -6px -6px 0 #cc9572; flex: 0 0 auto"></span>
+      <span style="display: flex; flex-direction: column; gap: 2px">
+        <strong style="font-family: Poppins, Inter, sans-serif; font-size: 18px; font-weight: 600; color: #ffffff; letter-spacing: .02em">SAVA AI</strong>
+        <span style="font-size: 11px; color: #b9c1d0; letter-spacing: .14em; text-transform: uppercase">Expert Portal</span>
+      </span>
+    </div>
+    <nav aria-label="Portal" style="display: flex; flex-direction: column; gap: 2px">
+      <a class="nav" href="dashboard.html">Dashboard</a>
+      <a class="nav nav-on" href="search-ask.html" aria-current="page">Search &amp; Explore</a>
+      <div style="display: flex; flex-direction: column; padding: 2px 0 6px">
+        <span style="padding: 6px 14px 4px 28px; color: #b9c1d0; font-size: 11px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase">Saved views</span>
+        <a class="nav-sub" href="search-filters.html">MGH trials</a>
+        <a class="nav-sub nav-sub-on" href="search-filters.html">Actively recruiting ALS trials</a>
+        <a class="nav-sub" href="search-filters.html">Trials missing site contacts</a>
+      </div>
+      <a class="nav" href="trial-updates-my-center.html" style="display: flex; justify-content: space-between; align-items: center">Trial Updates <span style="padding: 1px 8px; border-radius: 999px; background: #cf5d67; color: #ffffff; font-size: 12px; font-weight: 600">8</span></a>
+    </nav>
+    <a href="profile.html" style="display: flex; gap: 12px; align-items: center; padding: 12px; border-radius: 12px; background: rgba(255,255,255,.06); text-decoration: none; color: #ffffff">
+      <span aria-hidden="true" style="display: grid; place-items: center; width: 40px; height: 40px; border-radius: 999px; background: #fce8ea; color: #a83a47; font-weight: 600; font-size: 14px; flex: 0 0 auto">ER</span>
+      <span style="display: flex; flex-direction: column; gap: 2px; min-width: 0">
+        <strong style="font-size: 14px">Dr. Elena Ruiz</strong>
+        <span style="font-size: 12px; color: #b9c1d0">Neurologist · Site PI</span>
+      </span>
+    </a>
+  </aside>
+
+  <main style="flex: 999 1 560px; min-width: 0; display: flex; flex-direction: column; gap: 18px">
+
+    <header style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 16px; align-items: center; padding: 6px 2px 0">
+      <h1 style="font-size: 30px; letter-spacing: -0.01em">Search &amp; Explore</h1>
+      <div style="display: flex; flex-wrap: wrap; gap: 10px; align-items: center">
+        <button class="btn" type="button">Save this view</button>
+        <nav aria-label="Search mode" style="display: flex; gap: 4px; padding: 4px; border-radius: 999px; background: #f1ecea">
+          <a href="search-ask.html" style="display: inline-flex; align-items: center; min-height: 40px; padding: 0 18px; border-radius: 999px; color: #52536d; text-decoration: none; font-size: 14px">Ask SAVA</a>
+          <a href="search-filters.html" aria-current="page" style="display: inline-flex; align-items: center; min-height: 40px; padding: 0 18px; border-radius: 999px; background: #0b1e3c; color: #ffffff; text-decoration: none; font-size: 14px; font-weight: 600">Filters</a>
+        </nav>
+      </div>
+    </header>
+
+    <form role="search" style="display: flex; flex-wrap: wrap; gap: 10px">
+      <label for="q" style="position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0)">Search trials</label>
+      <input id="q" class="input" type="search" value="ALS recruiting interventional" style="flex: 1 1 320px; min-height: 48px; border-radius: 999px; padding: 0 20px; font-size: 15px">
+      <button class="btn btn-primary" type="button" style="min-height: 48px">Search</button>
+    </form>
+
+    <div style="display: flex; flex-wrap: wrap; gap: 8px; align-items: center">
+      <span style="font-size: 13px; color: #52536d; margin-right: 4px">Saved views</span>
+      <button class="view" type="button">MGH trials</button>
+      <button class="view view-on" type="button" aria-pressed="true">Actively recruiting ALS trials</button>
+      <button class="view" type="button">Trials missing site contacts</button>
+      <button class="view" type="button" style="border-style: dashed; color: #52536d">+ New view</button>
+    </div>
+
+    <div style="display: flex; flex-wrap: wrap; gap: 18px; align-items: flex-start">
+
+      <section class="card" aria-label="Filters" style="flex: 1 1 220px; display: flex; flex-direction: column; gap: 20px; padding: 20px">
+        <div style="display: flex; justify-content: space-between; align-items: baseline">
+          <h2 style="font-size: 16px">Filters</h2>
+          <a href="#" style="font-size: 13px; text-decoration: none">Clear all</a>
+        </div>
+        <fieldset class="field" style="border: 0; padding: 0; margin: 0">
+          <legend class="label" style="padding: 0 0 6px">Recruitment status</legend>
+          <label class="check"><input type="checkbox" checked> Recruiting</label>
+          <label class="check"><input type="checkbox" checked> Not yet recruiting</label>
+          <label class="check"><input type="checkbox"> Active, not recruiting</label>
+          <label class="check"><input type="checkbox"> Expanded access</label>
+        </fieldset>
+        <fieldset class="field" style="border: 0; padding: 0; margin: 0">
+          <legend class="label" style="padding: 0 0 6px">Study type</legend>
+          <label class="check"><input type="checkbox" checked> Interventional</label>
+          <label class="check"><input type="checkbox"> Observational</label>
+        </fieldset>
+        <div class="field">
+          <label class="label" for="phase">Phase</label>
+          <select id="phase"><option>Any phase</option><option>Phase 1</option><option>Phase 2</option><option>Phase 3</option></select>
+        </div>
+        <div class="field">
+          <label class="label" for="loc">Location</label>
+          <input id="loc" class="input" type="text" value="Within 50 miles of 021">
+        </div>
+        <div class="field">
+          <label class="label" for="int">Intervention</label>
+          <select id="int"><option>All interventions</option><option>Drug</option><option>Gene therapy</option><option>Device</option></select>
+        </div>
+      </section>
+
+      <section class="card" style="flex: 999 1 460px; min-width: 0; display: flex; flex-direction: column; gap: 12px; padding: 20px">
+        <div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 10px">
+          <p style="font-size: 14px; color: #52536d"><strong style="color: #0b1e3c">24 trials</strong> match this view</p>
+          <div style="display: flex; gap: 8px; flex-wrap: wrap">
+            <button class="btn btn-quiet" type="button" style="min-height: 40px; font-size: 14px">Columns</button>
+            <button class="btn btn-quiet" type="button" style="min-height: 40px; font-size: 14px">Sort: Recently updated</button>
+          </div>
+        </div>
+        <div style="overflow-x: auto">
+          <table style="width: 100%; min-width: 640px; border-collapse: collapse; font-size: 14px">
+            <thead>
+              <tr>
+                <th style="width: 32px"><span style="position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0)">Compare</span></th>
+                <th>Trial</th>
+                <th>Status</th>
+                <th>Phase</th>
+                <th>Nearest site</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="sel">
+                <td><input type="checkbox" checked aria-label="Compare NCT00000101" style="width: 18px; height: 18px; margin: 0; accent-color: #0b1e3c"></td>
+                <td><a href="trial-updates-my-center.html" style="color: #0b1e3c; font-weight: 600; text-decoration: none">Phase 2 study of an oral therapy in early ALS</a><br><span style="color: #52536d; font-size: 13px">NCT00000101 · Drug</span></td>
+                <td><span class="pill ok">Recruiting</span></td>
+                <td>Phase 2</td>
+                <td>Boston, MA · 4 mi</td>
+              </tr>
+              <tr class="sel">
+                <td><input type="checkbox" checked aria-label="Compare NCT00000102" style="width: 18px; height: 18px; margin: 0; accent-color: #0b1e3c"></td>
+                <td><a href="trial-updates-my-center.html" style="color: #0b1e3c; font-weight: 600; text-decoration: none">Gene-targeted antisense therapy for SOD1 ALS</a><br><span style="color: #52536d; font-size: 13px">NCT00000102 · Gene therapy</span></td>
+                <td><span class="pill ok">Recruiting</span></td>
+                <td>Phase 3</td>
+                <td>Boston, MA · 4 mi</td>
+              </tr>
+              <tr>
+                <td><input type="checkbox" aria-label="Compare NCT00000108" style="width: 18px; height: 18px; margin: 0; accent-color: #0b1e3c"></td>
+                <td><a href="trial-updates-my-center.html" style="color: #0b1e3c; font-weight: 600; text-decoration: none">Platform trial of multiple investigational drugs</a><br><span style="color: #52536d; font-size: 13px">NCT00000108 · Drug</span></td>
+                <td><span class="pill ok">Recruiting</span></td>
+                <td>Phase 2/3</td>
+                <td>Worcester, MA · 41 mi</td>
+              </tr>
+              <tr>
+                <td><input type="checkbox" aria-label="Compare NCT00000109" style="width: 18px; height: 18px; margin: 0; accent-color: #0b1e3c"></td>
+                <td><a href="trial-updates-my-center.html" style="color: #0b1e3c; font-weight: 600; text-decoration: none">Brain-computer interface communication study</a><br><span style="color: #52536d; font-size: 13px">NCT00000109 · Device</span></td>
+                <td><span class="pill warn">Not yet recruiting</span></td>
+                <td>Not applicable</td>
+                <td>Providence, RI · 48 mi</td>
+              </tr>
+              <tr>
+                <td><input type="checkbox" aria-label="Compare NCT00000110" style="width: 18px; height: 18px; margin: 0; accent-color: #0b1e3c"></td>
+                <td><a href="trial-updates-my-center.html" style="color: #0b1e3c; font-weight: 600; text-decoration: none">Cell therapy for fast-progressing ALS</a><br><span style="color: #52536d; font-size: 13px">NCT00000110 · Biologic</span></td>
+                <td><span class="pill ok">Recruiting</span></td>
+                <td>Phase 1</td>
+                <td>Boston, MA · 4 mi</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 12px; margin-top: 4px; padding: 12px 12px 12px 18px; border-radius: 999px; background: #0b1e3c; color: #ffffff">
+          <span style="font-size: 14px">2 trials selected</span>
+          <button class="btn" type="button" style="min-height: 40px; border-color: #ffffff; color: #0b1e3c">Compare side by side</button>
+        </div>
+      </section>
+    </div>
+
+  </main>
+</div>
+</body>
+</html>

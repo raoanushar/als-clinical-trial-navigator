@@ -1,0 +1,41 @@
+/* SAVA AI Expert Portal design tokens (EverythingALS palette).
+   The mockups in screens/ use these values as literal hex codes;
+   when implementing, reference these variables instead. */
+:root {
+  /* Brand */
+  --navy: #0b1e3c;          /* sidebar, primary buttons, headings and body text */
+  --navy-hover: #1c3157;    /* primary button hover */
+  --coral: #cf5d67;         /* accents, outline buttons, badge counts, large numbers only (3.9:1 on white) */
+  --coral-text: #a83a47;    /* coral for small text and links (5.3:1 on blush, 5.7:1 on white) */
+  --blush: #fce8ea;         /* active nav item, highlight banners, focus-area tags */
+  --blush-line: #f3c3c8;    /* border on blush surfaces */
+  --tan: #cc9572;           /* SAVA AI mark, third chart series */
+  --slate: #8fa3c4;         /* fourth chart series, "not applicable" bars */
+
+  /* Neutrals */
+  --page: #faf8f7;          /* page background */
+  --surface: #ffffff;       /* cards */
+  --surface-muted: #f4f1f0; /* neutral pills, chat input, segmented control track */
+  --border: #ece6e4;        /* card and pill borders */
+  --border-input: #d9d1ce;  /* input borders */
+  --divider: #f1ecea;       /* row dividers */
+  --muted: #52536d;         /* secondary text (7.5:1 on white) */
+  --on-navy: #e3e7ee;       /* nav text on navy */
+  --on-navy-muted: #b9c1d0; /* secondary text on navy */
+
+  /* Status (text / fill / border) */
+  --ok: #1f6b4a;   --ok-bg: #e8f4ee;   --ok-line: #c5e3d2;    /* Recruiting */
+  --warn: #8a5a00; --warn-bg: #fdf3dc; --warn-line: #f1dca5;  /* Not yet recruiting, medium risk, missing data */
+  --risk: #a83a47; --risk-bg: #fce8ea; --risk-line: #f3c3c8;  /* High risk */
+  --info: #2f5f9e; --info-bg: #edf4fe; --info-line: #cfe0f7;  /* Change-type tags */
+
+  /* Type */
+  --font-heading: Poppins, Inter, sans-serif;  /* weight 600 */
+  --font-body: Inter, "Segoe UI", system-ui, sans-serif;
+
+  /* Shape and depth */
+  --radius-pill: 999px;   /* buttons, pills, nav items, segmented controls */
+  --radius-card: 16px;    /* cards, sidebar */
+  --radius-inner: 12px;   /* inputs, rows inside cards, banners */
+  --shadow-card: 0 1px 2px rgba(11, 30, 60, 0.04);
+}
