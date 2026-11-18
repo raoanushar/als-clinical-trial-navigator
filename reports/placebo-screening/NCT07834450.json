@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT07834450",
+  "label": "No placebo",
+  "rationale": "This is a randomized parallel-controlled trial comparing cyclophosphamide plus standard treatment against standard treatment alone. The record names the comparator as an active standard-treatment arm and does not describe any inactive, placebo, or sham drug comparator.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "officialTitle",
+      "quote": "Open-Label, Randomized, Parallel-Controlled Trial"
+    },
+    {
+      "path": "summary",
+      "quote": "standard treatment alone"
+    },
+    {
+      "path": "armGroups.1.label",
+      "quote": "Standard Treatment Alone"
+    },
+    {
+      "path": "armGroups.1.type",
+      "quote": "ACTIVE_COMPARATOR"
+    }
+  ],
+  "title": "Efficacy and Safety of Cyclophosphamide in Amyotrophic Lateral Sclerosis",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "f76a29d6f914f669f96591fc8428161375708442eacd0749f7cc13434ad7f3b0",
+  "screenedAt": "2026-11-06T22:14:46.438Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

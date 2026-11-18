@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT06819124",
+  "label": "No placebo",
+  "rationale": "This is a single-group behavioral study where all participants do the same communicative tasks with their caregivers. The record describes structured and unstructured interaction tasks, not a placebo or sham comparator, and there is no inactive control arm.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "interventionModel",
+      "quote": "Single Group"
+    },
+    {
+      "path": "detailedDescription",
+      "quote": "This is a single group study"
+    },
+    {
+      "path": "armGroups.0.description",
+      "quote": "will participate in structured communicative interaction"
+    },
+    {
+      "path": "targetingInterventions.1.description",
+      "quote": "Two interlocutors, one with ALS and their caregiver"
+    }
+  ],
+  "title": "Examining Interactions Between PALS and Caregivers",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "4a30ca69d6dd8315fdb64fb8d4f2fe4da17ed16f710db2d4d11da62a7a8ee4ee",
+  "screenedAt": "2026-11-06T22:25:46.797Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

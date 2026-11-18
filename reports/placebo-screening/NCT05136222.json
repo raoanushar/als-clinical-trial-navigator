@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT05136222",
+  "label": "Placebo",
+  "rationale": "This is a randomized two-arm trial with an explicit sham control. The control group undergoes a \"sham\" PSG where NIV settings are not adjusted, which is a sham procedure comparator and counts as placebo here.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "armGroups.1.type",
+      "quote": "PLACEBO_COMPARATOR"
+    },
+    {
+      "path": "armGroups.1.description",
+      "quote": "\"sham\" PSG"
+    },
+    {
+      "path": "armGroups.1.description",
+      "quote": "will not be adjusted"
+    },
+    {
+      "path": "summary",
+      "quote": "two-arm, individual participant randomised controlled"
+    }
+  ],
+  "title": "Polysomnographic Titration of Non-invasive Ventilation in Motor Neurone Disease",
+  "model": "gpt-5.4-mini",
+  "version": "bed06c6982c7537036b0ad5c2c21abf7a43afe0bb208d4966982c4ebd83c2e3b",
+  "sourceHash": "53fb70c2baa31f8ef1964aded3f94dcb846b3f8e1d8205ec63ec5b9ef460e506",
+  "screenedAt": "2026-11-06T22:41:29.958Z",
+  "rule": {
+    "label": "Placebo",
+    "reason": "A registered arm is typed PLACEBO_COMPARATOR or SHAM_COMPARATOR."
+  }
+}

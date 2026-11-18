@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT06877143",
+  "label": "Placebo",
+  "rationale": "The record explicitly describes a placebo comparator in the background and outcome rationale, but the actual randomized arms are hypercaloric PEG nutrition versus isocaloric PEG nutrition. Because the study narrative repeatedly frames the comparison as versus placebo while the arm details do not explicitly restate placebo, this is best classified as placebo-used with the isocaloric control serving as the comparator.",
+  "confidence": "medium",
+  "needsReview": true,
+  "reviewReason": "The arm descriptions say isocaloric versus hypercaloric nutrition, while the summary says the endpoint is compared to placebo. It is not fully explicit that the control arm is a true placebo or inactive comparator, so reviewer confirmation is warranted.",
+  "evidence": [
+    {
+      "path": "summary",
+      "quote": "compared to placebo"
+    },
+    {
+      "path": "summary",
+      "quote": "placebo-controlled randomized controlled pilot study"
+    },
+    {
+      "path": "detailedDescription",
+      "quote": "randomized to one of two groups"
+    },
+    {
+      "path": "armGroups.0.description",
+      "quote": "Isocaloric nutrition (100%"
+    }
+  ],
+  "title": "Hypercaloric PEG Nutrition in ALS to Sustain Energy Homeostasis",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "5da41b7858a941f5d7dc4e6878e281a551b0c0aa670d7e4a6e1da8dd58c399b1",
+  "screenedAt": "2026-11-06T22:21:05.219Z",
+  "rule": {
+    "label": "Not specified",
+    "reason": "At least one arm has a missing or ambiguous type (such as OTHER)."
+  }
+}

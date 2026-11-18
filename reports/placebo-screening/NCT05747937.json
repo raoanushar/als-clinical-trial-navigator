@@ -1,0 +1,39 @@
+{
+  "nctId": "NCT05747937",
+  "label": "No placebo",
+  "rationale": "This is a non-randomized diagnostic study comparing ALS patients with age- and sex-matched healthy controls, not a placebo-controlled treatment trial. The listed interventions are diagnostic tests for both groups, including skin biopsy and autonomic testing, with no inactive or sham placebo comparator described.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "studyType",
+      "quote": "Interventional"
+    },
+    {
+      "path": "allocation",
+      "quote": "Non Randomized"
+    },
+    {
+      "path": "summary",
+      "quote": "compare results from ALS patients with data obtained from a population"
+    },
+    {
+      "path": "armGroups.1.type",
+      "quote": "ACTIVE_COMPARATOR"
+    },
+    {
+      "path": "targetingInterventions.0.description",
+      "quote": "A punch skin biopsy of 3mm"
+    }
+  ],
+  "title": "Longitudinal Assessment of Autonomic and Sensory Nervous System in ALS",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "919631a59c4f4c014d971785c32e13ceed638e5f0d74da321959a0445e94dd6d",
+  "screenedAt": "2026-11-06T22:21:09.011Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

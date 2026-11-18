@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT05744310",
+  "label": "No placebo",
+  "rationale": "This is a nonrandomized longitudinal questionnaire study comparing patients who choose long-term mechanical ventilation with those who decline it. The arms are explicitly active comparator groups, and the record describes no inactive, sham, or placebo comparator.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "armGroups.0.type",
+      "quote": "ACTIVE_COMPARATOR"
+    },
+    {
+      "path": "armGroups.1.type",
+      "quote": "ACTIVE_COMPARATOR"
+    },
+    {
+      "path": "summary",
+      "quote": "before and after the introduction of life sustaining ventilation support"
+    },
+    {
+      "path": "summary",
+      "quote": "with NIV or TIV affects the quality of life"
+    }
+  ],
+  "title": "Effects of Long Term Ventilation Support on the Quality of Life of ALS Patients and Their Families",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "1ca25d027bfe2c59eeed945426cfc4edc0602407d282311fd0460f9dd8b27300",
+  "screenedAt": "2026-11-06T22:14:50.130Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

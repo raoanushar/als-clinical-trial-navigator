@@ -30,14 +30,14 @@ dashboardActiveOnly.checked = sessionStorage.getItem("dashboard_ongoing_only") !
 function dashboardFilterQuery() {
   return `?ongoingOnly=${dashboardActiveOnly.checked}`;
 }
-dashboardExport.href = `/api/inconsistency/export-excel${dashboardFilterQuery()}`;
+if (dashboardExport) dashboardExport.href = `/api/inconsistency/export-excel${dashboardFilterQuery()}`;
 dashboardActiveOnly.addEventListener("change", async () => {
   sessionStorage.setItem("dashboard_ongoing_only", String(dashboardActiveOnly.checked));
-  dashboardExport.href = `/api/inconsistency/export-excel${dashboardFilterQuery()}`;
+  if (dashboardExport) dashboardExport.href = `/api/inconsistency/export-excel${dashboardFilterQuery()}`;
   dashboardFilterError.hidden = true;
   dashboardActiveOnly.disabled = true;
   try {
-    await Promise.all([loadOverview(), loadClassificationReport()]);
+    await loadOverview();
   } catch (error) {
     dashboardFilterError.textContent = `Could not refresh the dashboard. Reload the page to retry. ${error.message}`;
     dashboardFilterError.hidden = false;
@@ -2162,16 +2162,6 @@ async function openTrialDetail(nctId) {
 async function initialize() {
   try {
     await loadOverview();
-    await loadTargetingResults();
-    await loadClassificationReport();
-    await runQuery({browseOnly:true});
-    await loadMediumRiskTrials();
-    await loadScreenedTrials();
-    await loadVerificationDemo();
-    await loadInconsistencyResults();
-    await loadInconsistencyPreview();
-    await loadNyuTrials();
-    updateAgentModeHint();
   } catch (error) {
     queryError.hidden = false;
     queryError.textContent = error.message;

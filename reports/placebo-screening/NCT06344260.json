@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT06344260",
+  "label": "Placebo",
+  "rationale": "This is a randomized controlled trial with an explicit placebo arm. The record states it is “placebo controlled” and describes a saline placebo comparator alongside two stem-cell dose arms; the placebo is used in Phase B and in the described follow-up infusion plan.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "officialTitle",
+      "quote": "Randomized Placebo Controlled"
+    },
+    {
+      "path": "summary",
+      "quote": "randomized, placebo controlled, triple blind study"
+    },
+    {
+      "path": "detailedDescription",
+      "quote": "randomized, controlled vs placebo"
+    },
+    {
+      "path": "armGroups.2.label",
+      "quote": "Saline Solution (placebo)"
+    }
+  ],
+  "title": "Neural Stem Cell Treatment for Amyotrophic Lateral Sclerosis (STEMALS)",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "3c86711584b5e040784fb8994ee9f4a177c3173747f37776ddcacb7481fd109f",
+  "screenedAt": "2026-11-06T22:33:05.837Z",
+  "rule": {
+    "label": "Placebo",
+    "reason": "A registered arm is typed PLACEBO_COMPARATOR."
+  }
+}

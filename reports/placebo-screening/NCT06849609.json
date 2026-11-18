@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT06849609",
+  "label": "No placebo",
+  "rationale": "This is an open, single-group interventional study where every enrolled subject receives VGN-R13; no placebo or sham comparator is described. The record supports an uncontrolled dose-escalation design rather than a placebo-controlled trial.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "studyType",
+      "quote": "Interventional"
+    },
+    {
+      "path": "interventionModel",
+      "quote": "Single Group"
+    },
+    {
+      "path": "officialTitle",
+      "quote": "An Open, Dose-Escalation Early Phase Clinical Study"
+    },
+    {
+      "path": "armGroups.0.description",
+      "quote": "Each subject will receive one-time administration"
+    }
+  ],
+  "title": "A Study to Evaluate the Tolerability, Safety and Efficacy of VGN-R13 in Patients with ALS",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "217298186a12b41ce0dec53c901fbd61ea969e230a4fa533027f013f4870a85b",
+  "screenedAt": "2026-11-06T22:32:46.627Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

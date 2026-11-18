@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT06396260",
+  "label": "No placebo",
+  "rationale": "This is an interventional imaging study with healthy control and ALS comparison groups, not a placebo-controlled drug trial. The arm descriptions show only DKI and MEG assessments, with no inactive comparator or sham drug/placebo described.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "armGroups.0.description",
+      "quote": "healthy control. Will only have baseline DKI and MEG"
+    },
+    {
+      "path": "armGroups.1.description",
+      "quote": "ALS patient without PBA, either at baseline and 6 month follow-up"
+    },
+    {
+      "path": "armGroups.2.description",
+      "quote": "ALS patient with PBA, either at baseline or follow-up"
+    },
+    {
+      "path": "summary",
+      "quote": "using diffusion kurtosis imaging (DKI) and magnetoencephalography (MEG)"
+    }
+  ],
+  "title": "Structural and Functional Networks in ALS: An Insight Into Pseudobulbar Affect",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "094b3c60a66cb6dc9fd2c87da9c7107689a348e38651faeff40002aea81d7480",
+  "screenedAt": "2026-11-06T22:32:53.026Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT05983211",
+  "label": "No placebo",
+  "rationale": "This is a single-group, open-label study with one experimental arm and no comparator arm described. The record supports that all enrolled stage 2 participants receive accelerated cTBS rTMS, and there is no inactive or active-placebo control mentioned.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "interventionModel",
+      "quote": "Single Group"
+    },
+    {
+      "path": "summary",
+      "quote": "open-label pilot clinical trial"
+    },
+    {
+      "path": "armGroups.0.type",
+      "quote": "EXPERIMENTAL"
+    },
+    {
+      "path": "armGroups.0.description",
+      "quote": "ALS patients receiving an accelerated schedule"
+    }
+  ],
+  "title": "Quantitative and Repetitive TMS in ALS - Recruiting for Stage 2",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "90273e09b3c30523eeb28f1c3a07daccbe399c15a4caef2b326fa18a5f437b1e",
+  "screenedAt": "2026-11-06T22:33:03.333Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

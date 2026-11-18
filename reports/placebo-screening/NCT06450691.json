@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT06450691",
+  "label": "No placebo",
+  "rationale": "This is a single-group interventional study with a biopsy procedure in ALS patients, asymptomatic carriers, and healthy controls. The record describes skin biopsy and blood sampling only, with no placebo or sham drug comparator and no control intervention beyond observational cohorts.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "studyType",
+      "quote": "Interventional"
+    },
+    {
+      "path": "interventionModel",
+      "quote": "Single Group"
+    },
+    {
+      "path": "summary",
+      "quote": "three cohorts of participants"
+    },
+    {
+      "path": "targetingInterventions.0.description",
+      "quote": "skin biopsy and blood sampling"
+    }
+  ],
+  "title": "Modeling Amyotrophic Lateral Sclerosis With Fibroblasts",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "11a9d451e69d67c592fe7e7f1a42f971d392d4a8dd80acdde15a3c696c8ea5e2",
+  "screenedAt": "2026-11-06T22:25:44.248Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

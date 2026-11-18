@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT06551649",
+  "label": "Not specified",
+  "rationale": "The record describes sample collection and in vitro organoid work, but it does not specify any placebo or sham comparator for the study intervention. The only comparator-like arm is a healthy control group used to develop a control model, which is not a placebo condition, so the placebo status cannot be determined defensibly from the text.",
+  "confidence": "high",
+  "needsReview": true,
+  "reviewReason": "The study has an active comparator label and control arm, but no explicit placebo/sham comparator is described; confirm whether any experimental comparison uses placebo-like controls beyond healthy samples.",
+  "evidence": [
+    {
+      "path": "summary",
+      "quote": "investigate the in vitro efficacy"
+    },
+    {
+      "path": "armGroups.2.type",
+      "quote": "ACTIVE_COMPARATOR"
+    },
+    {
+      "path": "armGroups.2.description",
+      "quote": "develop a control model against which"
+    },
+    {
+      "path": "interventionModel",
+      "quote": "Parallel"
+    }
+  ],
+  "title": "Human Amniotic Mesenchymal Cell Secretome for Neurodegeneration and Neuroinflammation",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "0e126e8084bc2948a9c1e3147f21c38f2c007b8429c458079a534db3cf0321d3",
+  "screenedAt": "2026-11-06T22:15:07.742Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

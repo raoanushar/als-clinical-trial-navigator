@@ -1,0 +1,31 @@
+{
+  "nctId": "NCT07413718",
+  "label": "Placebo",
+  "rationale": "This randomized controlled trial includes a sham comparator in the control arm. The control group uses a placebo device with no resistance, while the experimental group receives resisted inspiratory muscle training.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "armGroups.1.type",
+      "quote": "SHAM_COMPARATOR"
+    },
+    {
+      "path": "detailedDescription",
+      "quote": "placebo valve that allows air to pass freely"
+    },
+    {
+      "path": "targetingInterventions.1.otherNames.0",
+      "quote": "Placebo training"
+    }
+  ],
+  "title": "Inspiratory Muscle Training in Amiotrophyc Lateral Sclerosis",
+  "model": "gpt-5.4-mini",
+  "version": "bed06c6982c7537036b0ad5c2c21abf7a43afe0bb208d4966982c4ebd83c2e3b",
+  "sourceHash": "abe76570b29441bc4168847d484d1638a281365391fc4655cd82efd772c033b2",
+  "screenedAt": "2026-11-06T22:41:19.487Z",
+  "rule": {
+    "label": "Placebo",
+    "reason": "A registered arm is typed PLACEBO_COMPARATOR or SHAM_COMPARATOR."
+  }
+}

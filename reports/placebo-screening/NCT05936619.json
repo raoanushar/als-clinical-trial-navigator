@@ -1,0 +1,31 @@
+{
+  "nctId": "NCT05936619",
+  "label": "No placebo",
+  "rationale": "This is a prospective, longitudinal, single-arm early feasibility device study with one experimental arm only. The record describes everyone receiving the MindEx device and does not describe any placebo, sham, or inactive comparator arm.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "summary",
+      "quote": "prospective, longitudinal, single-arm early feasibility study"
+    },
+    {
+      "path": "armGroups.0.label",
+      "quote": "Mind Extender (MindEx)"
+    },
+    {
+      "path": "armGroups.0.description",
+      "quote": "Following recovery from the surgical placement, subjects will participate in study sessions up to 5 times a week."
+    }
+  ],
+  "title": "MindEx: A Novel, Multifocal, Cognitive Brain-Machine Interface System",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "01fd2bcb30158c14d828ecc27098940a329e3b3947f3e8faa48cb9a719c52b0f",
+  "screenedAt": "2026-11-06T22:06:15.042Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

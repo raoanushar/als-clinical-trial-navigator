@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT07906665",
+  "label": "Placebo",
+  "rationale": "This is explicitly a randomized, double-blind, placebo-controlled dose-escalation study. The record says participants are assigned to either NI112 or placebo, and the placebo is identified as sterile normal saline given by subcutaneous injection.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "officialTitle",
+      "quote": "Phase 1 Placebo-Controlled Study of NI112 in Adults With Amyotrophic Lateral Sclerosis (ALS)"
+    },
+    {
+      "path": "summary",
+      "quote": "Participants will be assigned by chance to receive either a single dose of NI112 or a single dose of placebo (sterile salt water)."
+    },
+    {
+      "path": "detailedDescription",
+      "quote": "double-blind, placebo-controlled, sequential single ascending dose-escalation study"
+    },
+    {
+      "path": "targetingInterventions.1.description",
+      "quote": "Sterile normal saline (0.9% sodium chloride), administered as a single subcutaneous injection on Day 1."
+    }
+  ],
+  "title": "A Study of Single Ascending Doses of NI112 in Adults With Amyotrophic Lateral Sclerosis (ALS)",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "47ce3092656c3f34b50516d55172668c71ec4748c67ba6fe5c9968a10da88198",
+  "screenedAt": "2026-11-06T22:06:16.496Z",
+  "rule": {
+    "label": "Placebo",
+    "reason": "A registered arm is typed PLACEBO_COMPARATOR."
+  }
+}

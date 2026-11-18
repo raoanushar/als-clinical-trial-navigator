@@ -1,0 +1,31 @@
+{
+  "nctId": "NCT07224256",
+  "label": "No placebo",
+  "rationale": "This is a single-group interventional study with one experimental arm receiving the N1 Implant and R1 Robot. The record describes implantation and does not include any placebo, sham drug, or active-placebo comparator arm.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "interventionModel",
+      "quote": "Single Group"
+    },
+    {
+      "path": "armGroups.0.description",
+      "quote": "Implantation of the N1 Implant by the R1 Robot."
+    },
+    {
+      "path": "armGroups.0.type",
+      "quote": "EXPERIMENTAL"
+    }
+  ],
+  "title": "VOICE: An Early Feasibility Study of a Precise Robotically Implanted Brain-Computer Interface for Communication Restoration",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "e6242511eae13807e2c254d004029655d70949774505bf0feeabf185ddab59bc",
+  "screenedAt": "2026-11-06T22:30:05.324Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

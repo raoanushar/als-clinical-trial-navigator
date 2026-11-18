@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT07257302",
+  "label": "No placebo",
+  "rationale": "This is a single-group interventional study with no concurrently enrolled control group, so there is no placebo comparator described. The comparison is against external controls from PRO-ACT and JACALS, which supports a non-placebo design rather than an inactive or sham treatment arm.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "summary",
+      "quote": "single-arm study with no concurrently enrolled control group"
+    },
+    {
+      "path": "summary",
+      "quote": "Comparative analyses will use matched external controls"
+    },
+    {
+      "path": "interventionModel",
+      "quote": "Single Group"
+    },
+    {
+      "path": "armGroups.0.description",
+      "quote": "perform lung insufflation capacity (LIC) training"
+    }
+  ],
+  "title": "Lung Insufflation Capacity Training and Respiratory Function in Amyotrophic Lateral Sclerosis",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "dbcd43d75953bb4b60060dd9b24f81d1ea357922092ec31abb546ea664c2bee8",
+  "screenedAt": "2026-11-06T22:17:36.612Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

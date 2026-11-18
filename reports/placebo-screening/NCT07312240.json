@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT07312240",
+  "label": "No placebo",
+  "rationale": "This is an observational diagnostic cohort with a case-control component, not a placebo-controlled treatment trial. The arms describe lumbar puncture, phenotyping, and blood/genetic analyses for ALS patients and controls, with no inactive or active-placebo comparator described.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "summary",
+      "quote": "observational cohort study with a case-control component"
+    },
+    {
+      "path": "armGroups.0.description",
+      "quote": "Patients with Amyotrophic Lateral Sclerosis"
+    },
+    {
+      "path": "armGroups.1.description",
+      "quote": "Individuals undergoing Lumbar Puncture"
+    },
+    {
+      "path": "targetingInterventions.0.description",
+      "quote": "Lumbar Puncture for analysis of Cerebrospinal Fluid"
+    }
+  ],
+  "title": "LONgitudinal and Integrated Evaluation of Biomarkers in reLation to phenotYpe in ALS",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "d5ae70f00cc6ea52c144fcdd8b5967c08a85aea8d79b2f77daef4af0f2316bdb",
+  "screenedAt": "2026-11-06T22:29:53.529Z",
+  "rule": {
+    "label": "Not specified",
+    "reason": "At least one arm has a missing or ambiguous type (such as OTHER)."
+  }
+}

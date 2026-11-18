@@ -1,0 +1,31 @@
+{
+  "nctId": "NCT07922031",
+  "label": "No placebo",
+  "rationale": "This is an open-label single-group pilot study, and the record explicitly says all participants receive Alsum30 with no placebo or comparison group. The intervention and arm descriptions also show only one experimental arm, so there is no placebo comparator in this study.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "summary",
+      "quote": "All participants will receive Alsum30; there is no placebo or comparison group."
+    },
+    {
+      "path": "officialTitle",
+      "quote": "A Pilot, Randomized, Single-Center, Open-Label Study"
+    },
+    {
+      "path": "armGroups.0.label",
+      "quote": "Experimental group ( Alsum30 Add-on Treatment)"
+    }
+  ],
+  "title": "A Study on the Addition of Alsum30 for the Treatment of Amyotrophic Lateral Sclerosis",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "f8bf0c2ee0243b2a389672caa6e3df68727afbebdffcaf53a9b96e5e770e514f",
+  "screenedAt": "2026-11-06T22:02:39.673Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

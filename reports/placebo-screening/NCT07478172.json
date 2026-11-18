@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT07478172",
+  "label": "No placebo",
+  "rationale": "This is a single-arm interventional pilot study where all enrolled participants receive the WB-EMS exercise intervention. The record describes only one experimental arm and no placebo, sham, or inactive comparator; therefore placebo is not used in the study design.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "interventionModel",
+      "quote": "Single Group"
+    },
+    {
+      "path": "armGroups.0.type",
+      "quote": "EXPERIMENTAL"
+    },
+    {
+      "path": "armGroups.0.description",
+      "quote": "Participants will complete 1-2 WB-EMS Exercise visits per week for 4-8 weeks."
+    },
+    {
+      "path": "summary",
+      "quote": "This single-arm pilot study evaluates the effects of whole-body electrical muscle stimulation (WB-EMS) exercise on neuromuscular and physical function in adults with neuromuscular disease (NMD)."
+    }
+  ],
+  "title": "Effects of Whole-body Electrical Muscle Stimulation Exercise on Adults With Neuromuscular Disease",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "ac8127f8eef89b57a03a7efbe72ebd9e31ad8a94fe117a724831689e18917e6d",
+  "screenedAt": "2026-11-06T22:05:49.682Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

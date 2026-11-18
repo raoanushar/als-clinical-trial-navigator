@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT07875972",
+  "label": "No placebo",
+  "rationale": "This is an open-label, single-arm study with sequential dose cohorts of orelabrutinib only; the described design compares participants to their own pre-treatment run-in rather than to any placebo arm. No inactive or active-placebo comparator is described.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "officialTitle",
+      "quote": "A Single-Center, Open-Label, Single-Arm, Dose-Escalation Investigator-Initiated Clinical Study"
+    },
+    {
+      "path": "detailedDescription",
+      "quote": "uses a 3+3 dose-escalation design to evaluate oral orelabrutinib in amyotrophic lateral sclerosis (ALS)."
+    },
+    {
+      "path": "detailedDescription",
+      "quote": "Pretreatment and on-treatment functional trajectories will be compared within participants."
+    },
+    {
+      "path": "armGroups.0.description",
+      "quote": "Participants receive orelabrutinib 50 mg orally once daily (QD) for 24 weeks."
+    }
+  ],
+  "title": "Safety, Tolerability, and Pharmacodynamic Exploration of Orelabrutinib in Patients With Amyotrophic Lateral Sclerosis (ALS)",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "1f4a2c33b73b62579ae31e8ba74a7f30ba51525745e2ffbfb015d682f0614f80",
+  "screenedAt": "2026-11-06T22:02:42.658Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

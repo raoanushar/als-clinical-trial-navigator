@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT05370079",
+  "label": "No placebo",
+  "rationale": "This is a single-group diagnostic control cohort with only biological sample collection described. No placebo, active placebo, or sham comparator is described anywhere in the record.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "studyType",
+      "quote": "Interventional"
+    },
+    {
+      "path": "interventionModel",
+      "quote": "Single Group"
+    },
+    {
+      "path": "armGroups.0.interventionNames.0",
+      "quote": "Biological: Collection of biological sample (blood and/or CSF)"
+    },
+    {
+      "path": "targetingInterventions.0.description",
+      "quote": "Blood sample will be collected one time"
+    }
+  ],
+  "title": "Control Cohort CTRL COH",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "bb0ee07e33db095939ce87b986f8d4ed5fc81df6926a2821f7ec2bde111f7870",
+  "screenedAt": "2026-11-06T22:29:49.566Z",
+  "rule": {
+    "label": "Not specified",
+    "reason": "At least one arm has a missing or ambiguous type (such as OTHER)."
+  }
+}

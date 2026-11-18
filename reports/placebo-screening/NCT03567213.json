@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT03567213",
+  "label": "No placebo",
+  "rationale": "This is a single-group interventional device feasibility study, with every participant receiving the CortiCom implantation. The record describes an experimental surgical implantation arm only and does not describe any placebo or sham comparator for the intervention.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "interventionModel",
+      "quote": "Single Group"
+    },
+    {
+      "path": "armGroups.0.label",
+      "quote": "Surgical implantation of the CortiCom system"
+    },
+    {
+      "path": "armGroups.0.type",
+      "quote": "EXPERIMENTAL"
+    },
+    {
+      "path": "summary",
+      "quote": "Up to two grids will be implanted in the brain"
+    }
+  ],
+  "title": "Investigation on the Cortical Communication (CortiCom) System",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "82e04c631f78974919de2b9eb3f96d5191f08760f26570b7b61f88a907bca7b7",
+  "screenedAt": "2026-11-06T22:17:17.338Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

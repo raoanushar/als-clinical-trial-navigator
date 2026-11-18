@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT04562831",
+  "label": "Placebo",
+  "rationale": "This is an interventional randomized placebo-controlled trial. The arm descriptions explicitly include placebo in both the newly diagnosed and earlier diagnosed ALS patient groups, with active EH301 compared against placebo in each cohort.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "officialTitle",
+      "quote": "Randomized Placebo-controlled Trial"
+    },
+    {
+      "path": "armGroups.0.description",
+      "quote": "3. Placebo"
+    },
+    {
+      "path": "armGroups.1.description",
+      "quote": "2. Placebo"
+    },
+    {
+      "path": "targetingInterventions.0.description",
+      "quote": "with placebo in newly diagnosed"
+    }
+  ],
+  "title": "The NO-ALS Study: A Trial of Nicotinamide/Pterostilbene Supplement in ALS.",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "7599148e6208446905573888b01225a3a853f5129bb0637f93eed38113fe4edb",
+  "screenedAt": "2026-11-06T22:11:31.121Z",
+  "rule": {
+    "label": "Not specified",
+    "reason": "Placebo is mentioned in the saved arms or interventions, but no arm is typed PLACEBO_COMPARATOR. Needs interpretation."
+  }
+}

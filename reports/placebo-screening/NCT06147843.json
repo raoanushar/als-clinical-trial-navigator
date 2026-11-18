@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT06147843",
+  "label": "No placebo",
+  "rationale": "This is a single-group cohort study with all participants receiving standard ALS care plus questionnaires and blood sampling. The record describes stratification by weight loss, not assignment to placebo or any comparison arm, so no placebo comparator is used.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "interventionModel",
+      "quote": "Single Group"
+    },
+    {
+      "path": "armGroups.0.description",
+      "quote": "ALS patients will be stratified in 4 groups"
+    },
+    {
+      "path": "summary",
+      "quote": "Participants will undergo high quality standard care"
+    },
+    {
+      "path": "armGroups.0.interventionNames.0",
+      "quote": "Other: Blood sample"
+    }
+  ],
+  "title": "French-German Cohort Study to Determine Factors Associated With Weight Loss in Amyotrophic Lateral Sclerosis",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "c6d60a18bcc3cf0dd7c30373c81f62fded341c6807552cf42291fbad8c2fee6f",
+  "screenedAt": "2026-11-06T22:17:32.527Z",
+  "rule": {
+    "label": "Not specified",
+    "reason": "At least one arm has a missing or ambiguous type (such as OTHER)."
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "nctId": "NCT07616050",
+  "label": "No placebo",
+  "rationale": "This is a randomized crossover comparison of cycling with VirtualPark versus cycling without virtual reality. The control arm is described as standard cycling training, not a placebo or sham drug comparator, so the study supports no placebo use.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "summary",
+      "quote": "compare cycling training performed with and without virtual reality"
+    },
+    {
+      "path": "detailedDescription",
+      "quote": "Non-virtual reality condition (No-VR): cycling training alone without virtual reality"
+    },
+    {
+      "path": "armGroups.1.description",
+      "quote": "standard cycling training using the ergometer"
+    }
+  ],
+  "title": "Evaluation of the Impact of Virtual Park on Training Motivation in Adult Patients",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "03b4bbba8e577207a61fa8493b425affc43f8ef91aba0c53a4859f9c0f7a2287",
+  "screenedAt": "2026-11-06T22:20:52.303Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

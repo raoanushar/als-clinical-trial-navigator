@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT07071935",
+  "label": "No placebo",
+  "rationale": "This is a randomized parallel trial of early non-invasive ventilation versus usual care, with no inactive, sham, or active-placebo comparator described. The control arm is explicitly usual care and would later start NIV as in routine practice, so the design supports no placebo comparator.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "armGroups.1.description",
+      "quote": "receive usual care for amyotrophic"
+    },
+    {
+      "path": "summary",
+      "quote": "randomized to start early NIV or to usual care"
+    },
+    {
+      "path": "summary",
+      "quote": "The usual care group would eventually start NIV"
+    },
+    {
+      "path": "detailedDescription",
+      "quote": "randomize individuals to early NIV versus usual care"
+    }
+  ],
+  "title": "A Clinical Trial of Early Ventilation in Amyotrophic Lateral Sclerosis (EVENT ALS)",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "2d5a3d1c94fdbbd9e06b7676dc373f1c695a191739b008fb54854ab167e27d38",
+  "screenedAt": "2026-11-06T22:20:42.507Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

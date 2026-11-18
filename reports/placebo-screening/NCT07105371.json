@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT07105371",
+  "label": "No placebo",
+  "rationale": "This is a single-arm, non-controlled interventional study with one experimental treatment group. The record describes patients being prospectively evaluated then treated, with no placebo or sham comparator described.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "detailedDescription",
+      "quote": "Single Arm non-controlled study."
+    },
+    {
+      "path": "interventionModel",
+      "quote": "Single Group"
+    },
+    {
+      "path": "armGroups.0.label",
+      "quote": "Treatment Group (Exosome Secretome)"
+    },
+    {
+      "path": "summary",
+      "quote": "will be treated with mesenchymal cell exosome solution."
+    }
+  ],
+  "title": "Patients With ALS and Other Motor Disorders Will be Treated With Umbilical or Placental Mesenchymal Cell Exosome Solution",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "c61173ae1eb1365cb63768fe50a77003f94ce223d69b06f7833311aeef802852",
+  "screenedAt": "2026-11-06T22:11:11.305Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

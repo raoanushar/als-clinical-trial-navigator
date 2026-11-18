@@ -1,0 +1,31 @@
+{
+  "nctId": "NCT06834269",
+  "label": "No placebo",
+  "rationale": "This is a single-group interventional study where all participants receive tSMS and there is no comparator arm described. The record describes only the intervention group and does not mention any placebo or sham control for the treatment.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "interventionModel",
+      "quote": "Single Group"
+    },
+    {
+      "path": "armGroups.0.description",
+      "quote": "All participants will undergo tSMS administration"
+    },
+    {
+      "path": "summary",
+      "quote": "participants will be recruited to undergo biemispheric tSMS"
+    }
+  ],
+  "title": "Transcranial Static Magnetic Stimulation (tSMS) and Potential Theranostic Biomarkers in Amyotrophic Lateral Sclerosis.",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "c1a9f6f888f71e1f40a91868823c380dc9261ac0fb9b7db834e8cbe4066a2117",
+  "screenedAt": "2026-11-06T22:14:52.698Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

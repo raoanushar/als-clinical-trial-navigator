@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT07118319",
+  "label": "No placebo",
+  "rationale": "The study has two sequential experimental dose arms of the same intrathecal cell therapy and does not describe any placebo or sham comparator. The allocation is non-randomized and both arms receive XS228CN, so the design supports no placebo control.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "allocation",
+      "quote": "Non Randomized"
+    },
+    {
+      "path": "armGroups.0.type",
+      "quote": "EXPERIMENTAL"
+    },
+    {
+      "path": "armGroups.1.type",
+      "quote": "EXPERIMENTAL"
+    },
+    {
+      "path": "targetingInterventions.0.description",
+      "quote": "Injection, once, 6 months"
+    }
+  ],
+  "title": "The Safety, Tolerability and Preliminary Efficacy of Derived Motor Neuron Progenitor Cells (XS228CN) in Subjects With Amyotrophic Lateral Sclerosis",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "17882b634fc40189e9dbcce1425427cb76dfac60a02b9e51e9410e4c2252a6a2",
+  "screenedAt": "2026-11-06T22:30:02.012Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

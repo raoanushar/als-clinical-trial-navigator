@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT06286917",
+  "label": "No placebo",
+  "rationale": "This is a randomized parallel study comparing two initiation settings for the same NIV treatment, outpatient clinic versus pulmonary ward. Both arms are active comparators and the intervention is described as standard care, with no placebo or sham comparator mentioned.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "armGroups.0.type",
+      "quote": "ACTIVE_COMPARATOR"
+    },
+    {
+      "path": "armGroups.1.type",
+      "quote": "ACTIVE_COMPARATOR"
+    },
+    {
+      "path": "targetingInterventions.0.description",
+      "quote": "NIV initiation according to standard care"
+    },
+    {
+      "path": "summary",
+      "quote": "whether noninvasive ventilation (NIV) used to treat"
+    }
+  ],
+  "title": "Initiation of Noninvasive Ventilation in ALS Patients With Chronic Respiratory Insufficiency",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "de133465287a15f3429caccc58a6e314d181f2d15c8509885a4f4f807ad39745",
+  "screenedAt": "2026-11-06T22:17:27.408Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

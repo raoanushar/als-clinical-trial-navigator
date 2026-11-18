@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT07521930",
+  "label": "No placebo",
+  "rationale": "This is a single-group device feasibility study with one experimental arm and no comparator arm described. The record describes only the INTENT Neural Interface System and study sessions, with no placebo or sham drug comparator specified.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "interventionModel",
+      "quote": "Single Group"
+    },
+    {
+      "path": "armGroups.0.type",
+      "quote": "EXPERIMENTAL"
+    },
+    {
+      "path": "armGroups.0.description",
+      "quote": "INTENT Neural Interface System"
+    },
+    {
+      "path": "summary",
+      "quote": "evaluate the safety and preliminary efficacy"
+    }
+  ],
+  "title": "Interfacing With NeuroTechnology to Expand Neural Throughput (INTENT)",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "3a15e80987756264eb5484b1e46efc2d220a34c95d53ee19a608294319387c70",
+  "screenedAt": "2026-11-06T22:11:26.228Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

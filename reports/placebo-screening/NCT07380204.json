@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT07380204",
+  "label": "No placebo",
+  "rationale": "This is an interventional PET imaging study where every listed arm uses the same radiotracer protocol, not a placebo comparator. The arms describe dosimetry, test-retest, and a comparison with patient groups, but no inactive or active-placebo control is described; the comparison is between healthy controls and patients.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "armGroups.0.description",
+      "quote": "undergo consecutive whole-body PET/CT scans"
+    },
+    {
+      "path": "armGroups.1.description",
+      "quote": "will also undergo a retest scan"
+    },
+    {
+      "path": "armGroups.2.description",
+      "quote": "healthy controls will undergo a dynamic"
+    },
+    {
+      "path": "summary",
+      "quote": "evaluate this tracer in the human brain"
+    }
+  ],
+  "title": "Quantification of Hsp90 in the Human Brain",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "ea02612cb029abe1936a0b0698e90e1a8274b140bb15daa321b70f01555f195b",
+  "screenedAt": "2026-11-06T22:26:14.700Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

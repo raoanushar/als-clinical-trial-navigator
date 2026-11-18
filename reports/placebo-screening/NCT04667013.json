@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT04667013",
+  "label": "Placebo",
+  "rationale": "This is an explicit randomized, double-blind, placebo-controlled interventional study. The arms specify matching placebo tablets as the comparator for both dose cohorts, so placebo is used in the study design.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "officialTitle",
+      "quote": "Randomized, Double-blind, Placebo-controlled Study"
+    },
+    {
+      "path": "detailedDescription",
+      "quote": "placebo-controlled, double-blind, multiple-dose study"
+    },
+    {
+      "path": "armGroups.0.description",
+      "quote": "2 matching placebo tablets"
+    },
+    {
+      "path": "armGroups.1.description",
+      "quote": "4 matching placebo tablets"
+    }
+  ],
+  "title": "A Multiple Dose Study to Investigate Safety, Tolerability and Pharmacokinetics of TBN",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "f57cb1af8256ca293874f31c7a92b100d975499a2c292fb218c216f8c8d776f7",
+  "screenedAt": "2026-11-06T22:15:02.698Z",
+  "rule": {
+    "label": "Not specified",
+    "reason": "Placebo is mentioned in the saved arms or interventions, but no arm is typed PLACEBO_COMPARATOR. Needs interpretation."
+  }
+}

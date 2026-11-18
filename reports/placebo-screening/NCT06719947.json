@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT06719947",
+  "label": "Placebo",
+  "rationale": "This randomized controlled trial includes a sham HD-tDCS comparator arm. The sham arm is described as a placebo comparison with only a brief ramp and then a non-effective/minimal current, which fits a placebo control.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "detailedDescription",
+      "quote": "randomized into two groups: the HD-tDCS group (gTDCS) and the sham tDCS group (gSham)"
+    },
+    {
+      "path": "detailedDescription",
+      "quote": "For placebo comparison, only an initial 30-second ramp stimulus"
+    },
+    {
+      "path": "armGroups.1.type",
+      "quote": "PLACEBO_COMPARATOR"
+    },
+    {
+      "path": "armGroups.1.description",
+      "quote": "followed by a non-effective current"
+    }
+  ],
+  "title": "HD-tDCS in Amyotrophic Lateral Sclerosis: A Multicenter Randomized Controlled Trial",
+  "model": "gpt-5.4-mini",
+  "version": "bed06c6982c7537036b0ad5c2c21abf7a43afe0bb208d4966982c4ebd83c2e3b",
+  "sourceHash": "d1ef7d9420fd348529b44f16732229e81a9e4ce13f77d250257151b4d445c79a",
+  "screenedAt": "2026-11-06T22:41:15.640Z",
+  "rule": {
+    "label": "Placebo",
+    "reason": "A registered arm is typed PLACEBO_COMPARATOR or SHAM_COMPARATOR."
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT07193953",
+  "label": "No placebo",
+  "rationale": "This is a prospective, single-arm, open-label trial with no comparator arm described. Participants receive IVIg, and the only additional procedure is focused ultrasound with microbubbles to open the blood-brain barrier, which is a sham-free interventional procedure rather than a placebo control.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "detailedDescription",
+      "quote": "single-arm, open-label"
+    },
+    {
+      "path": "detailedDescription",
+      "quote": "Six participants will be enrolled in two sequential cohorts"
+    },
+    {
+      "path": "armGroups.0.description",
+      "quote": "ALS patients will be assigned to receive Intravenous Immunoglobulin"
+    },
+    {
+      "path": "targetingInterventions.0.description",
+      "quote": "The first dose at Week 0 will be a standalone"
+    }
+  ],
+  "title": "Intravenous Immunoglobulin (IVIG) and Blood-Brain Barrier Disruption in Amyotrophic Lateral Sclerosis (ALS)",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "95729247074ca02c60c6087b20d156b44b8927c57cb508b5320f3b037dcb7369",
+  "screenedAt": "2026-11-06T22:17:52.218Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

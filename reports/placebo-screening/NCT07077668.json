@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT07077668",
+  "label": "No placebo",
+  "rationale": "This is a single-group interventional study with one treatment arm, and the described intervention is repeated intrathecal RAG-17 injections for all participants. No placebo, sham, or active-comparator arm is described anywhere in the record.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "interventionModel",
+      "quote": "Single Group"
+    },
+    {
+      "path": "armGroups.0.label",
+      "quote": "Treatment Group"
+    },
+    {
+      "path": "armGroups.0.description",
+      "quote": "complete the intrathecal bolus injection"
+    },
+    {
+      "path": "targetingInterventions.0.description",
+      "quote": "Patients who meet the inclusion"
+    }
+  ],
+  "title": "Extended Study of RAG-17 in the Treatment of Amyotrophic Lateral Sclerosis Patients With SOD1 Gene Mutation",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "79b144d773ec5b570d05529135d2ce9ffa3f3276c9abad1f542eed198d80f16a",
+  "screenedAt": "2026-11-06T22:32:33.164Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

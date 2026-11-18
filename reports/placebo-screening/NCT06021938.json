@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT06021938",
+  "label": "No placebo",
+  "rationale": "This is a randomized crossover study comparing two active interventions: immersive virtual reality and music therapy. The record describes both arms as active comparators and does not describe any inactive, placebo, or sham placebo control.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "detailedDescription",
+      "quote": "randomized, controlled cross-over clinical study"
+    },
+    {
+      "path": "armGroups.0.type",
+      "quote": "ACTIVE_COMPARATOR"
+    },
+    {
+      "path": "armGroups.1.type",
+      "quote": "ACTIVE_COMPARATOR"
+    },
+    {
+      "path": "detailedDescription",
+      "quote": "offered a digital therapy session"
+    }
+  ],
+  "title": "Alleviating Persistent Dyspnea in Amyotrophic Lateral Sclerosis Patients Treated With Non-Invasive Ventilation Through Immersive Virtual Reality",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "770fe4d2946547216d0f8544eb26d5bfc0a3e2d1a65861e10eecc4112baaeb14",
+  "screenedAt": "2026-11-06T22:26:05.799Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

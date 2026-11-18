@@ -1,0 +1,39 @@
+{
+  "nctId": "NCT07454733",
+  "label": "No placebo",
+  "rationale": "This is a two-arm randomized comparative-effectiveness study comparing video recordings plus standard notes versus notes alone. The descriptions name an active comparator and standard access to notes, with no inactive, sham, or placebo condition described. The sham-like element is training/orientation, not a placebo comparator.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "armGroups.0.description",
+      "quote": "video recorded and they will be able to access"
+    },
+    {
+      "path": "armGroups.1.description",
+      "quote": "standard access to their doctor's notes"
+    },
+    {
+      "path": "detailedDescription",
+      "quote": "two-arm, parallel group, patient-randomized, controlled"
+    },
+    {
+      "path": "detailedDescription",
+      "quote": "Comparator 1 (NOTES)"
+    },
+    {
+      "path": "detailedDescription",
+      "quote": "Comparator 2 (VIDEO)"
+    }
+  ],
+  "title": "Do Video Recordings of Multidisciplinary Clinics Improve Quality of Life for People With ALS and Their Caregivers?",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "45c8cfc2a504b79ccb4243cc6f4e3c7c347b52a72cf8f836e90b1c54b47ab978",
+  "screenedAt": "2026-11-06T22:11:27.398Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

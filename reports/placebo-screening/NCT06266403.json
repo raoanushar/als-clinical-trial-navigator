@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT06266403",
+  "label": "No placebo",
+  "rationale": "This is a single-group behavioral study where all participants complete the same speech tasks, with no inactive or placebo comparator described. The only comparators are different task conditions and interlocutor interactions, including an unfamiliar interlocutor, which are not placebos.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "studyType",
+      "quote": "Interventional"
+    },
+    {
+      "path": "interventionModel",
+      "quote": "Single Group"
+    },
+    {
+      "path": "detailedDescription",
+      "quote": "all participants will engage in the same tasks"
+    },
+    {
+      "path": "detailedDescription",
+      "quote": "one solo speech production task"
+    }
+  ],
+  "title": "Evaluating Verbal Communication in Structured Interactions: Theoretical and Clinical Implications",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "142d3b308ee455919bb233c5908e759b2b8bee7c3c28c12fec5952677789480a",
+  "screenedAt": "2026-11-06T22:17:31.372Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

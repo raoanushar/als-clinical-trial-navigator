@@ -1,0 +1,31 @@
+{
+  "nctId": "NCT07473765",
+  "label": "No placebo",
+  "rationale": "This randomized parallel study compares virtual reality relaxation therapy against a control group that receives no intervention. The record does not describe any placebo, sham, or active-placebo comparator; it describes monitoring and the same outcome measures in the control group without treatment.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "armGroups.1.description",
+      "quote": "no intervention will be provided"
+    },
+    {
+      "path": "detailedDescription",
+      "quote": "control group which will receive no intervention"
+    },
+    {
+      "path": "armGroups.0.description",
+      "quote": "Home-based relaxation therapy using a Virtual Reality system"
+    }
+  ],
+  "title": "Virtual Reality for Anxiety Management in Persons With Amyotrophic Lateral Sclerosis",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "a44010c94d99f3de3df3065d342224c4fa09ee62351abe310283a6450f2cd5b5",
+  "screenedAt": "2026-11-06T22:25:55.702Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

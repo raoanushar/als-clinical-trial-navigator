@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT05218668",
+  "label": "No placebo",
+  "rationale": "This is an open-label, non-randomized study with two dose cohorts of fasudil only, so there is no placebo comparator described. The protocol instead compares treatment periods and historical data, and Cohort 1 includes a pre-treatment lead-in rather than placebo exposure.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "officialTitle",
+      "quote": "Open-Label Preliminary Safety, Efficacy"
+    },
+    {
+      "path": "allocation",
+      "quote": "Non Randomized"
+    },
+    {
+      "path": "armGroups.0.description",
+      "quote": "Oral fasudil at 180 mg/day"
+    },
+    {
+      "path": "detailedDescription",
+      "quote": "compared to historical data"
+    }
+  ],
+  "title": "Rho Kinase Inhibitor in Amyotrophic Lateral Sclerosis (REAL)",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "b75ebd77cd0659147a7f1c699063b4e2fa7f0a3d6156bc12147640e86ee0f2c1",
+  "screenedAt": "2026-11-06T22:32:45.475Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

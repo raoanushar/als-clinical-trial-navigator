@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT03651349",
+  "label": "Placebo",
+  "rationale": "The study explicitly includes a placebo control arm and randomizes subjects to HK-001 or placebo in each dose cohort. The placebo is described as drug-free and identical in appearance, smell, weight, and excipients, so an inactive comparator is clearly used.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "armGroups.0.type",
+      "quote": "PLACEBO_COMPARATOR"
+    },
+    {
+      "path": "summary",
+      "quote": "receive either different dosages of HK-001 or placebo"
+    },
+    {
+      "path": "targetingInterventions.1.description",
+      "quote": "drug-free placebo control is planned"
+    },
+    {
+      "path": "targetingInterventions.1.description",
+      "quote": "identical in appearance, smell, weight"
+    }
+  ],
+  "title": "To Determine the Maximum Tolerated Dose (MTD) of HK-001 in Healthy Volunteers",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "825a24fb96883e3594966f2514d779cc7ea189e425cc8f46e046b8d071f223bc",
+  "screenedAt": "2026-11-06T22:15:01.579Z",
+  "rule": {
+    "label": "Placebo",
+    "reason": "A registered arm is typed PLACEBO_COMPARATOR."
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "nctId": "NCT07369076",
+  "label": "Placebo",
+  "rationale": "This is an interventional randomized parallel trial that explicitly compares NB-4746 with placebo in both Part A and Part B. The arm descriptions and intervention list name placebo comparator groups, and the open-label extension is only after the main placebo-controlled parts are completed.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "summary",
+      "quote": "compared with placebo in people"
+    },
+    {
+      "path": "summary",
+      "quote": "Group 3: Participants will receive placebo capsules"
+    },
+    {
+      "path": "summary",
+      "quote": "Group 2: Participants will receive placebo capsules"
+    },
+    {
+      "path": "armGroups.2.description",
+      "quote": "Participants will receive two capsules of placebo"
+    },
+    {
+      "path": "armGroups.4.type",
+      "quote": "PLACEBO_COMPARATOR"
+    }
+  ],
+  "title": "A Clinical Trial to Evaluate NB-4746 in Participants With Amyotrophic Lateral Sclerosis.",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "a25c586989454e3b8266b31982a30e92e8e7548af1fd5ed9bc94edf644afe72b",
+  "screenedAt": "2026-11-06T22:14:54.067Z",
+  "rule": {
+    "label": "Placebo",
+    "reason": "A registered arm is typed PLACEBO_COMPARATOR."
+  }
+}

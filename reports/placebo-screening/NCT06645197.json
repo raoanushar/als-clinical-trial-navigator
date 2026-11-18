@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT06645197",
+  "label": "No placebo",
+  "rationale": "This is described as a multicenter, open-label, single-arm study in which each participant receives SNUG01. The record gives no placebo or sham comparator; instead, all arms are dose levels of the same investigational drug.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "officialTitle",
+      "quote": "Single-Arm, Open-Label"
+    },
+    {
+      "path": "summary",
+      "quote": "open-label, single-arm investigator-initiated clinical study"
+    },
+    {
+      "path": "armGroups.0.description",
+      "quote": "Each Participant will receive a single dose"
+    },
+    {
+      "path": "armGroups.0.description",
+      "quote": "The study will be open-label"
+    }
+  ],
+  "title": "An IIT Clinical Study to Evaluate the Safety, Tolerability, and Preliminary Efficacy of a Single Intrathecal Injection of SNUG01 in Patients with Amyotrophic Lateral Sclerosis",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "1a596c2bcd5432942ef3728b39c8135f0990169f13c657206cf96b0ba3d2fe33",
+  "screenedAt": "2026-11-06T22:33:02.118Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

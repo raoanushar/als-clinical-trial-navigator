@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT07660614",
+  "label": "Placebo",
+  "rationale": "This is a randomized, double-blind, placebo-controlled interventional study with a separate placebo arm. The placebo is explicitly described as sterile aCSF for intrathecal administration, so placebo use is part of the current study design.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "officialTitle",
+      "quote": "Double-Blind, Placebo-Controlled"
+    },
+    {
+      "path": "armGroups.1.label",
+      "quote": "Placebo (aCSF)"
+    },
+    {
+      "path": "armGroups.1.description",
+      "quote": "Sterile aCSF solution formulation"
+    },
+    {
+      "path": "detailedDescription",
+      "quote": "Administration of the study drug (or placebo)"
+    }
+  ],
+  "title": "A Study of LTX-002 in Adult Participants With Amyotrophic Lateral Sclerosis",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "c7a8f61d8a65e4876b695a52e5d18b71a7b9b754e25124d7011e7f0efdfb193b",
+  "screenedAt": "2026-11-06T22:17:19.869Z",
+  "rule": {
+    "label": "Placebo",
+    "reason": "A registered arm is typed PLACEBO_COMPARATOR."
+  }
+}

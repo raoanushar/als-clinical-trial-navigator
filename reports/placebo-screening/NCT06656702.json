@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT06656702",
+  "label": "No placebo",
+  "rationale": "This is a single-arm, open-label study in which all participants receive psilocybin. The record describes one arm only and gives no placebo or active-placebo comparator; it instead specifies follow-up after psilocybin sessions.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "detailedDescription",
+      "quote": "single-arm design"
+    },
+    {
+      "path": "detailedDescription",
+      "quote": "open-label trial"
+    },
+    {
+      "path": "armGroups.0.description",
+      "quote": "All subjects will be in the same"
+    },
+    {
+      "path": "targetingInterventions.0.description",
+      "quote": "Participants will complete an 8-week course"
+    }
+  ],
+  "title": "Effects of Psilocybin in Patients With Amyotrophic Lateral Sclerosis",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "7a61f638bcc21c92b7e666d5fd716395e61bb48b0d7727bb93e440319aeafb21",
+  "screenedAt": "2026-11-06T22:17:28.754Z",
+  "rule": {
+    "label": "Not specified",
+    "reason": "At least one arm has a missing or ambiguous type (such as OTHER)."
+  }
+}

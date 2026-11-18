@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT05395624",
+  "label": "No placebo",
+  "rationale": "This is an interventional diagnostic imaging study in which each listed arm receives intravenous 18F-OP-801, with no placebo comparator described. The design is nonrandomized and parallel, and the text only describes administration of the imaging agent to all cohorts, including healthy volunteers and disease groups.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "studyType",
+      "quote": "Interventional"
+    },
+    {
+      "path": "allocation",
+      "quote": "Non Randomized"
+    },
+    {
+      "path": "armGroups.0.description",
+      "quote": "Intravenous Administration of 18F-OP-801"
+    },
+    {
+      "path": "armGroups.1.description",
+      "quote": "Intravenous Administration of 18F-OP-801"
+    }
+  ],
+  "title": "Safety, PK and Biodistribution of 18F-OP-801 in Patients With ALS, AD, MS, PD and Healthy Volunteers",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "4e055c862deab3ca029b8d45dec9f81dc08cbce740f17fda79b41642b40b1249",
+  "screenedAt": "2026-11-06T22:32:43.098Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "nctId": "NCT07091799",
+  "label": "No placebo",
+  "rationale": "This is a diagnostic interventional study comparing ALS patients with healthy subjects using the same blood test, not a placebo-controlled treatment trial. The arm descriptions and targeting intervention show only blood sampling and P2X4 measurement, with no inactive or sham drug comparator described.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "targetingInterventions.0.description",
+      "quote": "comparing the mean levels of P2X4 expression"
+    },
+    {
+      "path": "armGroups.0.interventionNames.0",
+      "quote": "Diagnostic Test: P2X4 receptors in blood samples"
+    },
+    {
+      "path": "armGroups.1.interventionNames.0",
+      "quote": "Diagnostic Test: P2X4 receptors in blood samples"
+    }
+  ],
+  "title": "Interest of Measuring P2X4 Receptors on Blood Monocytes as a Diagnostic Marker in Amyotrophic Lateral Sclerosis: P2X4 as a Diagnostic Biomarker for ALS",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "5d103c93afa94821755642c060b2b52f5bc6f2d8cf9971659c268ebe4414bd68",
+  "screenedAt": "2026-11-06T22:26:17.263Z",
+  "rule": {
+    "label": "Not specified",
+    "reason": "At least one arm has a missing or ambiguous type (such as OTHER)."
+  }
+}

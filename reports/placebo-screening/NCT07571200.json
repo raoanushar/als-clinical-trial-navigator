@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT07571200",
+  "label": "No placebo",
+  "rationale": "This is an open-label extension/master protocol with a single experimental arm receiving LY4256984. The record describes participants being assigned to a treatment group and does not describe any placebo or sham comparator in this study.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "officialTitle",
+      "quote": "Open-Label Extension Studies"
+    },
+    {
+      "path": "armGroups.0.description",
+      "quote": "LY4256984 administered intrathecally"
+    },
+    {
+      "path": "armGroups.0.type",
+      "quote": "EXPERIMENTAL"
+    },
+    {
+      "path": "summary",
+      "quote": "will be assigned to the appropriate study treatment group"
+    }
+  ],
+  "title": "A Master Protocol (OLMP): A Study of LY4256984 in Participants With Amyotrophic Lateral Sclerosis (ALS)",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "d6a66bfb3b300f3cfd6b293923c6428cec622b7de0cb84c352dc4225614d7985",
+  "screenedAt": "2026-11-06T22:14:48.717Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

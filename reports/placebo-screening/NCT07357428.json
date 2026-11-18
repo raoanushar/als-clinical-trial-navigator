@@ -1,0 +1,31 @@
+{
+  "nctId": "NCT07357428",
+  "label": "No placebo",
+  "rationale": "This is a single-group early feasibility device study with one arm receiving the Connexus Brain-Computer Interface. The record describes the study as a single-group design and gives no placebo or sham comparator, so placebo is not part of the study design.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "interventionModel",
+      "quote": "Single Group"
+    },
+    {
+      "path": "armGroups.0.interventionNames.0",
+      "quote": "Device: Connexus Brain-Computer Interface"
+    },
+    {
+      "path": "summary",
+      "quote": "early feasibility study to obtain preliminary device safety"
+    }
+  ],
+  "title": "Connect-One: Early Feasibility Study of Connexus® Brain-Computer Interface (BCI)",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "f5258b60c75e67358d11796a012d19a416578b6d90ff0338149e8f549c8c7004",
+  "screenedAt": "2026-11-06T22:25:41.575Z",
+  "rule": {
+    "label": "Not specified",
+    "reason": "At least one arm has a missing or ambiguous type (such as OTHER)."
+  }
+}

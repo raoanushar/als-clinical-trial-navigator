@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT07142291",
+  "label": "Placebo",
+  "rationale": "This is explicitly described as a randomized, double-blind, placebo-controlled study. The arms include a placebo comparator matched to the active inhaled treatment, and the detailed description says subjects receive either low dose PHENOGENE-1A with matching placebo, high dose PHENOGENE-1A, or placebo.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "officialTitle",
+      "quote": "Randomized, Double-Blind, Placebo-Controlled"
+    },
+    {
+      "path": "detailedDescription",
+      "quote": "placebo-controlled study designed"
+    },
+    {
+      "path": "detailedDescription",
+      "quote": "matching placebo BID"
+    },
+    {
+      "path": "armGroups.2.description",
+      "quote": "Placebo comparator matched to active treatment"
+    }
+  ],
+  "title": "PHENOGENE-1A (Cromolyn) Treatment in Patients With Mild to Moderate ALS",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "009217f1cba99ee3554150e362f542771542757a8c70dd7a844b7ab3f8baf460",
+  "screenedAt": "2026-11-06T22:17:43.145Z",
+  "rule": {
+    "label": "Placebo",
+    "reason": "A registered arm is typed PLACEBO_COMPARATOR."
+  }
+}

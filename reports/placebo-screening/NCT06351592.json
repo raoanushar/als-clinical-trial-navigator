@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT06351592",
+  "label": "Placebo",
+  "rationale": "The record explicitly describes placebo as part of the double-blind treatment period in the dose-escalation cohorts. The selected dose expansion cohort is open label with ALN-SOD only, but the study still includes placebo use in other cohorts.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "armGroups.0.description",
+      "quote": "Placebo during 4-Week double-blind treatment period"
+    },
+    {
+      "path": "armGroups.1.description",
+      "quote": "Placebo during 4-Week double-blind treatment period"
+    },
+    {
+      "path": "armGroups.5.description",
+      "quote": "Open Label Treatment (OLT)"
+    },
+    {
+      "path": "armGroups.0.interventionNames.2",
+      "quote": "Drug: Placebo (PB)"
+    }
+  ],
+  "title": "First in Human (FIH) Study of ALN-SOD in Adult Participants With Amyotrophic Lateral Sclerosis Associated With Mutation in the SOD1 Gene (SOD1-ALS)",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "04bfd65bda8c9dd21dffe8b80734dff3968818d37e65a4bc8beb602a2d16305f",
+  "screenedAt": "2026-11-06T22:15:00.292Z",
+  "rule": {
+    "label": "Not specified",
+    "reason": "Placebo is mentioned in the saved arms or interventions, but no arm is typed PLACEBO_COMPARATOR. Needs interpretation."
+  }
+}

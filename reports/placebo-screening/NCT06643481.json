@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT06643481",
+  "label": "Placebo",
+  "rationale": "The record explicitly describes a randomized, double-blind, placebo-controlled parallel-group trial with a dedicated placebo arm. Both the official title and the arm/intervention fields show VHB937 is compared against placebo during the core 40-week double-blind period, followed by an open-label extension.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "officialTitle",
+      "quote": "Placebo-controlled Parallel Group Study"
+    },
+    {
+      "path": "summary",
+      "quote": "placebo-controlled, parallel group Phase II study"
+    },
+    {
+      "path": "armGroups.1.type",
+      "quote": "PLACEBO_COMPARATOR"
+    },
+    {
+      "path": "targetingInterventions.1.name",
+      "quote": "Placebo"
+    }
+  ],
+  "title": "A Clinical Trial to Learn About the Effects of VHB937 in People With Amyotrophic Lateral Sclerosis (ALS)",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "8f08090568083c2b89e20c3e612898c0638b136e71002078e593c744c9c2a3d9",
+  "screenedAt": "2026-11-06T22:20:37.145Z",
+  "rule": {
+    "label": "Placebo",
+    "reason": "A registered arm is typed PLACEBO_COMPARATOR."
+  }
+}

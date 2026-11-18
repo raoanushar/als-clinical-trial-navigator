@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT06889857",
+  "label": "No placebo",
+  "rationale": "This is a single-group interventional study with no comparator arm described. The record says all participants receive the study drug, so there is no placebo use indicated.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "interventionModel",
+      "quote": "Single Group"
+    },
+    {
+      "path": "allocation",
+      "quote": "Na"
+    },
+    {
+      "path": "armGroups.0.description",
+      "quote": "The study drug will be administered intravenously"
+    },
+    {
+      "path": "armGroups.0.label",
+      "quote": "Receiving the study drug"
+    }
+  ],
+  "title": "Safety and Efficacy of Intravenous Administration of SHED-CM for ALS",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "f4a419475c1b416c0fd47cfaa319751df8654b9f1843b03aafafb8671d8dab37",
+  "screenedAt": "2026-11-06T22:30:16.665Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

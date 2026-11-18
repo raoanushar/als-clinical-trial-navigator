@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT06377033",
+  "label": "No placebo",
+  "rationale": "This is a six-arm pragmatic randomized implementation trial comparing behavioral nudges against a generic Best Practice Alert and no nudge, not an inactive drug placebo. The control condition is explicitly usual care/generic BPA, and the other arms are clinician or patient nudges, so no placebo comparator is described.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "detailedDescription",
+      "quote": "vs. generic clinician Best Practice Alert and no nudge"
+    },
+    {
+      "path": "armGroups.0.description",
+      "quote": "Usual care"
+    },
+    {
+      "path": "detailedDescription",
+      "quote": "generic clinician Best Practice Alert and no nudge"
+    },
+    {
+      "path": "armGroups.1.description",
+      "quote": "Clinician will receive a nudge"
+    }
+  ],
+  "title": "Using the EHR to Advance Genomic Medicine Across a Diverse Health System",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "b8725c3f4e9d3881093b9a6429298a6aa4f10cc2b7868e24ea0d72c22182caac",
+  "screenedAt": "2026-11-06T22:17:22.542Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

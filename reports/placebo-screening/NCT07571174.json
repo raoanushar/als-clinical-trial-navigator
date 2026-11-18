@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT07571174",
+  "label": "No placebo",
+  "rationale": "This is an open-label long-term extension with a single experimental arm receiving LY4256984. The record describes only the LY4256984 arm and does not include any placebo or sham comparator, so the design supports no placebo control in this study.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "officialTitle",
+      "quote": "Open-Label, Long-Term Extension"
+    },
+    {
+      "path": "armGroups.0.label",
+      "quote": "LY4256984"
+    },
+    {
+      "path": "armGroups.0.description",
+      "quote": "LY4256984 administered intrathecally (IT)"
+    },
+    {
+      "path": "summary",
+      "quote": "long-term extension of study J6I-MC-OWAA"
+    }
+  ],
+  "title": "A Substudy of LY4256984 in Participants With Sporadic Amyotrophic Lateral Sclerosis",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "44d5578e3803ba791bbeceee815ec20932e5b426dfa44adf4c9e692bbccba3d5",
+  "screenedAt": "2026-11-06T22:15:43.814Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

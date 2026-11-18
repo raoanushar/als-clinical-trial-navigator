@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT06454682",
+  "label": "No placebo",
+  "rationale": "This is a single-arm, open-label study with one experimental arm and no comparator group described. The record says participants receive the investigational product in three dose cohorts, but it does not describe any placebo or sham control.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "officialTitle",
+      "quote": "Single-site, Single-arm, Open-label"
+    },
+    {
+      "path": "interventionModel",
+      "quote": "Single Group"
+    },
+    {
+      "path": "armGroups.0.type",
+      "quote": "EXPERIMENTAL"
+    },
+    {
+      "path": "summary",
+      "quote": "Participants will receive a single intrathecal administration"
+    }
+  ],
+  "title": "An IIT Clinical Study to Evaluate the Safety and Efficacy of a Single Intrathecal Injection of RJK002 in Patients With ALS",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "0ad8c45e44f4d388c50c0d51e18a9c39033cc951410fd76b89790d036ef3cce1",
+  "screenedAt": "2026-11-06T22:30:22.730Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

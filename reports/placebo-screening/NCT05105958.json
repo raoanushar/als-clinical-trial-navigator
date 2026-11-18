@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT05105958",
+  "label": "Placebo",
+  "rationale": "This is a randomized, placebo-controlled interventional trial with a dedicated placebo comparator arm. The arm descriptions explicitly state that one group receives matching placebo and the official title also describes it as placebo-controlled.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "officialTitle",
+      "quote": "Randomized Placebo-controlled Phase II Trial"
+    },
+    {
+      "path": "armGroups.1.type",
+      "quote": "PLACEBO_COMPARATOR"
+    },
+    {
+      "path": "armGroups.1.description",
+      "quote": "placebo matching Tideglusib"
+    },
+    {
+      "path": "allocation",
+      "quote": "Randomized"
+    }
+  ],
+  "title": "Tideglusib for the Treatment of Amyotrophic Lateral Sclerosis",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "101935f788228ceb25aa8977d2766c7b0b7aa6a524e7e5bcbec1900af64a7c02",
+  "screenedAt": "2026-11-06T22:32:54.160Z",
+  "rule": {
+    "label": "Placebo",
+    "reason": "A registered arm is typed PLACEBO_COMPARATOR."
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT06172621",
+  "label": "No placebo",
+  "rationale": "The study compares two active intervention arms: SCAP alone versus SCAP plus task-oriented exercise. The record describes randomization between these arms and does not describe any inactive, placebo, or sham comparator for the study intervention.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "armGroups.0.type",
+      "quote": "ACTIVE_COMPARATOR"
+    },
+    {
+      "path": "armGroups.0.description",
+      "quote": "participants will be randomized into a comparator group"
+    },
+    {
+      "path": "armGroups.1.description",
+      "quote": "SCAP intervention plus upper extremity task-oriented exercise"
+    },
+    {
+      "path": "summary",
+      "quote": "compare the effects of two-week programs"
+    }
+  ],
+  "title": "Spinal Cord Associative Plasticity for ALS",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "3c94c1867acd6a530cbef223f1aedd84805e16bfa872090999ad75e46758d546",
+  "screenedAt": "2026-11-06T22:25:52.008Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

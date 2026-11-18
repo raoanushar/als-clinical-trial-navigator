@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT06249412",
+  "label": "No placebo",
+  "rationale": "This is a randomized crossover comparison between MI-E with PEP activated and MI-E without PEP, so the control is an active device condition rather than a placebo. The record describes both arms as therapeutic MI-E sessions with only the PEP function switched off in the comparator arm, with no inactive or sham placebo comparator stated.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "armGroups.0.description",
+      "quote": "A wash-out period of 30 minutes is planned"
+    },
+    {
+      "path": "armGroups.1.description",
+      "quote": "The PEP function will not be used"
+    },
+    {
+      "path": "armGroups.1.type",
+      "quote": "ACTIVE_COMPARATOR"
+    },
+    {
+      "path": "detailedDescription",
+      "quote": "evaluate the effect of using the positive expiratory pressure"
+    }
+  ],
+  "title": "The Importance of Positive Expiratory Pressure Associated With the In-exsufflator in ALS Patients",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "7e77f55ff3779381c8a065abcbc13d6d9db5ce42c11cb8907c302b9051bebe60",
+  "screenedAt": "2026-11-06T22:26:16.070Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT06429735",
+  "label": "No placebo",
+  "rationale": "This is a single-group device feasibility study with one experimental arm and no comparator arm described. The record describes implantation of the N1 Implant by the R1 Robot, with no placebo, sham, or active-placebo comparator mentioned.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "interventionModel",
+      "quote": "Single Group"
+    },
+    {
+      "path": "armGroups.0.label",
+      "quote": "Neuralink N1 Implant and R1 Robot"
+    },
+    {
+      "path": "armGroups.0.description",
+      "quote": "Implantation of the N1 Implant by the R1 Robot."
+    },
+    {
+      "path": "summary",
+      "quote": "first-in-human early feasibility study"
+    }
+  ],
+  "title": "Precise Robotically IMplanted Brain-Computer InterfacE",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "1724ca118631889a70ef24eae45318c6bc5ceecc886ff52bab36c99e16b82869",
+  "screenedAt": "2026-11-06T22:29:51.075Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "nctId": "NCT07407725",
+  "label": "No placebo",
+  "rationale": "This is a crossover device-assessment study where participants complete training and digital tasks with multiple assistive technologies/BCIs, not a placebo-controlled drug trial. The record describes active device comparisons and a sham comparator is not present; instead, participants experience each device in randomized order, including a healthy control cohort and device-user cohorts.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "armGroups.0.description",
+      "quote": "Participants in this arm will undergo training and a digital assessment using 3 assistive technologies (eye tracker, mouth-operated joystick, non-invasive electroencephalogram (EEG) headset), brain-computer-interfaces, and applicable personal ATs."
+    },
+    {
+      "path": "armGroups.0.description",
+      "quote": "Participants will experience each of these devices in a randomized order."
+    },
+    {
+      "path": "eligibilityCriteria",
+      "quote": "Enrollment will involve three different cohorts, namely a cohort of healthy participant, a cohort of ALS/SCI participant who underwent the implant of an invasive BCI device, and a cohort of ALS/SCI participants without any implanted BCI device."
+    }
+  ],
+  "title": "Clinical Outcome Assessment for AT & BCI",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "d9570da354fc14a5de1091bb64fcc0d5619fb20f0e015429d3486b8ed109d63b",
+  "screenedAt": "2026-11-06T22:02:44.582Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

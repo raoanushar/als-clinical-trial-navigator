@@ -1,0 +1,31 @@
+{
+  "nctId": "NCT06391645",
+  "label": "No placebo",
+  "rationale": "This is a randomized parallel study comparing two MPC-encapsulated NGF treatment arms against an active NGF control, not an inactive placebo. The control group receives NGF 60ml, and the arms are explicitly listed as experimental versus active comparator, so the design supports no placebo comparator.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "detailedDescription",
+      "quote": "Control group: NGF 60ml"
+    },
+    {
+      "path": "armGroups.2.type",
+      "quote": "ACTIVE_COMPARATOR"
+    },
+    {
+      "path": "detailedDescription",
+      "quote": "randomly assigned to one of the following 3 groups"
+    }
+  ],
+  "title": "Nerve Growth Factor Encapsulated With 2-methacryloyloxyethyl Phosphorylcholine Nanocapsules in the Treatment of Amyotrophic Lateral Sclerosis",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "951c596f69e768ebab40705df0ca52bbdfbc0577c27538291737c0784e05254f",
+  "screenedAt": "2026-11-06T22:33:04.681Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

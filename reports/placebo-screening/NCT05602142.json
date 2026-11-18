@@ -1,0 +1,31 @@
+{
+  "nctId": "NCT05602142",
+  "label": "No placebo",
+  "rationale": "This is a single-group interventional PET imaging study, and the record indicates all participants receive the same radiotracer. No inactive placebo, active placebo, or sham drug comparator is described in the study design.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "allocation",
+      "quote": "Na"
+    },
+    {
+      "path": "interventionModel",
+      "quote": "Single Group"
+    },
+    {
+      "path": "armGroups.0.description",
+      "quote": "All participants will receive \\[11C\\]CPPC"
+    }
+  ],
+  "title": "Study of [11C]CPPC as a Clinical PET Radioligand Biomarker of Microglial Activation in ALS",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "57c009f17ef2353e84dc4c186ca4935fac66cdc3cd1cee8a5c6d24157f6ec0ff",
+  "screenedAt": "2026-11-06T22:17:15.988Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

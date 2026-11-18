@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT07209943",
+  "label": "No placebo",
+  "rationale": "This is a single-group device feasibility study in which every participant receives the Cognixion + Apple Vision Pro system. The record describes practice and communication tasks with various input modalities, but no placebo, sham, or inactive comparator arm is described.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "studyType",
+      "quote": "Interventional"
+    },
+    {
+      "path": "interventionModel",
+      "quote": "Single Group"
+    },
+    {
+      "path": "armGroups.0.description",
+      "quote": "Participants will utilize the Cognixion + Apple Vision Pro device"
+    },
+    {
+      "path": "summary",
+      "quote": "Each subject will receive an integrated Cognixion + Apple Vision Pro device"
+    }
+  ],
+  "title": "Augmented Reality BCI Longitudinal Study for Persons With ALS, Stroke, TBI and SCI Utilizing Cognixion + Apple Vision Pro",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "0fd1e0b5cbc66ea926d04a06eaa9be2bdee427fff2890c9b1ff64a548bfe2180",
+  "screenedAt": "2026-11-06T22:30:07.745Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

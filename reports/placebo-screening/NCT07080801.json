@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT07080801",
+  "label": "No placebo",
+  "rationale": "This is a single-group interventional study with one experimental arm, so there is no comparator arm described. The record describes only RAG-21 dosing in all participants and does not mention any placebo or sham comparator.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "interventionModel",
+      "quote": "Single Group"
+    },
+    {
+      "path": "armGroups.0.label",
+      "quote": "RAG-21"
+    },
+    {
+      "path": "armGroups.0.type",
+      "quote": "EXPERIMENTAL"
+    },
+    {
+      "path": "targetingInterventions.0.description",
+      "quote": "Dosing will occur every 2 weeks"
+    }
+  ],
+  "title": "Study on the Safety and Efficacy of RAG-21 in the Treatment of Amyotrophic Lateral Sclerosis Patients With FUS Gene Mutations",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "2f73637814a8b9ba45b674779366a56b64931eab6182fe59306aa9e3bb8c65bf",
+  "screenedAt": "2026-11-06T22:32:30.764Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

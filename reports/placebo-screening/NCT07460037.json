@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT07460037",
+  "label": "No placebo",
+  "rationale": "This is a single-group, non-randomized interventional study with no comparator arm described. The record says participants undergo clinically indicated electrode procedures and tasks during surgery, with no placebo or sham control mentioned.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "allocation",
+      "quote": "Non Randomized"
+    },
+    {
+      "path": "interventionModel",
+      "quote": "Single Group"
+    },
+    {
+      "path": "summary",
+      "quote": "does not alter standard clinical care"
+    },
+    {
+      "path": "armGroups.0.description",
+      "quote": "routine tumor treatment"
+    }
+  ],
+  "title": "Chinese-Specific Speech Imagery Coding Using High-Density ECoG",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "632ce57a3fed1e895b239b3ed6946584f712a9f0394c3ad2f8627e5e6b922f18",
+  "screenedAt": "2026-11-06T22:25:56.937Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

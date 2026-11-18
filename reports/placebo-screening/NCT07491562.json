@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT07491562",
+  "label": "No placebo",
+  "rationale": "This is a single-group device feasibility study in which participants only use the powered neck exoskeleton. The record describes no control arm, sham comparator, or placebo comparator; the only comparator-like procedure is task performance with the device itself.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "studyType",
+      "quote": "Interventional"
+    },
+    {
+      "path": "interventionModel",
+      "quote": "Single Group"
+    },
+    {
+      "path": "summary",
+      "quote": "After obtaining written consent, participants will perform tasks using the neck exoskeleton."
+    },
+    {
+      "path": "armGroups.0.label",
+      "quote": "powered neck exoskeleton"
+    }
+  ],
+  "title": "Evaluation of a Structurally Suitable Neck Exoskeleton in Patients With Amyotrophic Lateral Sclerosis",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "114326998ca146ea356688a883e7592dbd1c75c78061a6c6fe9bedbbc9930b17",
+  "screenedAt": "2026-11-06T22:06:11.188Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

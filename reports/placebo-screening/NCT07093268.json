@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT07093268",
+  "label": "No placebo",
+  "rationale": "This is a single-arm interventional study with only intrathecal riluzole described as the intervention. The record does not describe any placebo comparator or sham control; participants receive the study drug, with oral riluzole continued throughout.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "interventionModel",
+      "quote": "Single Group"
+    },
+    {
+      "path": "armGroups.0.description",
+      "quote": "Intrathecal riluzole continuous infusion"
+    },
+    {
+      "path": "targetingInterventions.0.description",
+      "quote": "Intrathecal infusion of riluzole"
+    },
+    {
+      "path": "eligibilityCriteria",
+      "quote": "willingness to continue oral riluzole"
+    }
+  ],
+  "title": "Safety of Intrathecal Riluzole in Patients With Amyotrophic Lateral Sclerosis",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "1204a4759c3229dc88ef117aef8340852bd7ff48cca42baedd77c6ae2d57f240",
+  "screenedAt": "2026-11-06T22:32:29.480Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

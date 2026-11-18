@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT07533903",
+  "label": "No placebo",
+  "rationale": "This is a prospective, single-arm, open-label interventional study, so there is no placebo comparator described. The only intervention listed is the implanted Stentrode device, with no control arm, sham, or placebo condition mentioned.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "armGroups.0.label",
+      "quote": "Prospective, single-arm, open label study"
+    },
+    {
+      "path": "interventionModel",
+      "quote": "Single Group"
+    },
+    {
+      "path": "armGroups.0.description",
+      "quote": "Single Arm"
+    },
+    {
+      "path": "targetingInterventions.0.name",
+      "quote": "Stentrode"
+    }
+  ],
+  "title": "Functional Outcomes and Control Using Synchron BCI - Australia",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "845c47f62aa4a7f2b0426be2a656f47c1eaf3e7ad661051d0e507d2b8aa0555d",
+  "screenedAt": "2026-11-06T22:02:41.164Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT07213440",
+  "label": "No placebo",
+  "rationale": "This is a single-group diagnostic study, and the record says all three patient groups receive the same tests. No placebo, active placebo, or sham comparator is described; the interventions are sample collection and assessments only.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "interventionModel",
+      "quote": "Single Group"
+    },
+    {
+      "path": "armGroups.0.description",
+      "quote": "all 3 patient groups will have the same tests"
+    },
+    {
+      "path": "targetingInterventions.0.description",
+      "quote": "clinical data will be collected"
+    },
+    {
+      "path": "targetingInterventions.0.description",
+      "quote": "taken from all subjects"
+    }
+  ],
+  "title": "Identification of Early Markers for ALS",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "7e1ae5f23b2dd5c1f469fe9122e40210225d187ed2409a3e14cf8f0045db490f",
+  "screenedAt": "2026-11-06T22:20:40.067Z",
+  "rule": {
+    "label": "Not specified",
+    "reason": "At least one arm has a missing or ambiguous type (such as OTHER)."
+  }
+}

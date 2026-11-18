@@ -1,0 +1,39 @@
+{
+  "nctId": "NCT07836751",
+  "label": "No placebo",
+  "rationale": "The record describes a randomized crossover device feasibility study comparing two controller conditions for the same neck exoskeleton. Both arms are experimental controller variants, and there is no inactive, sham, or placebo comparator described.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "allocation",
+      "quote": "Randomized"
+    },
+    {
+      "path": "interventionModel",
+      "quote": "Crossover"
+    },
+    {
+      "path": "armGroups.0.label",
+      "quote": "controller 1"
+    },
+    {
+      "path": "armGroups.1.label",
+      "quote": "controller 2"
+    },
+    {
+      "path": "summary",
+      "quote": "participants will perform tasks while using the neck exoskeleton"
+    }
+  ],
+  "title": "Using Gaze to Enable Head-neck Movements in Patients With Head Drop",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "28bbb79a4e9b77c0eedcc31a5796393022ffdf5eab6ce620a511549f216761fb",
+  "screenedAt": "2026-11-06T22:14:36.508Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

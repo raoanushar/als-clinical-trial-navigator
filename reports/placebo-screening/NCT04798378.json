@@ -1,0 +1,31 @@
+{
+  "nctId": "NCT04798378",
+  "label": "No placebo",
+  "rationale": "This is a single-group interventional study where all participants receive the NuroSleeve plus occupational therapy, with no placebo or sham comparator described. The record supports an uncontrolled treatment arm rather than any inactive or active-placebo condition.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "interventionModel",
+      "quote": "Single Group"
+    },
+    {
+      "path": "armGroups.0.description",
+      "quote": "Participants will received a customized NuroSleeve"
+    },
+    {
+      "path": "armGroups.0.description",
+      "quote": "undergo 8 weeks of occupational therapy"
+    }
+  ],
+  "title": "NuroSleeve Powered Brace & Stimulation System to Restore Arm Function",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "6d1df3d79f2a4ae67b1401f2f11f38313c492d6533dc87fe69353f5e66c43170",
+  "screenedAt": "2026-11-06T22:32:44.157Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

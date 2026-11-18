@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT07589764",
+  "label": "No placebo",
+  "rationale": "This is a single-group, open-label pilot trial in which all enrolled participants receive HMB; no placebo or sham comparator arm is described. The record explicitly says the study is open-label and lists only one experimental arm, supporting a no-placebo classification.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "detailedDescription",
+      "quote": "This will be a widely inclusive, three-center, open-label pilot trial enrolling 100 people living with ALS."
+    },
+    {
+      "path": "armGroups.0.label",
+      "quote": "β-hydroxy-β-methylbutyrate (HMB) administration"
+    },
+    {
+      "path": "armGroups.0.type",
+      "quote": "EXPERIMENTAL"
+    },
+    {
+      "path": "interventionModel",
+      "quote": "Single Group"
+    }
+  ],
+  "title": "Pilot Trial Utilizing β-hydroxy-β-methylbutyrate to Lower IGFBP7 Levels in People With ALS",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "098a994b99fa1b1b4e249c08ad5bb2579897f3af7666bd03168067a58f0fde85",
+  "screenedAt": "2026-11-06T22:06:08.409Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

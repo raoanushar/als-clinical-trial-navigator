@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT06977451",
+  "label": "No placebo",
+  "rationale": "This is an open-label, single-participant, single-group study, so there is no comparator arm described. The record only describes delivery of the personalized ASO drug to one participant and does not include any placebo comparator.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "officialTitle",
+      "quote": "Open-Label Single Center, Single Participant Study"
+    },
+    {
+      "path": "studyType",
+      "quote": "Interventional"
+    },
+    {
+      "path": "interventionModel",
+      "quote": "Single Group"
+    },
+    {
+      "path": "summary",
+      "quote": "delivery of a personalized antisense oligonucleotide"
+    }
+  ],
+  "title": "Personalized Antisense Oligonucleotide for a Single Participant With CHCHD10 ALS",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "72becc10347145eb992eb97218172acede6a3c17bf5079a2c14158c6da499f77",
+  "screenedAt": "2026-11-06T22:20:32.266Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

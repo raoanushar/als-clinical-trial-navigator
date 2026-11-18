@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT04302870",
+  "label": "Placebo",
+  "rationale": "This is a randomized multi-arm trial that explicitly includes placebo comparator arms. The record states the current recruiting arms include liquid placebo matched to amantadine and tablet placebo matched to tacrolimus, and that each drug is evaluated versus placebo. One cohort of the study used a dummy drug from the start, and later arms also use matched placebos.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "summary",
+      "quote": "placebo (dummy drug)"
+    },
+    {
+      "path": "summary",
+      "quote": "liquid placebo (matched to amantadine)"
+    },
+    {
+      "path": "summary",
+      "quote": "tablet placebo (matched to tacrolimus)"
+    },
+    {
+      "path": "summary",
+      "quote": "evaluation of each drug versus placebo"
+    }
+  ],
+  "title": "Motor Neurone Disease - Systematic Multi-Arm Adaptive Randomised Trial",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "0d96ad9a5875eac8fa1316797a615d232749af8fd92f7de94326c167d269c674",
+  "screenedAt": "2026-11-06T22:26:04.611Z",
+  "rule": {
+    "label": "Placebo",
+    "reason": "A registered arm is typed PLACEBO_COMPARATOR."
+  }
+}

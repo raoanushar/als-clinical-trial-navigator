@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT06671236",
+  "label": "No placebo",
+  "rationale": "This is an open-label, single-arm, non-randomized study with one experimental arm only. The record describes repeated dosing of NP001 cell injection and follow-up, but no placebo or sham comparator is described anywhere in the design.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "officialTitle",
+      "quote": "An Open, Single-Arm, Multi-Center Clinical Study"
+    },
+    {
+      "path": "detailedDescription",
+      "quote": "open-label, non-randomized, multi-center clinical trial"
+    },
+    {
+      "path": "armGroups.0.type",
+      "quote": "EXPERIMENTAL"
+    },
+    {
+      "path": "armGroups.0.description",
+      "quote": "Regulatory T cell therapy, intrathecal injection"
+    }
+  ],
+  "title": "Clinical Study of Regulatory T Cells (Tregs) in the Treatment of Neurodegenerative Diseases",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "6e44e695beafc96d0583391f5495a92fa58e0bea4eee93b6b39929d91620c2ba",
+  "screenedAt": "2026-11-06T22:30:14.142Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

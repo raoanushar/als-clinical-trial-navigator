@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT06280079",
+  "label": "Placebo",
+  "rationale": "This is a randomized interventional parallel-arm study that explicitly includes a placebo comparator. The arm descriptions identify a “Placebo” group alongside the ultra-high-caloric fatty diet experimental arm, so placebo use is directly supported.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "summary",
+      "quote": "compared to placebo"
+    },
+    {
+      "path": "armGroups.1.type",
+      "quote": "PLACEBO_COMPARATOR"
+    },
+    {
+      "path": "armGroups.1.description",
+      "quote": "placebo, fluid nutritional supplement"
+    },
+    {
+      "path": "targetingInterventions.1.name",
+      "quote": "Placebo"
+    }
+  ],
+  "title": "Ultra-high-caloric, Fatty Diet in ALS",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "35bf4acce3eeb4f4bf9505eb6ef56e6f558f0aa47f2c856b047c73f6f79bef60",
+  "screenedAt": "2026-11-06T22:11:52.972Z",
+  "rule": {
+    "label": "Placebo",
+    "reason": "A registered arm is typed PLACEBO_COMPARATOR."
+  }
+}

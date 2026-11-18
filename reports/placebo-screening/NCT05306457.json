@@ -1,0 +1,39 @@
+{
+  "nctId": "NCT05306457",
+  "label": "No placebo",
+  "rationale": "This is a sequential, non-randomized safety study with only experimental CNS10-NPC-GDNF dosing groups and no comparator arm described. The record shows three dose cohorts receiving unilateral injections of the investigational biological, with no placebo or sham control specified in the study design.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "allocation",
+      "quote": "Non Randomized"
+    },
+    {
+      "path": "interventionModel",
+      "quote": "Sequential"
+    },
+    {
+      "path": "armGroups.0.description",
+      "quote": "Unilateral, Motor Cortex, 0.25x10\\^6 cells in 10 µL/site, 21 sites (5.25x10\\^6 total cells) - Motor cortex corresponding to the non-dominant hand"
+    },
+    {
+      "path": "armGroups.1.description",
+      "quote": "Unilateral, Motor Cortex, 0.5x10\\^6 cells in 10 µL/site, 21 sites (10.5x10\\^6 total cells) - Motor cortex corresponding to the non-dominant hand"
+    },
+    {
+      "path": "armGroups.2.description",
+      "quote": "Unilateral Motor Cortex, 0.5x10\\^6 cells in 10 µL/site, 21 sites (10.5x10\\^6 total cells) - Motor cortex corresponding to the dominant hand"
+    }
+  ],
+  "title": "CNS10-NPC-GDNF Delivered to the Motor Cortex for ALS",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "b00ad4dc3a2aa919b45e7fe4559b1c4ac206c97866cb26f375c37311960c5e50",
+  "screenedAt": "2026-11-06T22:32:26.665Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

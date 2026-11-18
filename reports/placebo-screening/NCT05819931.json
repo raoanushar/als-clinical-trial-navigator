@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT05819931",
+  "label": "No placebo",
+  "rationale": "This is a single-arm pilot study in which participants receive mechanical in-exsufflator treatment and are compared to their own baseline, not to a placebo. The record describes usual care at baseline and repeated measurements, but no placebo or sham comparator arm is described.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "armGroups.0.label",
+      "quote": "Mechanical In-Exsufflator treatment"
+    },
+    {
+      "path": "armGroups.0.type",
+      "quote": "EXPERIMENTAL"
+    },
+    {
+      "path": "targetingInterventions.0.description",
+      "quote": "The patient is his own control."
+    },
+    {
+      "path": "detailedDescription",
+      "quote": "after 4 weeks of treatment with Mechanical In-Exsufflator"
+    }
+  ],
+  "title": "Breathing With Amyotrophic Lateral Sclerosis",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "c759731559b6443556c727390d1ba0bb0760b7c5cac1d7d1fa82be480d54dc3a",
+  "screenedAt": "2026-11-06T22:21:02.383Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

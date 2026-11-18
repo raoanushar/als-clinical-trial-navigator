@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT05913882",
+  "label": "No placebo",
+  "rationale": "This is a single-group delayed-start repeated-measures study, and the record says all participants receive the respiratory training after a no-intervention lead-in. There is no placebo or sham comparator described; participants serve as their own control.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "studyType",
+      "quote": "Interventional"
+    },
+    {
+      "path": "interventionModel",
+      "quote": "Single Group"
+    },
+    {
+      "path": "detailedDescription",
+      "quote": "provide treatment to all participants"
+    },
+    {
+      "path": "armGroups.0.description",
+      "quote": "following a 5-week no-intervention lead-in period"
+    }
+  ],
+  "title": "Combined Respiratory Training in Persons With ALS",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "d27780c754ef1fc5dbfd2ee1220890d5ea7f0a694f06cd5bb3b6c85c28a31356",
+  "screenedAt": "2026-11-06T22:29:54.616Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

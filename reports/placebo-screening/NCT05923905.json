@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT05923905",
+  "label": "Placebo",
+  "rationale": "The record explicitly describes a randomized double-blind placebo-controlled design in the first 24-week phase. It also lists a dedicated placebo arm, so this study includes placebo use even though the second phase is open-label.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "detailedDescription",
+      "quote": "randomized double-blind placebo-controlled design"
+    },
+    {
+      "path": "armGroups.1.label",
+      "quote": "placebo group"
+    },
+    {
+      "path": "armGroups.1.description",
+      "quote": "Take placebo at night,30mg/day"
+    },
+    {
+      "path": "armGroups.1.type",
+      "quote": "PLACEBO_COMPARATOR"
+    }
+  ],
+  "title": "Clinical Study to Evaluate the Efficacy and Safety of FB1006 in the Treatment of ALS Patients",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "802854236ed3b761af9b718c0f8883a1ebeb2b9c9e2a8558a3435efdd392fcd9",
+  "screenedAt": "2026-11-06T22:33:07.087Z",
+  "rule": {
+    "label": "Placebo",
+    "reason": "A registered arm is typed PLACEBO_COMPARATOR."
+  }
+}

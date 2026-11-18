@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT05299658",
+  "label": "No placebo",
+  "rationale": "This record describes an open-label extension with a single group, and the extension arm states that all participants receive active drug. The placebo-controlled part is the earlier parent trial, not this extension, so the current study design itself does not include a placebo comparator.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "studyType",
+      "quote": "Interventional"
+    },
+    {
+      "path": "interventionModel",
+      "quote": "Single Group"
+    },
+    {
+      "path": "armGroups.0.description",
+      "quote": "all participants will be on active drug"
+    },
+    {
+      "path": "summary",
+      "quote": "optional open-label extension"
+    }
+  ],
+  "title": "An Open-Label Extension for the Phase 2 Study in Early Symptomatic Amyotrophic Lateral Sclerosis Patients on Stable Background Therapy to Assess Bioenergetic Catalysis With CNM-Au8 to Slow Disease Progression in ALS",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "0e455542f529f849ffd10957020a3d45ef080a60bd2719cc48532fc3c6b732b2",
+  "screenedAt": "2026-11-06T22:29:55.842Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

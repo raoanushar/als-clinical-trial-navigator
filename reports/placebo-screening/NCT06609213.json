@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT06609213",
+  "label": "No placebo",
+  "rationale": "This is a single-arm intervention study, and the record says all participants receive the same enteral nutrition formula with before-and-after assessment only. There is no placebo or sham comparator described; the only comparison is to each participant’s own pre-intervention period.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "summary",
+      "quote": "This single arm intervention study"
+    },
+    {
+      "path": "armGroups.0.description",
+      "quote": "This is a single arm study"
+    },
+    {
+      "path": "detailedDescription",
+      "quote": "For two weeks +- 2 days participants"
+    },
+    {
+      "path": "detailedDescription",
+      "quote": "make no changes to their current oral intake"
+    }
+  ],
+  "title": "Oral Intake of Enteral Nutrition Formula Preceding Placement and Feeding Via GTube and Its Impact on Formula Intolerance in pALS",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "ccec3521dddc1f19088a9a8df3ddb40bf1b3e7bfbdf93ece12b96c3b1d2868d7",
+  "screenedAt": "2026-11-06T22:17:35.278Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

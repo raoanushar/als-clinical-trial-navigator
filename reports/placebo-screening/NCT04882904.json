@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT04882904",
+  "label": "No placebo",
+  "rationale": "This is a single-group interventional study where all enrolled ALS participants wear the Actimyo device after each visit. The record describes device monitoring and clinical testing only, with no placebo or sham comparator arm stated.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "interventionModel",
+      "quote": "Single Group"
+    },
+    {
+      "path": "armGroups.0.description",
+      "quote": "Patient with amyotrophic lateral sclerosis"
+    },
+    {
+      "path": "summary",
+      "quote": "After each visit, participants will wear Actimyo"
+    },
+    {
+      "path": "armGroups.0.interventionNames.0",
+      "quote": "Device: Actimyo°"
+    }
+  ],
+  "title": "Continuous Measurement of Activity in Patients With Muscle Pathology and in Control Subjects. ActiSLA Part.",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "344d594caa70de6982427dd126b70916c89ae2fba6504f7ee039875cfab5324a",
+  "screenedAt": "2026-11-06T22:29:58.495Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

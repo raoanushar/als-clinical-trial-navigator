@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT07833618",
+  "label": "Placebo",
+  "rationale": "This is explicitly a randomized, double-blind, placebo-controlled dose-ranging trial. The study arms include a placebo comparator, and the intervention description says it is a matching placebo with no active ingredient.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "officialTitle",
+      "quote": "Placebo-controlled, Multicenter Phase II Dose-ranging Study"
+    },
+    {
+      "path": "summary",
+      "quote": "randomized 1:1:1 to receive"
+    },
+    {
+      "path": "armGroups.2.type",
+      "quote": "PLACEBO_COMPARATOR"
+    },
+    {
+      "path": "targetingInterventions.2.description",
+      "quote": "containing no active ingredient"
+    }
+  ],
+  "title": "A Phase II Study of ALT001 in Patients With Amyotrophic Lateral Sclerosis (ALS)",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "c7033cbc30259b88032ba1dbf6a54fc8a81cb514bb01a9463ec4597553638e07",
+  "screenedAt": "2026-11-06T22:14:47.564Z",
+  "rule": {
+    "label": "Placebo",
+    "reason": "A registered arm is typed PLACEBO_COMPARATOR."
+  }
+}

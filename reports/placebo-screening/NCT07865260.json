@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT07865260",
+  "label": "No placebo",
+  "rationale": "The trial compares PhiCube plus conventional rehabilitation versus conventional rehabilitation alone in both strata. No inactive, sham, or active-placebo comparator is described; the control arms receive standard rehabilitation only.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "summary",
+      "quote": "conventional rehabilitation combined with PhiCube training"
+    },
+    {
+      "path": "summary",
+      "quote": "conventional rehabilitation alone"
+    },
+    {
+      "path": "detailedDescription",
+      "quote": "experimental arm (PhiCube plus conventional rehabilitation)"
+    },
+    {
+      "path": "detailedDescription",
+      "quote": "control arm (conventional rehabilitation alone)"
+    }
+  ],
+  "title": "PhiCube for Bilateral Upper Limb Neuromotor and Cognitive Rehabilitation in Adults",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "65d90d86941e1e4b7a9fd3747f569ae4b1ffa361ccec12a9aea446ae63937f2c",
+  "screenedAt": "2026-11-06T22:11:28.922Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

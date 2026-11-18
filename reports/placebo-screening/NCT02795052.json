@@ -1,0 +1,31 @@
+{
+  "nctId": "NCT02795052",
+  "label": "No placebo",
+  "rationale": "This is a single-group interventional study in which all participants receive autologous BMSC treatment. The record describes only one arm and does not include any placebo or sham comparator, so the design supports no placebo use.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "interventionModel",
+      "quote": "Single Group"
+    },
+    {
+      "path": "armGroups.0.description",
+      "quote": "then provided intravenously and intranasally"
+    },
+    {
+      "path": "summary",
+      "quote": "involving the isolation of autologous bone marrow derived stem cells"
+    }
+  ],
+  "title": "Neurologic Stem Cell Treatment Study",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "70a667efb99f049669407a92426466d7f2da47e5d17e85272db4e52476bab491",
+  "screenedAt": "2026-11-06T22:20:41.347Z",
+  "rule": {
+    "label": "Not specified",
+    "reason": "At least one arm has a missing or ambiguous type (such as OTHER)."
+  }
+}

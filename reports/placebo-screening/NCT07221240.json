@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT07221240",
+  "label": "Placebo",
+  "rationale": "This interventional trial explicitly includes a placebo comparator arm and describes the placebo as containing no study drug. Placebo is used in both Part 1 (SAD) and Part 2 (MAD), so the overall study clearly uses placebo.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "summary",
+      "quote": "randomized, double-blind, placebo-controlled"
+    },
+    {
+      "path": "detailedDescription",
+      "quote": "6 on Amisodin, 2 on placebo"
+    },
+    {
+      "path": "detailedDescription",
+      "quote": "contains no study drug"
+    },
+    {
+      "path": "armGroups.1.type",
+      "quote": "PLACEBO_COMPARATOR"
+    }
+  ],
+  "title": "Study to Evaluate Safety, Tolerability, and Pharmacokinetics of Amisodin in Healthy Adult Subjects With Amyotrophic Lateral Sclerosis",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "3cca14525d081306f2ea786a4baab07f8dd978ebad748584664b2d6ccc1ae74a",
+  "screenedAt": "2026-11-06T22:26:03.274Z",
+  "rule": {
+    "label": "Placebo",
+    "reason": "A registered arm is typed PLACEBO_COMPARATOR."
+  }
+}

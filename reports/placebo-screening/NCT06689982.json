@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT06689982",
+  "label": "No placebo",
+  "rationale": "This is a single-group, single-arm study in which all enrolled patients receive tofacitinib, with no comparator arm described. The record does mention a “clinical randomized controlled trial,” but the explicit design fields and arm description support an uncontrolled single-arm intervention rather than a placebo-controlled study.",
+  "confidence": "high",
+  "needsReview": true,
+  "reviewReason": "The narrative contains contradictory wording (“randomized controlled trial”) that conflicts with the single-group, allocation NA design, so manual review is prudent even though no placebo comparator is described.",
+  "evidence": [
+    {
+      "path": "interventionModel",
+      "quote": "Single Group"
+    },
+    {
+      "path": "allocation",
+      "quote": "Na"
+    },
+    {
+      "path": "summary",
+      "quote": "single center, single arm"
+    },
+    {
+      "path": "armGroups.0.description",
+      "quote": "receive tofacitinib citrate sustained-release tablets"
+    }
+  ],
+  "title": "Tofacitinib in Patients With Amyotrophic Lateral Sclerosis",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "9d30fb90807fc064003878a2e5869eb4929174e5238b041eff7169a0ccfbefa2",
+  "screenedAt": "2026-11-06T22:32:59.535Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

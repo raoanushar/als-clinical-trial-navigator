@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT07006571",
+  "label": "Placebo",
+  "rationale": "This is a randomized controlled trial with a sham comparator arm. The control uses the same device and electrode placement but without delivering current, explicitly described as simulating stimulation without actual treatment. That makes the placebo applicable to the sham tDCS arm.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "armGroups.1.type",
+      "quote": "SHAM_COMPARATOR"
+    },
+    {
+      "path": "armGroups.1.description",
+      "quote": "without actually delivering the current"
+    },
+    {
+      "path": "armGroups.1.description",
+      "quote": "mimicking the sensation"
+    },
+    {
+      "path": "officialTitle",
+      "quote": "Randomized, Controlled Clinical Trial"
+    }
+  ],
+  "title": "At-home Treatment With Cortico-spinal tDCS for Amyotrophic Lateral Sclerosis",
+  "model": "gpt-5.4-mini",
+  "version": "bed06c6982c7537036b0ad5c2c21abf7a43afe0bb208d4966982c4ebd83c2e3b",
+  "sourceHash": "587f47b04f298b872f8c4475212373d9c246d0fd6f965a7b15f73bfe53652825",
+  "screenedAt": "2026-11-06T22:41:23.267Z",
+  "rule": {
+    "label": "Placebo",
+    "reason": "A registered arm is typed PLACEBO_COMPARATOR or SHAM_COMPARATOR."
+  }
+}

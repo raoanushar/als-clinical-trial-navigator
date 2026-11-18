@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT06891716",
+  "label": "No placebo",
+  "rationale": "This is an interventional PET imaging study where all listed arm groups receive the same tracer [18F]ACI-19626, including healthy controls and participants with suspected TDP-43 proteinopathies. The design describes active/diagnostic comparison between groups and test-retest scanning, not an inactive or sham placebo comparator.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "armGroups.0.interventionNames.0",
+      "quote": "Other: [18F]ACI-19626"
+    },
+    {
+      "path": "armGroups.1.type",
+      "quote": "ACTIVE_COMPARATOR"
+    },
+    {
+      "path": "summary",
+      "quote": "Both healthy people and people with (suspected) TDP-43 accumulation"
+    },
+    {
+      "path": "detailedDescription",
+      "quote": "Part 3 aims to assess test-retest reliability."
+    }
+  ],
+  "title": "[18F]ACI-19626 PET in TDP-43 Proteinopathies",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "81b8b0463e2fae94924e9e12fdc85cb141d53cd7e97fbd6d7af8ff41c7097f6b",
+  "screenedAt": "2026-11-06T22:15:14.642Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

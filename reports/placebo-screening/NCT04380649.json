@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT04380649",
+  "label": "No placebo",
+  "rationale": "This is a single-group usability study of a new headset prototype, with no comparator arm described. The record describes only the experimental device and does not mention any placebo or sham comparator for participants.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "interventionModel",
+      "quote": "Single Group"
+    },
+    {
+      "path": "armGroups.0.type",
+      "quote": "EXPERIMENTAL"
+    },
+    {
+      "path": "armGroups.0.interventionNames.0",
+      "quote": "Device: New headset prototype"
+    },
+    {
+      "path": "summary",
+      "quote": "This study is a monocentric usability study"
+    }
+  ],
+  "title": "Development and Test of a Headset for BCI Until Obtaining an Efficient and Comfortable System That Can be Used in Daily Practice by ALS People",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "b7dd93a2f4d93aabf5507e7ee82a1163f25bfb0d0ee33a8fce146ac0b834a595",
+  "screenedAt": "2026-11-06T22:30:00.802Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT04297683",
+  "label": "Placebo",
+  "rationale": "The master protocol explicitly says each regimen is placebo-controlled, and participants are randomized 3:1 to study drug or placebo. The regimen arm descriptions also state active drug versus matching placebo, so placebo is clearly part of the design.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "detailedDescription",
+      "quote": "Each regimen consists of a placebo-controlled trial"
+    },
+    {
+      "path": "detailedDescription",
+      "quote": "participants will be randomized in a 3:1 ratio"
+    },
+    {
+      "path": "armGroups.0.description",
+      "quote": "active zilucoplan or matching placebo"
+    },
+    {
+      "path": "armGroups.7.description",
+      "quote": "active NUZ-001 or matching placebo"
+    }
+  ],
+  "title": "HEALEY ALS Platform Trial - Master Protocol",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "8c3fea8c78686cf663a7e993dc6cb46873021e302886067ce01373adb2c513a7",
+  "screenedAt": "2026-11-06T22:17:47.010Z",
+  "rule": {
+    "label": "Not specified",
+    "reason": "Placebo is mentioned in the saved arms or interventions, but no arm is typed PLACEBO_COMPARATOR. Needs interpretation."
+  }
+}

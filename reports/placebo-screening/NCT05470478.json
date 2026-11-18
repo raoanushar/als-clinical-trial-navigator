@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT05470478",
+  "label": "No placebo",
+  "rationale": "This is a single-group interventional device evaluation, not a placebo-controlled study. The record says participants are assessed in the BrainGate clinical trial and describes only one experimental arm with the mobile iBCI device, with no placebo comparator or sham device comparator described.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "interventionModel",
+      "quote": "Single Group"
+    },
+    {
+      "path": "armGroups.0.description",
+      "quote": "assessed separately with participants"
+    },
+    {
+      "path": "detailedDescription",
+      "quote": "does not create a new clinical trial"
+    },
+    {
+      "path": "armGroups.0.type",
+      "quote": "EXPERIMENTAL"
+    }
+  ],
+  "title": "iBCI Optimization for Veterans With Paralysis",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "3fcfd5098590bfe9dc52a4d80442a02f90d3f97b6783db4b0562305719d6ed4d",
+  "screenedAt": "2026-11-06T22:17:40.659Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

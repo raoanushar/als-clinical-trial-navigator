@@ -1,0 +1,39 @@
+{
+  "nctId": "NCT07290062",
+  "label": "No placebo",
+  "rationale": "This is an open-label, non-randomized, sequential dose-finding study in which every listed cohort receives INS1202. The record describes only active treatment arms and does not describe any placebo or sham comparator.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "officialTitle",
+      "quote": "Open-label, Dose-Finding Study"
+    },
+    {
+      "path": "allocation",
+      "quote": "Non Randomized"
+    },
+    {
+      "path": "armGroups.0.description",
+      "quote": "will be administered INS1202"
+    },
+    {
+      "path": "armGroups.1.description",
+      "quote": "will be administered INS1202"
+    },
+    {
+      "path": "armGroups.2.description",
+      "quote": "will be administered INS1202"
+    }
+  ],
+  "title": "A Study to Investigate the Safety and Pharmacodynamics of a Single Intrathecal Injection (IT) of INS1202 in Participants With Amyotrophic Lateral Sclerosis (ALS)",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "1e2280a1a0b315a3895ceb8b7469c8cda9c718871b35f6e2db5304480e9ad6da",
+  "screenedAt": "2026-11-06T22:14:37.945Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

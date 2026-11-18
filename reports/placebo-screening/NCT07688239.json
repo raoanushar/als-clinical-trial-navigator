@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT07688239",
+  "label": "Placebo",
+  "rationale": "This is a randomized, double-blind interventional trial with an explicit placebo comparator arm. The record says participants are compared to a matching nasal spray with no medicine in it, and one arm is labeled Placebo. The placebo is used only during the first 12 weeks; after that, continuing participants receive foralumab.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "summary",
+      "quote": "compared with a placebo"
+    },
+    {
+      "path": "summary",
+      "quote": "a matching nasal spray with no medicine in it"
+    },
+    {
+      "path": "armGroups.1.type",
+      "quote": "PLACEBO_COMPARATOR"
+    },
+    {
+      "path": "targetingInterventions.1.description",
+      "quote": "Foralumab placebo nasal solution"
+    }
+  ],
+  "title": "The BANYAN Trial, an ALS MyMatch Trial Evaluating Safety, Biomarker Activity, and Microglial Activation of Nasal Foralumab",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "b9385a5a8103ed962727757637f92052fb388361026dd9bdc149852e6d8852d7",
+  "screenedAt": "2026-11-06T22:08:03.587Z",
+  "rule": {
+    "label": "Placebo",
+    "reason": "A registered arm is typed PLACEBO_COMPARATOR."
+  }
+}

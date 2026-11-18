@@ -1,0 +1,43 @@
+{
+  "nctId": "NCT05377424",
+  "label": "Placebo",
+  "rationale": "This is an interventional randomized crossover study with explicit placebo and sham control visits. The record states a placebo-controlled design and describes both microcrystalline cellulose tablets and sham AIH using normal air as comparators.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "detailedDescription",
+      "quote": "placebo-controlled, randomized study"
+    },
+    {
+      "path": "detailedDescription",
+      "quote": "AIH + placebo (AIH+CON)"
+    },
+    {
+      "path": "detailedDescription",
+      "quote": "sham-AIH + placebo"
+    },
+    {
+      "path": "armGroups.1.description",
+      "quote": "This is a sham counterpart"
+    },
+    {
+      "path": "armGroups.2.description",
+      "quote": "placebo counterpart to the istradefylline drug"
+    },
+    {
+      "path": "armGroups.3.description",
+      "quote": "a sham counterpart to low oxygen"
+    }
+  ],
+  "title": "Adenosine 2A Receptor Antagonism and AIH in ALS",
+  "model": "gpt-5.4-mini",
+  "version": "bed06c6982c7537036b0ad5c2c21abf7a43afe0bb208d4966982c4ebd83c2e3b",
+  "sourceHash": "2f903c9fa6ee4db55a024c709dcfab748031ca07c5551be5ea4db2456607b3b7",
+  "screenedAt": "2026-11-06T22:41:17.721Z",
+  "rule": {
+    "label": "Not specified",
+    "reason": "Placebo or sham is mentioned in the saved arms or interventions, but no arm is typed PLACEBO_COMPARATOR or SHAM_COMPARATOR. Needs interpretation."
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT07325591",
+  "label": "Placebo",
+  "rationale": "The record explicitly describes a randomized, double-blind, placebo-controlled study. Both Phase 2 and Phase 3 parts randomize participants to tazbentetol or placebo, while the open-label extension is separate and non-placebo. ",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "officialTitle",
+      "quote": "Randomized, Double-blind, Placebo-controlled Study"
+    },
+    {
+      "path": "detailedDescription",
+      "quote": "placebo-controlled (DBPC) study"
+    },
+    {
+      "path": "detailedDescription",
+      "quote": "receive tazbentetol or placebo"
+    },
+    {
+      "path": "armGroups.1.type",
+      "quote": "PLACEBO_COMPARATOR"
+    }
+  ],
+  "title": "Efficacy and Safety of Tazbentetol in ALS Participants",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "1888d335eb5e12302e2440951daf23540e38d036256be3aad3ac09a2a4a520e7",
+  "screenedAt": "2026-11-06T22:15:04.004Z",
+  "rule": {
+    "label": "Placebo",
+    "reason": "A registered arm is typed PLACEBO_COMPARATOR."
+  }
+}

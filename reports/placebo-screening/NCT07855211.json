@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT07855211",
+  "label": "Placebo",
+  "rationale": "The main MAD period is explicitly randomized and double-blind with BIIB147 versus placebo, and the OLE includes a blinded loading-dose period where participants switch between BIIB147 and placebo before open-label treatment. This is an active placebo-controlled interventional study, not an uncontrolled design.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "officialTitle",
+      "quote": "Randomized, Double-Blind, Placebo-Controlled MAD Study"
+    },
+    {
+      "path": "summary",
+      "quote": "randomly assigned to get either the study drug BIIB147 or a placebo"
+    },
+    {
+      "path": "armGroups.0.description",
+      "quote": "receive Dose A of BIIB147 or a placebo"
+    },
+    {
+      "path": "armGroups.4.description",
+      "quote": "participants randomized to BIIB147 in the MAD period will receive placebo"
+    }
+  ],
+  "title": "A Study to Learn About the Safety of BIIB147 and Its Effects in Adults With Amyotrophic Lateral Sclerosis (ALS)",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "435b82ded9e4ef5e0a27d967ceb81c24320782b4a8d0b923d15cdd1d644314cb",
+  "screenedAt": "2026-11-06T22:08:08.783Z",
+  "rule": {
+    "label": "Not specified",
+    "reason": "Placebo is mentioned in the saved arms or interventions, but no arm is typed PLACEBO_COMPARATOR. Needs interpretation."
+  }
+}

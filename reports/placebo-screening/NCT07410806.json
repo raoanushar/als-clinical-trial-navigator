@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT07410806",
+  "label": "Placebo",
+  "rationale": "Regimen I explicitly randomizes participants to active NUZ-001 or matching placebo. The arm list also includes a placebo comparator arm, so this study part uses placebo.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "detailedDescription",
+      "quote": "randomized in a 3:1 ratio to either active NUZ-001 or matching placebo"
+    },
+    {
+      "path": "armGroups.1.type",
+      "quote": "PLACEBO_COMPARATOR"
+    },
+    {
+      "path": "armGroups.1.description",
+      "quote": "Placebo Comparator: Matching Placebo"
+    },
+    {
+      "path": "targetingInterventions.1.description",
+      "quote": "Matching placebo is administered orally once daily"
+    }
+  ],
+  "title": "HEALEY ALS Platform Trial - Regimen I NUZ-001",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "6f8fe7249fab75f24356ace5dc0f3d5c07a113cc9d6e79d117dbb8a27758fa91",
+  "screenedAt": "2026-11-06T22:17:49.588Z",
+  "rule": {
+    "label": "Placebo",
+    "reason": "A registered arm is typed PLACEBO_COMPARATOR."
+  }
+}

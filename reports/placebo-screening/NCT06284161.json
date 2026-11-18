@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT06284161",
+  "label": "No placebo",
+  "rationale": "This is a single-group diagnostic cohort study, so there is no comparator arm and no placebo described. The intervention is a quadriceps combined test used for assessment, not a placebo-controlled treatment study.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "studyType",
+      "quote": "Interventional"
+    },
+    {
+      "path": "interventionModel",
+      "quote": "Single Group"
+    },
+    {
+      "path": "armGroups.0.label",
+      "quote": "Quadriceps Combined Test"
+    },
+    {
+      "path": "summary",
+      "quote": "The investigators propose a cohort study"
+    }
+  ],
+  "title": "QCT in ALS Diagnosis, Mechanistic Understanding and Follow-up",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "48f7db71ce5fbb4903831649753b726571dc2c07fe2109c1a42447e743ae7f5c",
+  "screenedAt": "2026-11-06T22:17:37.824Z",
+  "rule": {
+    "label": "Not specified",
+    "reason": "At least one arm has a missing or ambiguous type (such as OTHER)."
+  }
+}

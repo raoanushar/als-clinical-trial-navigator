@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT07606235",
+  "label": "No placebo",
+  "rationale": "This is a prospective single-arm pilot study with one experimental group and no comparator arm. The record describes baseline and post-treatment assessments after TENS-SLN, but does not describe any placebo or sham control condition.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "studyType",
+      "quote": "Interventional"
+    },
+    {
+      "path": "interventionModel",
+      "quote": "Single Group"
+    },
+    {
+      "path": "summary",
+      "quote": "Prospective, single-arm pilot study"
+    },
+    {
+      "path": "armGroups.0.label",
+      "quote": "Interventional Group"
+    }
+  ],
+  "title": "Transcutaneous Superior Laryngeal Nerve Stimulation to Upregulate Swallowing Frequency and Urge to Swallow in Patients Living With ALS",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "5096c300c191e52dc23af184ebb40a22e59c0c0b79500b2f67217e0504147f53",
+  "screenedAt": "2026-11-06T22:20:54.905Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

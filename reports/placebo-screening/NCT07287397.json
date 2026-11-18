@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT07287397",
+  "label": "No placebo",
+  "rationale": "This is an open-label, uncontrolled study where all participants receive the investigational gene therapy, with only a prophylactic corticosteroid given to reduce reactions. There is no inactive or active-placebo comparator described, and the design explicitly says participants will receive a single injection of the study drug.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "officialTitle",
+      "quote": "An Open-Label, Uncontrolled, Multicenter Study"
+    },
+    {
+      "path": "summary",
+      "quote": "open-label, ascending dose, uncontrolled"
+    },
+    {
+      "path": "detailedDescription",
+      "quote": "All participants will receive a single injection of the study drug."
+    },
+    {
+      "path": "armGroups.0.description",
+      "quote": "18 participants will receive dose 1 administered intra cisterna magna."
+    }
+  ],
+  "title": "Study is to Assess the Safety and Tolerability of VTx-002 in Participants With ALS",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "bfb1ef3ad40100c67b0c36e789d2d042d4aa202a3540139ba222320c3d854adc",
+  "screenedAt": "2026-11-06T22:02:38.337Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

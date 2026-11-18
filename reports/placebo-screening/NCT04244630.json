@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT04244630",
+  "label": "No placebo",
+  "rationale": "This is a single-group interventional study in which eligible patients receive only the antioxidant regimen. The record describes an open treatment arm and gives no placebo or sham comparator, so the design supports no placebo control.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "interventionModel",
+      "quote": "Single Group"
+    },
+    {
+      "path": "armGroups.0.description",
+      "quote": "Eligible patients will receive over-the-counter anti-oxidants"
+    },
+    {
+      "path": "armGroups.0.label",
+      "quote": "Antioxidants"
+    },
+    {
+      "path": "allocation",
+      "quote": "Na"
+    }
+  ],
+  "title": "Mitochondrial Capacity Boost in ALS (MICABO-ALS) Trial",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "dd6d5a7191367a486d3692e6388beb659e308e54c77cd0b45dce716a43c205cd",
+  "screenedAt": "2026-11-06T22:15:11.805Z",
+  "rule": {
+    "label": "Not specified",
+    "reason": "At least one arm has a missing or ambiguous type (such as OTHER)."
+  }
+}

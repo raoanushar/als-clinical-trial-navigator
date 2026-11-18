@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT07174492",
+  "label": "Placebo",
+  "rationale": "The study is explicitly described as placebo-controlled and includes a dedicated placebo arm. Participants in that arm receive a matched dose placebo with riluzole, while the experimental arm receives masitinib with riluzole.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "officialTitle",
+      "quote": "Placebo-controlled, Parallel Groups"
+    },
+    {
+      "path": "summary",
+      "quote": "matched placebo in combination with riluzole"
+    },
+    {
+      "path": "armGroups.1.description",
+      "quote": "matched dose placebo"
+    },
+    {
+      "path": "detailedDescription",
+      "quote": "matching placebo"
+    }
+  ],
+  "title": "Efficacy and Safety of Masitinib in Combination With SoC Versus Placebo in the Treatment of ALS Patients",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "c45b991c8e083f57457263a754b642dbc4d3971d6dacc344e48aea4d19263bb7",
+  "screenedAt": "2026-11-06T22:31:13.265Z",
+  "rule": {
+    "label": "Placebo",
+    "reason": "A registered arm is typed PLACEBO_COMPARATOR."
+  }
+}

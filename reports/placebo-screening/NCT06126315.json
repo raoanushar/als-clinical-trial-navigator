@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT06126315",
+  "label": "Placebo",
+  "rationale": "This is an interventional randomized double-blind trial with an explicit placebo comparator arm. Participants are assigned to ALCAR or placebo, and the placebo arm is described as receiving placebo for the full 48-week treatment period in addition to riluzole.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "summary",
+      "quote": "placebo-controlled trial on acetyl-L-carnitine"
+    },
+    {
+      "path": "summary",
+      "quote": "All eligible participants will be randomized"
+    },
+    {
+      "path": "armGroups.2.description",
+      "quote": "2 pockets of placebo will be administered"
+    },
+    {
+      "path": "armGroups.2.type",
+      "quote": "PLACEBO_COMPARATOR"
+    }
+  ],
+  "title": "Trial on the Biological and Clinical Effects of Acetyl-L-carnitine in ALS",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "7a4998d0829703dbc9f5a9c9b52bec854b1b4628dcbf1b90e20812405725b299",
+  "screenedAt": "2026-11-06T22:11:30.017Z",
+  "rule": {
+    "label": "Placebo",
+    "reason": "A registered arm is typed PLACEBO_COMPARATOR."
+  }
+}

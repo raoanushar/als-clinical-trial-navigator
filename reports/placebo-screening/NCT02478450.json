@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT02478450",
+  "label": "No placebo",
+  "rationale": "This is an open-label, non-randomized dose-escalation study where every cohort receives Q-Cells transplantation. The record describes no placebo arm or inactive comparator; the only blinding is to side of treatment, not treatment versus placebo.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "summary",
+      "quote": "open-label, partially blinded, sequential cohort"
+    },
+    {
+      "path": "summary",
+      "quote": "Following an initial cohort receiving cell transplants"
+    },
+    {
+      "path": "armGroups.0.description",
+      "quote": "Unilateral lumbar surgical transplantation of Q-Cells"
+    },
+    {
+      "path": "armGroups.1.description",
+      "quote": "Unilateral cervical surgical transplantation of Q-Cells"
+    }
+  ],
+  "title": "Study to Investigate the Safety of the Transplantation (by Injection) of Human Glial Restricted Progenitor Cells (hGRPs; Q-Cells®) Into Subjects With Amyotrophic Lateral Sclerosis (ALS)",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "2c5454a660442acbaa88fe47ddb0a4fefcd7c2f4c46e9eb11f9510d52ca045d7",
+  "screenedAt": "2026-11-06T22:20:35.828Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

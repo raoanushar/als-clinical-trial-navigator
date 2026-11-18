@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT06704347",
+  "label": "No placebo",
+  "rationale": "This is an open-label, non-randomized sequential dose study in which all participants receive XT-150, with no placebo or sham comparator described. The two cohorts differ only by XT-150 dose, and the arms explicitly describe intrathecal administration of XT-150 to both groups.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "summary",
+      "quote": "open-label, multi-center safety study"
+    },
+    {
+      "path": "summary",
+      "quote": "receive a single injection of XT-150"
+    },
+    {
+      "path": "armGroups.0.description",
+      "quote": "Participants will be administered 1.5 mg of XT-150"
+    },
+    {
+      "path": "armGroups.1.description",
+      "quote": "Participants will be administered 1.5 mg of XT-150"
+    }
+  ],
+  "title": "Safety Study of XT-150 in Participants With ALS",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "361ad26e327bc0e2c285a02588fa0354353ff4e4198fb543e7eff572620f2223",
+  "screenedAt": "2026-11-06T22:17:39.233Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

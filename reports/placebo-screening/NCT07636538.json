@@ -1,0 +1,31 @@
+{
+  "nctId": "NCT07636538",
+  "label": "No placebo",
+  "rationale": "The study compares conventional rehabilitation plus an investigational robotic device against conventional rehabilitation alone. There is no described inactive, sham, or active-placebo comparator; the control arm receives standard therapy only, so placebo use is not part of the design.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "summary",
+      "quote": "conventional rehabilitation therapy alone"
+    },
+    {
+      "path": "armGroups.0.description",
+      "quote": "conventional rehabilitation therapy only"
+    },
+    {
+      "path": "armGroups.1.description",
+      "quote": "in addition to conventional rehabilitation therapy"
+    }
+  ],
+  "title": "Auto-calibrating System for Upper Limb Disability Assessment, Neurological and Occupational Rehabilitation",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "e19d6d5686b6730c96e1198ea886486c4dfd2b9282180eeb8ed489282a6fbfc3",
+  "screenedAt": "2026-11-06T22:20:44.941Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

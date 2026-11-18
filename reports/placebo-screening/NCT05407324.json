@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT05407324",
+  "label": "Placebo",
+  "rationale": "The study explicitly describes a placebo-controlled randomized double-blind design in Part 1, and one arm is a matched placebo comparator. Part 2 is open-label and does not change the overall classification because placebo is used in the study.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "officialTitle",
+      "quote": "Placebo-Controlled Study Evaluating Safety and Efficacy"
+    },
+    {
+      "path": "armGroups.2.label",
+      "quote": "Part 1: Placebo (matched to study drug)"
+    },
+    {
+      "path": "targetingInterventions.2.description",
+      "quote": "Placebo will be administered once daily"
+    },
+    {
+      "path": "detailedDescription",
+      "quote": "randomized to one of three treatment arms"
+    }
+  ],
+  "title": "Dazucorilant in Patients With Amyotrophic Lateral Sclerosis",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "971d48ca5af2aa3dfc2808ba56952d95a0b7eee5a34eb470e2eab29e05d63d83",
+  "screenedAt": "2026-11-06T22:11:42.452Z",
+  "rule": {
+    "label": "Placebo",
+    "reason": "A registered arm is typed PLACEBO_COMPARATOR."
+  }
+}

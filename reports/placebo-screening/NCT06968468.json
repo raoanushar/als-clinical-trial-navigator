@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT06968468",
+  "label": "No placebo",
+  "rationale": "This is an open pilot with a single intervention group, so there is no control arm or placebo comparator described. All dyads receive the RT-ALS skills-based sessions, followed by pre-post assessments and an exit interview.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "detailedDescription",
+      "quote": "open pilot of the intervention"
+    },
+    {
+      "path": "interventionModel",
+      "quote": "Single Group"
+    },
+    {
+      "path": "armGroups.0.description",
+      "quote": "Dyads will participate in 6 30-45-minute skills based sessions."
+    },
+    {
+      "path": "summary",
+      "quote": "pilot a resiliency and coping intervention"
+    }
+  ],
+  "title": "Resiliency Intervention for Patients With ALS and Their Care-Partners",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "a76e56b617f03b3acb505952ab4252092a05baa7c8a24dc323f30698e47ad81c",
+  "screenedAt": "2026-11-06T22:30:04.250Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

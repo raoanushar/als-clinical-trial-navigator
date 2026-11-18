@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT03268603",
+  "label": "No placebo",
+  "rationale": "This is an open-label, single-group interventional study where all enrolled patients receive intrathecal autologous mesenchymal stromal cells. The record does not describe any placebo or sham comparator arm; it explicitly describes treatment-only dosing and follow-up.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "studyType",
+      "quote": "Interventional"
+    },
+    {
+      "path": "interventionModel",
+      "quote": "Single Group"
+    },
+    {
+      "path": "detailedDescription",
+      "quote": "open label, 60 subject"
+    },
+    {
+      "path": "armGroups.0.description",
+      "quote": "all patients will receive"
+    }
+  ],
+  "title": "Intrathecal Autologous Adipose-derived Mesenchymal Stromal Cells for Amyotrophic Lateral Sclerosis (ALS)",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "eee76572f94145ecb11ac002cb418aabf4b4e6352c9089ba3751ee280be42a43",
+  "screenedAt": "2026-11-06T22:25:58.111Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

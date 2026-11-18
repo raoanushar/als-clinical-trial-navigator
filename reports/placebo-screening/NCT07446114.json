@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT07446114",
+  "label": "No placebo",
+  "rationale": "This is a single-group interventional device study, with one arm only and no comparator arm described. The record describes implantation and use of the Synchron BCI/Stentrode, but does not describe any placebo or sham drug comparator.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "interventionModel",
+      "quote": "Single Group"
+    },
+    {
+      "path": "armGroups.0.description",
+      "quote": "Single Arm"
+    },
+    {
+      "path": "detailedDescription",
+      "quote": "The Synchron BCI motor neuroprosthesis is an implanted brain-computer interface"
+    },
+    {
+      "path": "armGroups.0.interventionNames.0",
+      "quote": "Device: Stentrode"
+    }
+  ],
+  "title": "Functional Outcomes and Control Using Synchron BCI - Canada",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "b4537e53a495588b89da41e1b170dc388e5fef1557fd000817498e51c8193eee",
+  "screenedAt": "2026-11-06T22:05:51.484Z",
+  "rule": {
+    "label": "Not specified",
+    "reason": "At least one arm has a missing or ambiguous type (such as OTHER)."
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT04220021",
+  "label": "No placebo",
+  "rationale": "This is an open-label, single-group interventional study in which all enrolled subjects receive metformin; there is no placebo arm or sham comparator described. The design and arm description support an uncontrolled treatment study rather than a placebo-controlled trial.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "officialTitle",
+      "quote": "Open Label Study to Assess"
+    },
+    {
+      "path": "interventionModel",
+      "quote": "Single Group"
+    },
+    {
+      "path": "allocation",
+      "quote": "Na"
+    },
+    {
+      "path": "armGroups.0.description",
+      "quote": "continue on Metformin"
+    }
+  ],
+  "title": "Safety and Therapeutic Potential of the FDA-approved Drug Metformin for C9orf72 ALS/FTD",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "d7ec2ca30b062f6cc6516979d7c614daf7e8ee8b721d14c8e79e3971b1decdae",
+  "screenedAt": "2026-11-06T22:17:18.529Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

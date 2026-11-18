@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT06607900",
+  "label": "No placebo",
+  "rationale": "This is an open, single-arm interventional study with one treatment group only. The record describes hUC-MSC-sEV-001 nasal drops as the sole intervention and does not describe any placebo, active-placebo, sham, or other control comparator.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "officialTitle",
+      "quote": "A Multi-center, Open, Single-arm, Basket-design Clinical Trial"
+    },
+    {
+      "path": "interventionModel",
+      "quote": "Single Group"
+    },
+    {
+      "path": "armGroups.0.description",
+      "quote": "hUC-MSC-sEV-001 nasal drops treatment"
+    },
+    {
+      "path": "armGroups.0.type",
+      "quote": "EXPERIMENTAL"
+    }
+  ],
+  "title": "hUC-MSC-sEV-001 Nasal Drops for Neurodegenerative Diseases",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "dfe6abe30d1dd80d91abb88409d6bb797bd5f26354aa76297298d80496fd77ed",
+  "screenedAt": "2026-11-06T22:32:35.750Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

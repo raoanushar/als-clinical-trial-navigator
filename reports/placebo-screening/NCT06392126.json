@@ -1,0 +1,39 @@
+{
+  "nctId": "NCT06392126",
+  "label": "No placebo",
+  "rationale": "This is an open-label, single-group interventional study for one participant, with no comparator arm described. The record describes delivery of a personalized antisense oligonucleotide treatment only, so there is no evidence of a placebo comparator.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "officialTitle",
+      "quote": "An Open-label Study"
+    },
+    {
+      "path": "interventionModel",
+      "quote": "Single Group"
+    },
+    {
+      "path": "armGroups.0.label",
+      "quote": "Open Label"
+    },
+    {
+      "path": "detailedDescription",
+      "quote": "single participant"
+    },
+    {
+      "path": "targetingInterventions.0.description",
+      "quote": "Personalized antisense oligonucleotide"
+    }
+  ],
+  "title": "Personalized Antisense Oligonucleotide Therapy for A Single Participant With CHCHD10 ALS",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "e80c166e7a53db4b45fed504f7257035177ce15850cfd037c9cc681abdf9d2a6",
+  "screenedAt": "2026-11-06T22:20:33.424Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

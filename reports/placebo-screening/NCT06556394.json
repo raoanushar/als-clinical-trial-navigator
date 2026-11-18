@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT06556394",
+  "label": "Placebo",
+  "rationale": "The record explicitly describes a randomized, double-blind, placebo-controlled parallel study. It also specifies separate placebo arms and states participants will receive RAG-17 or placebo in a 3:1 ratio.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "officialTitle",
+      "quote": "Randomized, Double-Blind, Placebo-Controlled Study"
+    },
+    {
+      "path": "detailedDescription",
+      "quote": "placebo controlled study"
+    },
+    {
+      "path": "detailedDescription",
+      "quote": "receive RAG-17 or placebo at a ratio of 3:1"
+    },
+    {
+      "path": "armGroups.1.label",
+      "quote": "Placebo"
+    }
+  ],
+  "title": "A Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of RAG-17 in Subjects With Amyotrophic Lateral Sclerosis (ALS) With Superoxide Dismutase Type 1 (SOD1) Gene Mutation",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "34df7399cb6158f8fd0413362e1c557075f4e5c7975dcc2a80ec0ee73cfd31bc",
+  "screenedAt": "2026-11-06T22:32:56.818Z",
+  "rule": {
+    "label": "Placebo",
+    "reason": "A registered arm is typed PLACEBO_COMPARATOR."
+  }
+}

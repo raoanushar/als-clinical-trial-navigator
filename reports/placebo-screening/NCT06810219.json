@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT06810219",
+  "label": "No placebo",
+  "rationale": "This is a single-group device feasibility study where all participants receive the Cognixion Axon-R and associated software. The record describes practice and communication tasks only, with no placebo, sham, or active control comparator mentioned.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "studyType",
+      "quote": "Interventional"
+    },
+    {
+      "path": "interventionModel",
+      "quote": "Single Group"
+    },
+    {
+      "path": "summary",
+      "quote": "Each subject will receive a Cognixion Axon-R"
+    },
+    {
+      "path": "armGroups.0.description",
+      "quote": "Participants will utilize the Cognixion Axon-R device"
+    }
+  ],
+  "title": "Augmented Reality BCI Longitudinal Study for Persons With Late Stage ALS",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "5d42700aa39dc8a5cd2c04c41db135f3df8e1dcd9615339557ad8572acc6311c",
+  "screenedAt": "2026-11-06T22:32:51.879Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

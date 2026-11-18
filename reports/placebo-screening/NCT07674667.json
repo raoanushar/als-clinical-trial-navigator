@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT07674667",
+  "label": "Placebo",
+  "rationale": "This is explicitly a randomized, double-blind, placebo-controlled interventional trial with a dedicated placebo arm. The placebo comparator is described as an intrathecal injection of artificial cerebrospinal fluid, so placebo use is part of the current study design.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "officialTitle",
+      "quote": "Placebo-Controlled, Phase 1 / 2 Trial"
+    },
+    {
+      "path": "summary",
+      "quote": "placebo-controlled Phase 1/2 trial"
+    },
+    {
+      "path": "armGroups.1.type",
+      "quote": "PLACEBO_COMPARATOR"
+    },
+    {
+      "path": "targetingInterventions.1.description",
+      "quote": "Intrathecal injection of artificial cerebrospinal fluid"
+    }
+  ],
+  "title": "FUNCtion ALS: Aiming to Restore UNC13A Function in People Living With ALS",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "896363b89a3299d4b08b5e1c9fcfa415a1a238990f7da1b65a186cdb9e434ab0",
+  "screenedAt": "2026-11-06T22:11:16.096Z",
+  "rule": {
+    "label": "Placebo",
+    "reason": "A registered arm is typed PLACEBO_COMPARATOR."
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT04768972",
+  "label": "Placebo",
+  "rationale": "The study explicitly includes a placebo comparator in a randomized double-blind first part. Part 1 randomizes participants 2:1 to ION363 or placebo, while later parts switch to open-label ION363.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "detailedDescription",
+      "quote": "randomized in a 2:1 ratio"
+    },
+    {
+      "path": "detailedDescription",
+      "quote": "ION363 or placebo"
+    },
+    {
+      "path": "armGroups.1.description",
+      "quote": "Placebo will be administered"
+    },
+    {
+      "path": "armGroups.0.description",
+      "quote": "double-blind treatment period in Part 1"
+    }
+  ],
+  "title": "FUSION: A Study to Evaluate the Efficacy, Safety, Pharmacokinetics and Pharmacodynamics of ION363 in Amyotrophic Lateral Sclerosis Participants With Fused in Sarcoma Mutations (FUS-ALS)",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "796b1b81bb8a992a209770caacf949e3f263ad9ebc53de6aa963b3b147076821",
+  "screenedAt": "2026-11-06T22:17:48.367Z",
+  "rule": {
+    "label": "Placebo",
+    "reason": "A registered arm is typed PLACEBO_COMPARATOR."
+  }
+}

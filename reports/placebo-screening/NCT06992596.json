@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT06992596",
+  "label": "No placebo",
+  "rationale": "This is a single-group, open-label feasibility study, so there is no placebo comparator described. The record describes only the N1 Implant and R1 Robot intervention arm, with no sham or inactive control arm mentioned.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "interventionModel",
+      "quote": "Single Group"
+    },
+    {
+      "path": "armGroups.0.description",
+      "quote": "Open label"
+    },
+    {
+      "path": "armGroups.0.interventionNames.0",
+      "quote": "Device: N1 Implant"
+    },
+    {
+      "path": "armGroups.0.interventionNames.1",
+      "quote": "Device: R1 Robot"
+    }
+  ],
+  "title": "UAE-PRIME: A Feasibility Study of a Precise Robotically Implanted Brain-Computer Interface for the Control of External Devices",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "f0834cffccbb2eb9b180358762a2a249846d777de79a17770beeb59e87f1e235",
+  "screenedAt": "2026-11-06T22:32:38.126Z",
+  "rule": {
+    "label": "Not specified",
+    "reason": "At least one arm has a missing or ambiguous type (such as OTHER)."
+  }
+}

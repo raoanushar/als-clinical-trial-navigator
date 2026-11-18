@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT04856982",
+  "label": "Placebo",
+  "rationale": "Part B is explicitly randomized and double-blind with tofersen or placebo, and the record says participants in Part B will receive either treatment. Parts C and D are open-label follow-on treatment, but the placebo comparator is clearly used in Part B.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "title",
+      "quote": "Study to Learn If Tofersen (BIIB067) Can Delay ALS Symptoms and About Its Safety in Adults With a SOD1 Gene Mutation Who Have Not Yet Developed ALS Symptoms"
+    },
+    {
+      "path": "summary",
+      "quote": "Tofersen or placebo will be given to participants in Parts B, while all participants will receive tofersen in Parts C and D."
+    },
+    {
+      "path": "armGroups.1.description",
+      "quote": "During Part B, participants will receive tofersen 100 milligrams (mg) or placebo via IT injection on Days 1, 15, 29, and every 28 days thereafter for up to approximately 5.6 years."
+    },
+    {
+      "path": "armGroups.2.description",
+      "quote": "Participants who received tofersen during Part B will receive tofersen 100 mg on Days 1, 29, and every 28 days thereafter up to the final maintenance dose visit, with a dose of placebo on Day 15 to maintain the study blind."
+    }
+  ],
+  "title": "Study to Learn If Tofersen (BIIB067) Can Delay ALS Symptoms and About Its Safety in Adults With a SOD1 Gene Mutation Who Have Not Yet Developed ALS Symptoms",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "6449c57c2203a78749c8564c70d7b247f4cb74759bf6d93d61d487dcd3cf712e",
+  "screenedAt": "2026-11-06T22:06:07.160Z",
+  "rule": {
+    "label": "Not specified",
+    "reason": "Placebo is mentioned in the saved arms or interventions, but no arm is typed PLACEBO_COMPARATOR. Needs interpretation."
+  }
+}

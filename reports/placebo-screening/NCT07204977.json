@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT07204977",
+  "label": "No placebo",
+  "rationale": "This is a single-group interventional study where all participants receive acamprosate and there is no described placebo comparator. The record explicitly says it is a single arm study, with one intervention arm only.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "allocation",
+      "quote": "Na"
+    },
+    {
+      "path": "interventionModel",
+      "quote": "Single Group"
+    },
+    {
+      "path": "armGroups.0.description",
+      "quote": "single arm study"
+    },
+    {
+      "path": "armGroups.0.interventionNames.0",
+      "quote": "Acamprosate calcium"
+    }
+  ],
+  "title": "Acamprosate in C9orf72 Hexanucleotide Repeat Expansion Amyotrophic Lateral Sclerosis (ACALS)",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "4721d95d9f65d4de79f4c8a335e516ec5713fa206b2dff18b488ed7a3a8d8f4c",
+  "screenedAt": "2026-11-06T22:11:33.522Z",
+  "rule": {
+    "label": "Not specified",
+    "reason": "At least one arm has a missing or ambiguous type (such as OTHER)."
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT07187388",
+  "label": "No placebo",
+  "rationale": "This is a single-group interventional study where all participants receive the TENS intervention, with no placebo or sham comparator described. The design and arm text support an uncontrolled pre/post treatment study rather than a placebo-controlled trial.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "interventionModel",
+      "quote": "Single Group"
+    },
+    {
+      "path": "armGroups.0.description",
+      "quote": "All 10 participants will receive a single TENS intervention"
+    },
+    {
+      "path": "summary",
+      "quote": "single 30-minute treatment of electrical stimulation"
+    },
+    {
+      "path": "detailedDescription",
+      "quote": "Following these assessments, participants will receive a single 30-minute TENS treatment."
+    }
+  ],
+  "title": "Investigating the Impact of Electrical Stimulation on Facial Pain, Jaw Movement and Oral Health in People With Motor Neuron Disease.",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "facda631f7eb33df8712d24fde2fc6b4cd8a8f2543568e6c8d2840983a7f9723",
+  "screenedAt": "2026-11-06T22:20:53.548Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

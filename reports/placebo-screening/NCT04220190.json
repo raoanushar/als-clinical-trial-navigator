@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT04220190",
+  "label": "No placebo",
+  "rationale": "This is described as an open-label, non-randomized, single-group expansion cohort with one experimental arm only. The record shows participants receive RAPA-501 infusions, and no placebo comparator is described anywhere in the study design.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "detailedDescription",
+      "quote": "open-label, non-randomized"
+    },
+    {
+      "path": "interventionModel",
+      "quote": "Single Group"
+    },
+    {
+      "path": "armGroups.0.description",
+      "quote": "Phase 2/3 Expansion Cohort"
+    },
+    {
+      "path": "detailedDescription",
+      "quote": "up to 4 infusions"
+    }
+  ],
+  "title": "RAPA-501 Therapy for ALS",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "171c9426f1bad249f090a0e10664ac1ce7b41d597dd6f5463c6af75fa490ea6a",
+  "screenedAt": "2026-11-06T22:11:38.323Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

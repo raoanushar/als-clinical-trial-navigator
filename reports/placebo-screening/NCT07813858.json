@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT07813858",
+  "label": "Placebo",
+  "rationale": "This is an interventional randomized, double-blind, placebo-controlled trial with a dedicated placebo arm. The placebo is a matching oral tablet given alongside riluzole during the 30-week blinded phase, and all participants later receive colchicine in the open-label extension.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "officialTitle",
+      "quote": "Placebo-controlled, Multicenter, Clinical Trial"
+    },
+    {
+      "path": "summary",
+      "quote": "compared to patients receiving placebo"
+    },
+    {
+      "path": "armGroups.1.type",
+      "quote": "PLACEBO_COMPARATOR"
+    },
+    {
+      "path": "targetingInterventions.1.description",
+      "quote": "Matching placebo oral tablets identical in appearance"
+    }
+  ],
+  "title": "Colchicine Effect on Amyotrophic Lateral Sclerosis Patients",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "a51c001d255a915cf64d3ac098690f05e935d61b1291848256c9e19d964e01f3",
+  "screenedAt": "2026-11-06T22:15:05.240Z",
+  "rule": {
+    "label": "Placebo",
+    "reason": "A registered arm is typed PLACEBO_COMPARATOR."
+  }
+}

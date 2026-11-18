@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT06829212",
+  "label": "No placebo",
+  "rationale": "This is a single-group interventional study with one experimental arm and implantation of the WRS device. The record describes no placebo, sham, or comparator arm; all participants in the study arm receive the intervention.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "interventionModel",
+      "quote": "Single Group"
+    },
+    {
+      "path": "armGroups.0.label",
+      "quote": "Implantation"
+    },
+    {
+      "path": "armGroups.0.description",
+      "quote": "Implantation of the WRS64"
+    },
+    {
+      "path": "summary",
+      "quote": "evaluate the safety and efficacy"
+    }
+  ],
+  "title": "Research on Wireless Brain Implant System for General Control of External Devices",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "2eebb5cae8d22622b3b7017574c401e6e168fa60d14b2a9f1562382d558e16c1",
+  "screenedAt": "2026-11-06T22:32:47.908Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

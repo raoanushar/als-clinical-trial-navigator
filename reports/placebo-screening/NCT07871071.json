@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT07871071",
+  "label": "No placebo",
+  "rationale": "The study compares the investigational BCI device against the participant’s existing eye-gaze speech-generating device in a within-subject crossover design. The record describes an active comparator and experimental device arms, but no inactive, placebo, or sham drug/device comparator.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "summary",
+      "quote": "compares a wearable brain-computer interface"
+    },
+    {
+      "path": "detailedDescription",
+      "quote": "existing commercial eye-gaze speech generating device as the active comparator"
+    },
+    {
+      "path": "armGroups.0.type",
+      "quote": "ACTIVE_COMPARATOR"
+    },
+    {
+      "path": "armGroups.1.type",
+      "quote": "EXPERIMENTAL"
+    }
+  ],
+  "title": "Brain-Computer Interface Communication Device for People With ALS",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "4848739852414927b40ea14ee5ab1fa13b8c8fbd535234487fae85b7893bab9c",
+  "screenedAt": "2026-11-06T22:11:14.921Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

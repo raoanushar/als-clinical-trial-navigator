@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT05632757",
+  "label": "No placebo",
+  "rationale": "This is a single-group behavioral/supportive-care study with one experimental arm of psychological assessments. The record describes observations and questionnaires during a multidisciplinary assessment, with no control arm, sham, or placebo comparator described.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "interventionModel",
+      "quote": "Single Group"
+    },
+    {
+      "path": "armGroups.0.label",
+      "quote": "Psychological assessments"
+    },
+    {
+      "path": "targetingInterventions.0.description",
+      "quote": "The various scales and self-questionnaires can be completed during this time."
+    },
+    {
+      "path": "summary",
+      "quote": "The evaluation of the patients' feeling of being a burden has rarely been addressed in previous studies in ALS on the notion of burden."
+    }
+  ],
+  "title": "Anticipated Patient and Caregiver Burden",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "de1f2af40769d10decc5845a699428215d10420ed9ff297170c0a338ef66a626",
+  "screenedAt": "2026-11-06T22:06:17.939Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

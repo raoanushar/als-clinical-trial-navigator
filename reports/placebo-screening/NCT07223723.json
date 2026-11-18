@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT07223723",
+  "label": "No placebo",
+  "rationale": "This is an open-label, single-group postmarketing study in which all participants receive tofersen. The arm description and study summary describe only active drug dosing, with no placebo or sham comparator mentioned.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "officialTitle",
+      "quote": "Open-Label, Postmarketing Surveillance Study"
+    },
+    {
+      "path": "interventionModel",
+      "quote": "Single Group"
+    },
+    {
+      "path": "armGroups.0.description",
+      "quote": "Participants will receive tofersen 100 mg"
+    },
+    {
+      "path": "summary",
+      "quote": "participants will receive the first 3 doses"
+    }
+  ],
+  "title": "A Study to Learn More About the Long-Term Safety of Tofersen (Qalsody) in Chinese Participants With SOD-1 Amyotrophic Lateral Sclerosis (ALS)",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "983aacd22b5870a02d3b3b68a99aa22a30dc3516bd3a0ec0bff6fbeda2f79a5d",
+  "screenedAt": "2026-11-06T22:17:23.706Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

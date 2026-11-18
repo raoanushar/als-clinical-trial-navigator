@@ -1,0 +1,31 @@
+{
+  "nctId": "NCT07169175",
+  "label": "No placebo",
+  "rationale": "This study is described as open-label and single-arm, with only one experimental SNUG01 arm and no comparator arm. The record supports that participants receive SNUG01 rather than a placebo or sham comparator.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "detailedDescription",
+      "quote": "open-label, single-arm, dose escalation"
+    },
+    {
+      "path": "armGroups.0.type",
+      "quote": "EXPERIMENTAL"
+    },
+    {
+      "path": "armGroups.0.interventionNames.0",
+      "quote": "Drug: SNUG01"
+    }
+  ],
+  "title": "A Phase Ⅰ/Ⅱa Study of SNUG01 in Adult Subjects With ALS",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "d1663a4eef4c6b82db46122bd90d3f698d60825e9350568324fcbd9c4f52a199",
+  "screenedAt": "2026-11-06T22:30:39.742Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

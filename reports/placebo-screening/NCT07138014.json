@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT07138014",
+  "label": "Placebo",
+  "rationale": "The record explicitly describes a randomized, double-blind, placebo-controlled study with a dedicated placebo arm. Participants are assigned to FHND1002 100 mg, FHND1002 200 mg, or matching placebo granules, so placebo is used for at least one group.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "officialTitle",
+      "quote": "Placebo-Controlled Phase II Study"
+    },
+    {
+      "path": "summary",
+      "quote": "Placebo (an inactive substance) once daily"
+    },
+    {
+      "path": "armGroups.2.type",
+      "quote": "PLACEBO_COMPARATOR"
+    },
+    {
+      "path": "armGroups.2.description",
+      "quote": "matching placebo granules orally once daily"
+    }
+  ],
+  "title": "FHND1002 for ALS Treatment: Phase 2",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "c5e581821147520ed0abaaaef1fb844aea81b4bd1498cb5bf33a5aea4b6b21dd",
+  "screenedAt": "2026-11-06T22:32:23.741Z",
+  "rule": {
+    "label": "Placebo",
+    "reason": "A registered arm is typed PLACEBO_COMPARATOR."
+  }
+}

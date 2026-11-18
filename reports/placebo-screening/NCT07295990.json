@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT07295990",
+  "label": "No placebo",
+  "rationale": "This is a single-group within-subject study where all participants receive the tongue exercise intervention and are compared to their own baseline. The record does not describe any placebo or sham comparator; it explicitly says all participants receive the intervention and the study uses repeated measures over time.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "interventionModel",
+      "quote": "Single Group"
+    },
+    {
+      "path": "summary",
+      "quote": "All participants will receive the treatment"
+    },
+    {
+      "path": "detailedDescription",
+      "quote": "people with ALS (pALS) will serve as their own controls"
+    },
+    {
+      "path": "armGroups.0.description",
+      "quote": "This study arm will test a proactive dysphagia exercise program"
+    }
+  ],
+  "title": "Tongue-strengthening Exercises in People With ALS.",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "e4d1d4a5e878392ff4cf5ccc0dc6bf29431d31c49c3110055b7ad9b3b94d13c2",
+  "screenedAt": "2026-11-06T22:17:25.089Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

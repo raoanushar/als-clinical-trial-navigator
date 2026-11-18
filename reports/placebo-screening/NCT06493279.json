@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT06493279",
+  "label": "No placebo",
+  "rationale": "This is a single-arm, open-label, single-group study in which all enrolled subjects receive RJK002. The record describes dose cohorts only and does not include any placebo or sham comparator.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "officialTitle",
+      "quote": "Single-arm, Open-label, Phase I Clinical Study"
+    },
+    {
+      "path": "allocation",
+      "quote": "Na"
+    },
+    {
+      "path": "interventionModel",
+      "quote": "Single Group"
+    },
+    {
+      "path": "armGroups.0.description",
+      "quote": "Eligible subjects will receive a single intrathecal administration"
+    }
+  ],
+  "title": "Evaluate the Safety and Efficacy of Intrathecal Injection of RJK002 in Patients With Amyotrophic Lateral Sclerosis",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "31875e1d66deb4c8785079890402ac9b558dfac97bc852204170a265c17351d0",
+  "screenedAt": "2026-11-06T22:30:03.172Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

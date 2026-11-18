@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT00912041",
+  "label": "No placebo",
+  "rationale": "This is a single-group interventional feasibility study with one BrainGate arm and no comparator arm described. The intervention is the implanted neural interface system, and the record describes only that participants receive this device, not any placebo or sham drug control.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "interventionModel",
+      "quote": "Single Group"
+    },
+    {
+      "path": "armGroups.0.description",
+      "quote": "BrainGate Neural Interface System"
+    },
+    {
+      "path": "summary",
+      "quote": "demonstrate proof of principle (feasibility)"
+    },
+    {
+      "path": "targetingInterventions.0.description",
+      "quote": "Neural recordings are made at least weekly"
+    }
+  ],
+  "title": "BrainGate2: Feasibility Study of an Intracortical Neural Interface System for Persons With Tetraplegia",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "0cd98928c76d0811c3f2c282e1656210b23d8c4cc0765624f1fc79868303bb3d",
+  "screenedAt": "2026-11-06T22:20:50.283Z",
+  "rule": {
+    "label": "Not specified",
+    "reason": "At least one arm has a missing or ambiguous type (such as OTHER)."
+  }
+}

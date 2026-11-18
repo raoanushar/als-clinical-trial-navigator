@@ -16,16 +16,7 @@
         <a class="portal-brand" href="#dashboard-panel"><span class="brand-mark" aria-hidden="true"></span><span><strong>SAVA AI</strong><small>Expert Portal</small></span></a>
         <nav class="tabs" aria-label="Portal">
           <button class="tab-button is-active" data-panel-target="dashboard-panel" aria-current="page">Dashboard</button>
-          <button class="tab-button" data-panel-target="saved-trials-panel">Saved trials</button>
-          <button class="tab-button" data-panel-target="trial-data-panel">Trial data</button>
-          <button class="tab-button" data-panel-target="copilot-panel">Search &amp; Explore</button>
-          <div class="sidebar-saved"><p class="eyebrow">Saved views</p><div id="saved-view-list"></div><button class="tab-button saved-center-link" data-panel-target="targeting-panel">Targeted populations</button></div>
-          <button class="tab-button" data-panel-target="agent-panel">Review &amp; Update <span id="portal-flag-count" class="nav-count" hidden></span></button>
-          <details class="sidebar-tools"><summary>More tools</summary>
-            <button class="tab-button" data-panel-target="nyu-panel">New York Search</button>
-          </details>
         </nav>
-        <button class="tab-button profile-link" data-panel-target="profile-panel"><img class="profile-avatar" src="assets/jinsy-andrews.png" alt="Dr. Jinsy Andrews" /><span><strong>Dr. Jinsy Andrews</strong></span></button>
       </aside>
       <header class="topbar">
         <div class="topbar-actions"><div class="sync-status"><span class="eyebrow">Registry last synced</span><strong id="sync-timestamp">Loading...</strong></div><button id="sync-button" class="secondary-button">Sync data</button></div>
@@ -180,21 +171,6 @@
             <button id="toggle-recent-trials" class="secondary-button" type="button" aria-controls="new-opportunity-list" aria-expanded="false" hidden>Show all trials</button>
           </article>
 
-          <details class="content-card dashboard-report-card"><summary>Study classification report</summary>
-            <div class="results-header">
-              <div class="section-title">
-                <p class="eyebrow">Classification report</p>
-                <h3>CT.gov study type compared with AI classification</h3>
-              </div>
-              <a id="dashboard-export" class="secondary-button button-link" href="/api/inconsistency/export-excel?ongoingOnly=true">Download Excel report</a>
-            </div>
-            <p id="classification-report-summary" class="copilot-summary">Loading classification report...</p>
-            <div id="classification-report-results" class="classification-report-list">
-              <article class="listing-card">
-                <p>Loading classification report...</p>
-              </article>
-            </div>
-          </details>
         </section>
 
         <section id="agent-panel" class="panel">

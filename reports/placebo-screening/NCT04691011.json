@@ -1,0 +1,39 @@
+{
+  "nctId": "NCT04691011",
+  "label": "No placebo",
+  "rationale": "This is an interventional but nonrandomized, single-group imaging study with MRI and electrophysiological tests; there is no inactive or active-placebo comparator described. The inclusion of healthy controls is a separate comparison group, not a placebo arm, and no sham procedure is mentioned.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "studyType",
+      "quote": "Interventional"
+    },
+    {
+      "path": "allocation",
+      "quote": "Non Randomized"
+    },
+    {
+      "path": "interventionModel",
+      "quote": "Single Group"
+    },
+    {
+      "path": "summary",
+      "quote": "MRI will be done on ALS patients at baseline, at 3 month and at 6 month intervals."
+    },
+    {
+      "path": "eligibilityCriteria",
+      "quote": "Healthy controls will also be recruited and will be age- and gender-matched to patients."
+    }
+  ],
+  "title": "New Magnetic Resonance Imaging Biomarkers in Amyotrophic Lateral Sclerosis",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "43b2b680b3ded0a4365963c18b9d76deb8e8675e80be748d1ab5e1a0535697d6",
+  "screenedAt": "2026-11-06T22:06:20.483Z",
+  "rule": {
+    "label": "Not specified",
+    "reason": "At least one arm has a missing or ambiguous type (such as OTHER)."
+  }
+}

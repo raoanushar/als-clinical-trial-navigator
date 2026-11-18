@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT07571486",
+  "label": "No placebo",
+  "rationale": "This is a one-arm, single-group study where all participants receive the SC4 device and repeated ultrasound sonications. The record describes no placebo comparator or sham control; the only comparator-like element is routine follow-up and pre/post assessments within the same patients.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "officialTitle",
+      "quote": "A One-arm, Single-center"
+    },
+    {
+      "path": "summary",
+      "quote": "single-arm, single-center study"
+    },
+    {
+      "path": "armGroups.0.description",
+      "quote": "Repeated US transient disruptions"
+    },
+    {
+      "path": "targetingInterventions.0.description",
+      "quote": "9 Blood Brain Barrier opening sessions"
+    }
+  ],
+  "title": "Therapeutic Approach of Repeated Transient Blood-brain Barrier Opening in Amyotrophic Lateral Sclerosis.",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "d2a530e823971b9afbca87683733cd847ff82a4f33478bde37dc125c73ecfc2f",
+  "screenedAt": "2026-11-06T22:17:30.066Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

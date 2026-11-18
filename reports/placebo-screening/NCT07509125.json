@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT07509125",
+  "label": "No placebo",
+  "rationale": "This is a diagnostic interventional imaging study, and the record only describes PET/MRI procedures for healthy controls and patient cohorts. The arm descriptions explicitly state that no therapeutic intervention is administered, and no placebo or sham comparator is described anywhere in the design.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "armGroups.0.description",
+      "quote": "No therapeutic intervention is administered."
+    },
+    {
+      "path": "armGroups.1.description",
+      "quote": "No therapeutic intervention is administered."
+    },
+    {
+      "path": "armGroups.2.description",
+      "quote": "No therapeutic intervention is administered."
+    },
+    {
+      "path": "armGroups.3.description",
+      "quote": "No therapeutic intervention is administered."
+    }
+  ],
+  "title": "Ultra-High Resolution PET in Aging, Neurodegeneration and Psychotic Disorders",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "6a304d214fb289ecb5b37b5051d228264bec55476d3cb64639576ba3df1a8e37",
+  "screenedAt": "2026-11-06T22:25:49.393Z",
+  "rule": {
+    "label": "Not specified",
+    "reason": "At least one arm has a missing or ambiguous type (such as OTHER)."
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT07341984",
+  "label": "No placebo",
+  "rationale": "The study compares individualized physiotherapy with usual care physiotherapy, which is an active comparator design. There is no description of an inactive or active-placebo comparator, so placebo use is not supported.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "officialTitle",
+      "quote": "Compared to Usual Care Physiotherapy"
+    },
+    {
+      "path": "armGroups.1.type",
+      "quote": "ACTIVE_COMPARATOR"
+    },
+    {
+      "path": "armGroups.1.description",
+      "quote": "usual care physiotherapy in accordance"
+    },
+    {
+      "path": "summary",
+      "quote": "Participants will receive either individualized physiotherapy"
+    }
+  ],
+  "title": "A Physiotherapy Intervention Study in Patients With Amyotrophic Lateral Sclerosis (ALS)",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "7795ebc45a60d73669926f743502eaa82a4663f85c520532a718cbf226395282",
+  "screenedAt": "2026-11-06T22:29:47.223Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT07292545",
+  "label": "No placebo",
+  "rationale": "This is a single-group interventional study where all enrolled ALS patients receive the video-based exercise program, with no placebo comparator described. The record describes only one experimental arm and says patients will be followed up by applying the exercise program before/after measures.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "interventionModel",
+      "quote": "Single Group"
+    },
+    {
+      "path": "armGroups.0.label",
+      "quote": "video based exercise"
+    },
+    {
+      "path": "summary",
+      "quote": "Subsequently, the patients will be followed up"
+    },
+    {
+      "path": "targetingInterventions.0.description",
+      "quote": "All patients will be asked to perform these exercises."
+    }
+  ],
+  "title": "Video-Based Proprioceptive Exercise Program in ALS",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "73e4ef8924003a3113ceba0937283e24317999ae66f1c731f8b2bdf19e758ac5",
+  "screenedAt": "2026-11-06T22:29:57.366Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

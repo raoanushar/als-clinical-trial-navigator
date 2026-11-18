@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT07618585",
+  "label": "No placebo",
+  "rationale": "This is a single-arm, open-label study with two dose cohorts, and every enrolled participant receives intrathecal NTF001. The record describes dose escalation between low-dose and high-dose NTF001, not a placebo or sham comparator.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "summary",
+      "quote": "single-arm, open-label"
+    },
+    {
+      "path": "summary",
+      "quote": "Each participant will receive a single intrathecal administration of NTF001"
+    },
+    {
+      "path": "armGroups.0.description",
+      "quote": "receive a single intrathecal administration"
+    },
+    {
+      "path": "armGroups.1.description",
+      "quote": "receive a single intrathecal administration"
+    }
+  ],
+  "title": "Safety and Efficacy of Intrathecal NTF001 Injection in ALS",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "0e22689fd6ac05918d12cb73730d3e3c1e9b9576ab2501301028c19c140af9c8",
+  "screenedAt": "2026-11-06T22:20:49.049Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

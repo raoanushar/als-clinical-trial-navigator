@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT04396873",
+  "label": "No placebo",
+  "rationale": "This is a single-group diagnostic PET imaging study where all participants receive the same scans, not a placebo-controlled treatment trial. The only comparator described is a blocking study using ketoprofen, which is an active inhibitor, plus healthy volunteers for comparison; no inactive placebo is described.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "studyType",
+      "quote": "Interventional"
+    },
+    {
+      "path": "interventionModel",
+      "quote": "Single Group"
+    },
+    {
+      "path": "armGroups.0.description",
+      "quote": "All subjects receive the same tests"
+    },
+    {
+      "path": "detailedDescription",
+      "quote": "blocking study using Ketoprofen"
+    }
+  ],
+  "title": "PET Imaging of Cyclooxygenases in Neurodegenerative Brain Disease",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "4ff5775e994851b24ece9b38a7501c536d46d86711961839d058f4d7d2e691f9",
+  "screenedAt": "2026-11-06T22:07:16.018Z",
+  "rule": {
+    "label": "Not specified",
+    "reason": "At least one arm has a missing or ambiguous type (such as OTHER)."
+  }
+}

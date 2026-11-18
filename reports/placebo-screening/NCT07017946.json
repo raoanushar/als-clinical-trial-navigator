@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT07017946",
+  "label": "No placebo",
+  "rationale": "This is a single-group interventional study in which all participants receive MTP-101C, with no comparator arm described. The record explicitly says participants are “assigned to the investigational product” and “All participants will be assigned” to it, which supports no placebo use.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "interventionModel",
+      "quote": "Single Group"
+    },
+    {
+      "path": "summary",
+      "quote": "assigned to the investigational product, MTP-101C"
+    },
+    {
+      "path": "detailedDescription",
+      "quote": "All participants will be assigned"
+    },
+    {
+      "path": "armGroups.0.type",
+      "quote": "EXPERIMENTAL"
+    }
+  ],
+  "title": "Intestinal Microbiome Transplant in ALS",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "c776dde0f6a27b19a4f3528aa08ce4a3a1d0d7993f32272e49e9e25107045d02",
+  "screenedAt": "2026-11-06T22:20:34.713Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

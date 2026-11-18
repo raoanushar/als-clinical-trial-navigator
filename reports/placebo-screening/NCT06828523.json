@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT06828523",
+  "label": "No placebo",
+  "rationale": "This is a single-group behavioral perception study, and all participants receive the same listening/judgment tasks. The record describes comparisons between speech produced in interactive versus non-interactive contexts, not a placebo or inactive comparator.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "interventionModel",
+      "quote": "Single Group"
+    },
+    {
+      "path": "detailedDescription",
+      "quote": "This is a single group study"
+    },
+    {
+      "path": "armGroups.0.description",
+      "quote": "hear recorded speech of PALS and age-matched speakers"
+    },
+    {
+      "path": "targetingInterventions.0.description",
+      "quote": "listeners are engaged and are able to provide meaningful perceptual judgments"
+    }
+  ],
+  "title": "Assessing Perceptual Effects of Interactive Tasks",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "68ce0912ca0783fc617ae6044dc733603d2245759b180b118961bc5eb02238bf",
+  "screenedAt": "2026-11-06T22:26:11.080Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

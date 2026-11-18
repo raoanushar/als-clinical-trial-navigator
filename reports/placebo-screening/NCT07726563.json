@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT07726563",
+  "label": "No placebo",
+  "rationale": "This is described as a single-arm study where all enrolled ALS patients receive plasmapheresis, with no comparator arm mentioned. The record explicitly says the trial is “single arm” and the only arm is experimental plasmapheresis, so no placebo is described.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "summary",
+      "quote": "single arm study"
+    },
+    {
+      "path": "armGroups.0.type",
+      "quote": "EXPERIMENTAL"
+    },
+    {
+      "path": "armGroups.0.interventionNames.0",
+      "quote": "Device: plasmapheresis"
+    },
+    {
+      "path": "eligibilityCriteria",
+      "quote": "Agree to receive plasmapheresis treatment"
+    }
+  ],
+  "title": "Plasmapheresis in Amyotrophic Lateral Sclerosis With Autoantibody Against NRIP 2 (PALADIN2)",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "e0a8775d7d36f722363836d0e5d2c4b441c003f12edafead650d10162baed99d",
+  "screenedAt": "2026-11-06T22:17:41.885Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT07883590",
+  "label": "Placebo",
+  "rationale": "This is a randomized, participant- and investigator-blinded interventional study that explicitly includes placebo as a comparator. All three cohorts are described as LY3873862 or placebo, and the intervention list names placebo as a study drug, so placebo is used in the study design.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "officialTitle",
+      "quote": "Randomized, Placebo-Controlled, Participant and Investigator-Blinded"
+    },
+    {
+      "path": "armGroups.0.label",
+      "quote": "LY3873862 or Placebo (Cohort 1)"
+    },
+    {
+      "path": "armGroups.1.description",
+      "quote": "LY3873862 or placebo administered orally with"
+    },
+    {
+      "path": "targetingInterventions.2.name",
+      "quote": "Placebo"
+    }
+  ],
+  "title": "A Study of LY3873862 in Participants With Sporadic or Familial Amyotrophic Lateral Sclerosis (ALS).",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "579846b700d23afb7743e26032ac5968801e9a7a728c8cbaee4c1b1938031aaa",
+  "screenedAt": "2026-11-06T22:11:08.742Z",
+  "rule": {
+    "label": "Not specified",
+    "reason": "Placebo is mentioned in the saved arms or interventions, but no arm is typed PLACEBO_COMPARATOR. Needs interpretation."
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT06782724",
+  "label": "Placebo",
+  "rationale": "This is a randomized, double-blind low-dose controlled trial, and the control arm is explicitly described as receiving low-dose psilocybin. The registry also labels that arm as a placebo comparator, so the study includes a placebo-like comparator in the control group while the other arm receives moderate/high doses.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "detailedDescription",
+      "quote": "double-blind randomized low-dose controlled clinical trial"
+    },
+    {
+      "path": "armGroups.1.type",
+      "quote": "PLACEBO_COMPARATOR"
+    },
+    {
+      "path": "armGroups.1.description",
+      "quote": "low dose (1mg) of psilocybin"
+    },
+    {
+      "path": "officialTitle",
+      "quote": "Compared to Low-dose Control"
+    }
+  ],
+  "title": "Psilocybin Therapy for Psychological Distress in Palliative Patients",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "bbb61385a728a2121e9fb42ea823b4fdd2b9be79f7e628e92dc784438080686b",
+  "screenedAt": "2026-11-06T22:27:28.311Z",
+  "rule": {
+    "label": "Placebo",
+    "reason": "A registered arm is typed PLACEBO_COMPARATOR."
+  }
+}

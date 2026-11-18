@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT06100276",
+  "label": "No placebo",
+  "rationale": "The study is described as open-label with all participants receiving AMT-162, and both arms are experimental dose cohorts rather than a placebo comparison. No inactive or sham comparator is described anywhere in the record.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "armGroups.0.description",
+      "quote": "The study will be open-label"
+    },
+    {
+      "path": "armGroups.0.description",
+      "quote": "Each Participant will receive a single dose"
+    },
+    {
+      "path": "armGroups.1.description",
+      "quote": "The study will be open-label"
+    },
+    {
+      "path": "armGroups.1.description",
+      "quote": "Each Participant will receive a single dose"
+    }
+  ],
+  "title": "Safety, Tolerability, and Exploratory Efficacy Study of Intrathecally Administered Gene Therapy AMT-162 in Adult Participants With SOD1 Amyotrophic Lateral Sclerosis (SOD1-ALS)",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "f162f07f063d10efeb3b20974016c76961724c38b2b4f84c5993c70e91a2ad05",
+  "screenedAt": "2026-11-06T22:30:06.427Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

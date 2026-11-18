@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT04055623",
+  "label": "Placebo",
+  "rationale": "This is an interventional randomized study with an explicit placebo-controlled first period. The record states that Group 1 receives either Treg infusions and IL-2 injections or saline/placebo infusions and placebo injections, while the second period is open-label with no placebo for all participants.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "summary",
+      "quote": "This study is a randomized, placebo-controlled, phase 2a trial"
+    },
+    {
+      "path": "detailedDescription",
+      "quote": "The first period is a 6-month, randomized, placebo-controlled part of the study"
+    },
+    {
+      "path": "detailedDescription",
+      "quote": "monthly expanded Tregs administered intravenously (IV) OR placebo (saline) administered intravenously plus subcutaneous low-dose Interleukin-2 (IL-2) OR subcutaneous placebo (saline) injections"
+    },
+    {
+      "path": "armGroups.1.description",
+      "quote": "Participants will receive matching placebo or inactive intravenous (IV) infusions once per month. The participant will also take a matching inactive placebo injection three times per week."
+    }
+  ],
+  "title": "T-regulatory Cells in ALS",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "90073d961e907681c0159df982fe736d129568087463cd0e4990983619abedb5",
+  "screenedAt": "2026-11-06T22:06:24.673Z",
+  "rule": {
+    "label": "Placebo",
+    "reason": "A registered arm is typed PLACEBO_COMPARATOR."
+  }
+}

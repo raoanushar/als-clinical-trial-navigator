@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT03174938",
+  "label": "No placebo",
+  "rationale": "This is a single-group diagnostic cohort study with no randomized comparison or blinded treatment arm. The interventions are diagnostic tests and imaging procedures across cohorts, not placebo-controlled therapy, and the text describes follow-up assessments only. There is no evidence of any inactive comparator or sham placebo drug.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "studyType",
+      "quote": "Interventional"
+    },
+    {
+      "path": "allocation",
+      "quote": "Non Randomized"
+    },
+    {
+      "path": "interventionModel",
+      "quote": "Single Group"
+    },
+    {
+      "path": "armGroups.0.description",
+      "quote": "Every 2 years new clinical"
+    }
+  ],
+  "title": "The Swedish BioFINDER 2 Study",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "075f2931f78ed2d7cf8ed59533cea7151f5d774529bf2bc7a8692cc08ae9a5a8",
+  "screenedAt": "2026-11-06T22:25:45.510Z",
+  "rule": {
+    "label": "Not specified",
+    "reason": "At least one arm has a missing or ambiguous type (such as OTHER)."
+  }
+}

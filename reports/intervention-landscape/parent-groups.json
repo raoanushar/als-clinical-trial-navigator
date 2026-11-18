@@ -1,0 +1,1856 @@
+{
+  "source": "intervention-screening-reclassified.csv",
+  "groups": {
+    "treatment": {
+      "total": 134,
+      "overlap": 5,
+      "parents": [
+        {
+          "label": "Small molecules",
+          "trialIds": [
+            "NCT03127267",
+            "NCT03651349",
+            "NCT04057898",
+            "NCT04220021",
+            "NCT04297683",
+            "NCT04302870",
+            "NCT04667013",
+            "NCT05105958",
+            "NCT05218668",
+            "NCT05279755",
+            "NCT05299658",
+            "NCT05377424",
+            "NCT05407324",
+            "NCT05923905",
+            "NCT05995782",
+            "NCT06126315",
+            "NCT06249867",
+            "NCT06365216",
+            "NCT06527222",
+            "NCT06656702",
+            "NCT06689982",
+            "NCT06726577",
+            "NCT07002034",
+            "NCT07023835",
+            "NCT07077668",
+            "NCT07082192",
+            "NCT07093268",
+            "NCT07138014",
+            "NCT07142291",
+            "NCT07174492",
+            "NCT07204977",
+            "NCT07221240",
+            "NCT07224269",
+            "NCT07321860",
+            "NCT07322003",
+            "NCT07325591",
+            "NCT07369076",
+            "NCT07396818",
+            "NCT07410806",
+            "NCT07414212",
+            "NCT07813858",
+            "NCT07834450",
+            "NCT07855211",
+            "NCT07875972",
+            "NCT07883590"
+          ],
+          "subcategories": [
+            {
+              "label": "Small molecules",
+              "trialIds": [
+                "NCT03127267",
+                "NCT03651349",
+                "NCT04057898",
+                "NCT04220021",
+                "NCT04297683",
+                "NCT04302870",
+                "NCT04667013",
+                "NCT05105958",
+                "NCT05218668",
+                "NCT05279755",
+                "NCT05299658",
+                "NCT05377424",
+                "NCT05407324",
+                "NCT05923905",
+                "NCT05995782",
+                "NCT06126315",
+                "NCT06249867",
+                "NCT06365216",
+                "NCT06527222",
+                "NCT06656702",
+                "NCT06689982",
+                "NCT06726577",
+                "NCT07002034",
+                "NCT07023835",
+                "NCT07077668",
+                "NCT07082192",
+                "NCT07093268",
+                "NCT07138014",
+                "NCT07142291",
+                "NCT07174492",
+                "NCT07204977",
+                "NCT07221240",
+                "NCT07224269",
+                "NCT07321860",
+                "NCT07322003",
+                "NCT07325591",
+                "NCT07369076",
+                "NCT07396818",
+                "NCT07410806",
+                "NCT07414212",
+                "NCT07813858",
+                "NCT07834450",
+                "NCT07855211",
+                "NCT07875972",
+                "NCT07883590"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Devices & functional therapies",
+          "trialIds": [
+            "NCT05136222",
+            "NCT05377424",
+            "NCT05744310",
+            "NCT05819931",
+            "NCT05913882",
+            "NCT05983211",
+            "NCT06172621",
+            "NCT06249412",
+            "NCT06344260",
+            "NCT06649955",
+            "NCT06681610",
+            "NCT06719947",
+            "NCT06819358",
+            "NCT06834269",
+            "NCT06844370",
+            "NCT06968468",
+            "NCT07006571",
+            "NCT07067229",
+            "NCT07071935",
+            "NCT07187388",
+            "NCT07193953",
+            "NCT07257302",
+            "NCT07292545",
+            "NCT07295990",
+            "NCT07413718",
+            "NCT07460037",
+            "NCT07478172",
+            "NCT07571486",
+            "NCT07606235",
+            "NCT07616050",
+            "NCT07726563",
+            "NCT07865260"
+          ],
+          "subcategories": [
+            {
+              "label": "Therapeutic devices",
+              "trialIds": [
+                "NCT05136222",
+                "NCT05819931",
+                "NCT05913882",
+                "NCT05983211",
+                "NCT06172621",
+                "NCT06249412",
+                "NCT06649955",
+                "NCT06681610",
+                "NCT06719947",
+                "NCT06819358",
+                "NCT06834269",
+                "NCT07006571",
+                "NCT07067229",
+                "NCT07187388",
+                "NCT07193953",
+                "NCT07257302",
+                "NCT07413718",
+                "NCT07478172",
+                "NCT07571486",
+                "NCT07606235",
+                "NCT07616050",
+                "NCT07865260"
+              ]
+            },
+            {
+              "label": "Exercise/behavioral therapies",
+              "trialIds": [
+                "NCT06172621",
+                "NCT06968468",
+                "NCT07067229",
+                "NCT07292545",
+                "NCT07295990"
+              ]
+            },
+            {
+              "label": "Procedures",
+              "trialIds": [
+                "NCT05377424",
+                "NCT06344260",
+                "NCT07460037",
+                "NCT07726563"
+              ]
+            },
+            {
+              "label": "Respiratory support",
+              "trialIds": [
+                "NCT05744310",
+                "NCT06844370",
+                "NCT07071935"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Genetic medicines",
+          "trialIds": [
+            "NCT04768972",
+            "NCT04856982",
+            "NCT05633459",
+            "NCT06100276",
+            "NCT06351592",
+            "NCT06392126",
+            "NCT06454682",
+            "NCT06493279",
+            "NCT06556394",
+            "NCT06645197",
+            "NCT06665165",
+            "NCT06704347",
+            "NCT06849609",
+            "NCT06977451",
+            "NCT07080801",
+            "NCT07169175",
+            "NCT07223723",
+            "NCT07287397",
+            "NCT07290062",
+            "NCT07294144",
+            "NCT07401121",
+            "NCT07423494",
+            "NCT07618585",
+            "NCT07660614",
+            "NCT07674667"
+          ],
+          "subcategories": [
+            {
+              "label": "ASOs",
+              "trialIds": [
+                "NCT04768972",
+                "NCT04856982",
+                "NCT05633459",
+                "NCT06392126",
+                "NCT06665165",
+                "NCT06977451",
+                "NCT07223723",
+                "NCT07294144",
+                "NCT07423494",
+                "NCT07660614",
+                "NCT07674667"
+              ]
+            },
+            {
+              "label": "Viral-vector gene therapy",
+              "trialIds": [
+                "NCT06100276",
+                "NCT06454682",
+                "NCT06493279",
+                "NCT06645197",
+                "NCT06849609",
+                "NCT07169175",
+                "NCT07287397",
+                "NCT07401121",
+                "NCT07618585"
+              ]
+            },
+            {
+              "label": "Other gene therapies",
+              "trialIds": [
+                "NCT06704347",
+                "NCT07290062"
+              ]
+            },
+            {
+              "label": "RNA interference",
+              "trialIds": [
+                "NCT06556394",
+                "NCT07080801"
+              ]
+            },
+            {
+              "label": "Other RNA therapies",
+              "trialIds": [
+                "NCT06351592"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Biologic & cell therapies",
+          "trialIds": [
+            "NCT02478450",
+            "NCT02795052",
+            "NCT03268603",
+            "NCT04055623",
+            "NCT04220190",
+            "NCT04297683",
+            "NCT05306457",
+            "NCT05695521",
+            "NCT06344260",
+            "NCT06391645",
+            "NCT06513546",
+            "NCT06598202",
+            "NCT06607900",
+            "NCT06643481",
+            "NCT06671236",
+            "NCT06765564",
+            "NCT06889857",
+            "NCT06973629",
+            "NCT07118319",
+            "NCT07161999",
+            "NCT07193953",
+            "NCT07688239",
+            "NCT07833618",
+            "NCT07838389"
+          ],
+          "subcategories": [
+            {
+              "label": "Cell therapies",
+              "trialIds": [
+                "NCT02478450",
+                "NCT02795052",
+                "NCT03268603",
+                "NCT04055623",
+                "NCT04220190",
+                "NCT05306457",
+                "NCT05695521",
+                "NCT06344260",
+                "NCT06671236",
+                "NCT06765564",
+                "NCT06973629",
+                "NCT07118319",
+                "NCT07838389"
+              ]
+            },
+            {
+              "label": "Other biologics",
+              "trialIds": [
+                "NCT04055623",
+                "NCT06391645",
+                "NCT06513546",
+                "NCT06598202",
+                "NCT06607900",
+                "NCT06889857",
+                "NCT07161999",
+                "NCT07193953",
+                "NCT07833618"
+              ]
+            },
+            {
+              "label": "Monoclonal antibodies",
+              "trialIds": [
+                "NCT04297683",
+                "NCT06643481",
+                "NCT07688239"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Nutrition & microbiome",
+          "trialIds": [
+            "NCT04244630",
+            "NCT04562831",
+            "NCT05095571",
+            "NCT06280079",
+            "NCT06765499",
+            "NCT06877143",
+            "NCT07017946",
+            "NCT07414212",
+            "NCT07467746",
+            "NCT07589764"
+          ],
+          "subcategories": [
+            {
+              "label": "Supplements",
+              "trialIds": [
+                "NCT04244630",
+                "NCT04562831",
+                "NCT05095571",
+                "NCT07589764"
+              ]
+            },
+            {
+              "label": "Nutrition/diet",
+              "trialIds": [
+                "NCT06280079",
+                "NCT06765499",
+                "NCT06877143",
+                "NCT07414212"
+              ]
+            },
+            {
+              "label": "Microbiome therapies",
+              "trialIds": [
+                "NCT07017946"
+              ]
+            },
+            {
+              "label": "Traditional Chinese medicine oral preparation",
+              "trialIds": [
+                "NCT07467746"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Undisclosed modality",
+          "trialIds": [
+            "NCT07100119",
+            "NCT07571174",
+            "NCT07571200"
+          ],
+          "subcategories": [
+            {
+              "label": "Undisclosed modality",
+              "trialIds": [
+                "NCT07100119",
+                "NCT07571174",
+                "NCT07571200"
+              ]
+            }
+          ]
+        }
+      ],
+      "studies": [
+        {
+          "nctId": "NCT05633459",
+          "categories": [
+            "ASOs"
+          ]
+        },
+        {
+          "nctId": "NCT07660614",
+          "categories": [
+            "ASOs"
+          ]
+        },
+        {
+          "nctId": "NCT07223723",
+          "categories": [
+            "ASOs"
+          ]
+        },
+        {
+          "nctId": "NCT06665165",
+          "categories": [
+            "ASOs"
+          ]
+        },
+        {
+          "nctId": "NCT07674667",
+          "categories": [
+            "ASOs"
+          ]
+        },
+        {
+          "nctId": "NCT04768972",
+          "categories": [
+            "ASOs"
+          ]
+        },
+        {
+          "nctId": "NCT06392126",
+          "categories": [
+            "ASOs"
+          ]
+        },
+        {
+          "nctId": "NCT07423494",
+          "categories": [
+            "ASOs"
+          ]
+        },
+        {
+          "nctId": "NCT06977451",
+          "categories": [
+            "ASOs"
+          ]
+        },
+        {
+          "nctId": "NCT04856982",
+          "categories": [
+            "ASOs"
+          ]
+        },
+        {
+          "nctId": "NCT07294144",
+          "categories": [
+            "ASOs"
+          ]
+        },
+        {
+          "nctId": "NCT05306457",
+          "categories": [
+            "Cell therapies"
+          ]
+        },
+        {
+          "nctId": "NCT06765564",
+          "categories": [
+            "Cell therapies"
+          ]
+        },
+        {
+          "nctId": "NCT06671236",
+          "categories": [
+            "Cell therapies"
+          ]
+        },
+        {
+          "nctId": "NCT06973629",
+          "categories": [
+            "Cell therapies"
+          ]
+        },
+        {
+          "nctId": "NCT07838389",
+          "categories": [
+            "Cell therapies"
+          ]
+        },
+        {
+          "nctId": "NCT03268603",
+          "categories": [
+            "Cell therapies"
+          ]
+        },
+        {
+          "nctId": "NCT02795052",
+          "categories": [
+            "Cell therapies"
+          ]
+        },
+        {
+          "nctId": "NCT04220190",
+          "categories": [
+            "Cell therapies"
+          ]
+        },
+        {
+          "nctId": "NCT05695521",
+          "categories": [
+            "Cell therapies"
+          ]
+        },
+        {
+          "nctId": "NCT02478450",
+          "categories": [
+            "Cell therapies"
+          ]
+        },
+        {
+          "nctId": "NCT07118319",
+          "categories": [
+            "Cell therapies"
+          ]
+        },
+        {
+          "nctId": "NCT04055623",
+          "categories": [
+            "Cell therapies",
+            "Other biologics"
+          ]
+        },
+        {
+          "nctId": "NCT06344260",
+          "categories": [
+            "Cell therapies",
+            "Procedures"
+          ]
+        },
+        {
+          "nctId": "NCT06968468",
+          "categories": [
+            "Exercise/behavioral therapies"
+          ]
+        },
+        {
+          "nctId": "NCT07295990",
+          "categories": [
+            "Exercise/behavioral therapies"
+          ]
+        },
+        {
+          "nctId": "NCT07292545",
+          "categories": [
+            "Exercise/behavioral therapies"
+          ]
+        },
+        {
+          "nctId": "NCT07017946",
+          "categories": [
+            "Microbiome therapies"
+          ]
+        },
+        {
+          "nctId": "NCT06643481",
+          "categories": [
+            "Monoclonal antibodies"
+          ]
+        },
+        {
+          "nctId": "NCT07688239",
+          "categories": [
+            "Monoclonal antibodies"
+          ]
+        },
+        {
+          "nctId": "NCT04297683",
+          "categories": [
+            "Monoclonal antibodies",
+            "Small molecules"
+          ]
+        },
+        {
+          "nctId": "NCT06877143",
+          "categories": [
+            "Nutrition/diet"
+          ]
+        },
+        {
+          "nctId": "NCT06765499",
+          "categories": [
+            "Nutrition/diet"
+          ]
+        },
+        {
+          "nctId": "NCT06280079",
+          "categories": [
+            "Nutrition/diet"
+          ]
+        },
+        {
+          "nctId": "NCT06351592",
+          "categories": [
+            "Other RNA therapies"
+          ]
+        },
+        {
+          "nctId": "NCT07833618",
+          "categories": [
+            "Other biologics"
+          ]
+        },
+        {
+          "nctId": "NCT06513546",
+          "categories": [
+            "Other biologics"
+          ]
+        },
+        {
+          "nctId": "NCT06598202",
+          "categories": [
+            "Other biologics"
+          ]
+        },
+        {
+          "nctId": "NCT06391645",
+          "categories": [
+            "Other biologics"
+          ]
+        },
+        {
+          "nctId": "NCT06889857",
+          "categories": [
+            "Other biologics"
+          ]
+        },
+        {
+          "nctId": "NCT07161999",
+          "categories": [
+            "Other biologics"
+          ]
+        },
+        {
+          "nctId": "NCT06607900",
+          "categories": [
+            "Other biologics"
+          ]
+        },
+        {
+          "nctId": "NCT07193953",
+          "categories": [
+            "Other biologics",
+            "Therapeutic devices"
+          ]
+        },
+        {
+          "nctId": "NCT07290062",
+          "categories": [
+            "Other gene therapies"
+          ]
+        },
+        {
+          "nctId": "NCT06704347",
+          "categories": [
+            "Other gene therapies"
+          ]
+        },
+        {
+          "nctId": "NCT04244630",
+          "categories": [
+            "Supplements"
+          ]
+        },
+        {
+          "nctId": "NCT07460037",
+          "categories": [
+            "Procedures"
+          ]
+        },
+        {
+          "nctId": "NCT07726563",
+          "categories": [
+            "Procedures"
+          ]
+        },
+        {
+          "nctId": "NCT06556394",
+          "categories": [
+            "RNA interference"
+          ]
+        },
+        {
+          "nctId": "NCT07080801",
+          "categories": [
+            "RNA interference"
+          ]
+        },
+        {
+          "nctId": "NCT07071935",
+          "categories": [
+            "Respiratory support"
+          ]
+        },
+        {
+          "nctId": "NCT05744310",
+          "categories": [
+            "Respiratory support"
+          ]
+        },
+        {
+          "nctId": "NCT06844370",
+          "categories": [
+            "Respiratory support"
+          ]
+        },
+        {
+          "nctId": "NCT07369076",
+          "categories": [
+            "Small molecules"
+          ]
+        },
+        {
+          "nctId": "NCT04667013",
+          "categories": [
+            "Small molecules"
+          ]
+        },
+        {
+          "nctId": "NCT05995782",
+          "categories": [
+            "Small molecules"
+          ]
+        },
+        {
+          "nctId": "NCT06527222",
+          "categories": [
+            "Small molecules"
+          ]
+        },
+        {
+          "nctId": "NCT06249867",
+          "categories": [
+            "Small molecules"
+          ]
+        },
+        {
+          "nctId": "NCT07082192",
+          "categories": [
+            "Small molecules"
+          ]
+        },
+        {
+          "nctId": "NCT05279755",
+          "categories": [
+            "Small molecules"
+          ]
+        },
+        {
+          "nctId": "NCT07855211",
+          "categories": [
+            "Small molecules"
+          ]
+        },
+        {
+          "nctId": "NCT06365216",
+          "categories": [
+            "Small molecules"
+          ]
+        },
+        {
+          "nctId": "NCT07204977",
+          "categories": [
+            "Small molecules"
+          ]
+        },
+        {
+          "nctId": "NCT05299658",
+          "categories": [
+            "Small molecules"
+          ]
+        },
+        {
+          "nctId": "NCT05923905",
+          "categories": [
+            "Small molecules"
+          ]
+        },
+        {
+          "nctId": "NCT07813858",
+          "categories": [
+            "Small molecules"
+          ]
+        },
+        {
+          "nctId": "NCT05407324",
+          "categories": [
+            "Small molecules"
+          ]
+        },
+        {
+          "nctId": "NCT06656702",
+          "categories": [
+            "Small molecules"
+          ]
+        },
+        {
+          "nctId": "NCT07834450",
+          "categories": [
+            "Small molecules"
+          ]
+        },
+        {
+          "nctId": "NCT03127267",
+          "categories": [
+            "Small molecules"
+          ]
+        },
+        {
+          "nctId": "NCT07174492",
+          "categories": [
+            "Small molecules"
+          ]
+        },
+        {
+          "nctId": "NCT07325591",
+          "categories": [
+            "Small molecules"
+          ]
+        },
+        {
+          "nctId": "NCT04057898",
+          "categories": [
+            "Small molecules"
+          ]
+        },
+        {
+          "nctId": "NCT07077668",
+          "categories": [
+            "Small molecules"
+          ]
+        },
+        {
+          "nctId": "NCT07138014",
+          "categories": [
+            "Small molecules"
+          ]
+        },
+        {
+          "nctId": "NCT07410806",
+          "categories": [
+            "Small molecules"
+          ]
+        },
+        {
+          "nctId": "NCT07396818",
+          "categories": [
+            "Small molecules"
+          ]
+        },
+        {
+          "nctId": "NCT04302870",
+          "categories": [
+            "Small molecules"
+          ]
+        },
+        {
+          "nctId": "NCT07142291",
+          "categories": [
+            "Small molecules"
+          ]
+        },
+        {
+          "nctId": "NCT07322003",
+          "categories": [
+            "Small molecules"
+          ]
+        },
+        {
+          "nctId": "NCT07002034",
+          "categories": [
+            "Small molecules"
+          ]
+        },
+        {
+          "nctId": "NCT05218668",
+          "categories": [
+            "Small molecules"
+          ]
+        },
+        {
+          "nctId": "NCT04220021",
+          "categories": [
+            "Small molecules"
+          ]
+        },
+        {
+          "nctId": "NCT07093268",
+          "categories": [
+            "Small molecules"
+          ]
+        },
+        {
+          "nctId": "NCT07875972",
+          "categories": [
+            "Small molecules"
+          ]
+        },
+        {
+          "nctId": "NCT07221240",
+          "categories": [
+            "Small molecules"
+          ]
+        },
+        {
+          "nctId": "NCT06726577",
+          "categories": [
+            "Small molecules"
+          ]
+        },
+        {
+          "nctId": "NCT07321860",
+          "categories": [
+            "Small molecules"
+          ]
+        },
+        {
+          "nctId": "NCT05105958",
+          "categories": [
+            "Small molecules"
+          ]
+        },
+        {
+          "nctId": "NCT03651349",
+          "categories": [
+            "Small molecules"
+          ]
+        },
+        {
+          "nctId": "NCT06689982",
+          "categories": [
+            "Small molecules"
+          ]
+        },
+        {
+          "nctId": "NCT06126315",
+          "categories": [
+            "Small molecules"
+          ]
+        },
+        {
+          "nctId": "NCT07023835",
+          "categories": [
+            "Small molecules"
+          ]
+        },
+        {
+          "nctId": "NCT07414212",
+          "categories": [
+            "Nutrition/diet",
+            "Small molecules"
+          ]
+        },
+        {
+          "nctId": "NCT05377424",
+          "categories": [
+            "Procedures",
+            "Small molecules"
+          ]
+        },
+        {
+          "nctId": "NCT05095571",
+          "categories": [
+            "Supplements"
+          ]
+        },
+        {
+          "nctId": "NCT07589764",
+          "categories": [
+            "Supplements"
+          ]
+        },
+        {
+          "nctId": "NCT04562831",
+          "categories": [
+            "Supplements"
+          ]
+        },
+        {
+          "nctId": "NCT07006571",
+          "categories": [
+            "Therapeutic devices"
+          ]
+        },
+        {
+          "nctId": "NCT05819931",
+          "categories": [
+            "Therapeutic devices"
+          ]
+        },
+        {
+          "nctId": "NCT05913882",
+          "categories": [
+            "Therapeutic devices"
+          ]
+        },
+        {
+          "nctId": "NCT06649955",
+          "categories": [
+            "Therapeutic devices"
+          ]
+        },
+        {
+          "nctId": "NCT07478172",
+          "categories": [
+            "Therapeutic devices"
+          ]
+        },
+        {
+          "nctId": "NCT07616050",
+          "categories": [
+            "Therapeutic devices"
+          ]
+        },
+        {
+          "nctId": "NCT06719947",
+          "categories": [
+            "Therapeutic devices"
+          ]
+        },
+        {
+          "nctId": "NCT06819358",
+          "categories": [
+            "Therapeutic devices"
+          ]
+        },
+        {
+          "nctId": "NCT07413718",
+          "categories": [
+            "Therapeutic devices"
+          ]
+        },
+        {
+          "nctId": "NCT07187388",
+          "categories": [
+            "Therapeutic devices"
+          ]
+        },
+        {
+          "nctId": "NCT07257302",
+          "categories": [
+            "Therapeutic devices"
+          ]
+        },
+        {
+          "nctId": "NCT07865260",
+          "categories": [
+            "Therapeutic devices"
+          ]
+        },
+        {
+          "nctId": "NCT05136222",
+          "categories": [
+            "Therapeutic devices"
+          ]
+        },
+        {
+          "nctId": "NCT05983211",
+          "categories": [
+            "Therapeutic devices"
+          ]
+        },
+        {
+          "nctId": "NCT06681610",
+          "categories": [
+            "Therapeutic devices"
+          ]
+        },
+        {
+          "nctId": "NCT06249412",
+          "categories": [
+            "Therapeutic devices"
+          ]
+        },
+        {
+          "nctId": "NCT07571486",
+          "categories": [
+            "Therapeutic devices"
+          ]
+        },
+        {
+          "nctId": "NCT06834269",
+          "categories": [
+            "Therapeutic devices"
+          ]
+        },
+        {
+          "nctId": "NCT07606235",
+          "categories": [
+            "Therapeutic devices"
+          ]
+        },
+        {
+          "nctId": "NCT07067229",
+          "categories": [
+            "Exercise/behavioral therapies",
+            "Therapeutic devices"
+          ]
+        },
+        {
+          "nctId": "NCT07467746",
+          "categories": [
+            "Traditional Chinese medicine oral preparation"
+          ]
+        },
+        {
+          "nctId": "NCT07169175",
+          "categories": [
+            "Viral-vector gene therapy"
+          ]
+        },
+        {
+          "nctId": "NCT06849609",
+          "categories": [
+            "Viral-vector gene therapy"
+          ]
+        },
+        {
+          "nctId": "NCT06454682",
+          "categories": [
+            "Viral-vector gene therapy"
+          ]
+        },
+        {
+          "nctId": "NCT06645197",
+          "categories": [
+            "Viral-vector gene therapy"
+          ]
+        },
+        {
+          "nctId": "NCT06493279",
+          "categories": [
+            "Viral-vector gene therapy"
+          ]
+        },
+        {
+          "nctId": "NCT07618585",
+          "categories": [
+            "Viral-vector gene therapy"
+          ]
+        },
+        {
+          "nctId": "NCT07401121",
+          "categories": [
+            "Viral-vector gene therapy"
+          ]
+        },
+        {
+          "nctId": "NCT06100276",
+          "categories": [
+            "Viral-vector gene therapy"
+          ]
+        },
+        {
+          "nctId": "NCT07287397",
+          "categories": [
+            "Viral-vector gene therapy"
+          ]
+        },
+        {
+          "nctId": "NCT07224269",
+          "categories": [
+            "Small molecules"
+          ]
+        },
+        {
+          "nctId": "NCT07571200",
+          "categories": [
+            "Undisclosed modality"
+          ]
+        },
+        {
+          "nctId": "NCT07883590",
+          "categories": [
+            "Small molecules"
+          ]
+        },
+        {
+          "nctId": "NCT07100119",
+          "categories": [
+            "Undisclosed modality"
+          ]
+        },
+        {
+          "nctId": "NCT07571174",
+          "categories": [
+            "Undisclosed modality"
+          ]
+        },
+        {
+          "nctId": "NCT06172621",
+          "categories": [
+            "Exercise/behavioral therapies",
+            "Therapeutic devices"
+          ]
+        }
+      ]
+    },
+    "other": {
+      "total": 63,
+      "overlap": 0,
+      "parents": [
+        {
+          "label": "Communication & assistive technology",
+          "trialIds": [
+            "NCT00912041",
+            "NCT03567213",
+            "NCT03698149",
+            "NCT04380649",
+            "NCT04798378",
+            "NCT05035823",
+            "NCT05470478",
+            "NCT05724173",
+            "NCT05936619",
+            "NCT06094205",
+            "NCT06207591",
+            "NCT06429735",
+            "NCT06511934",
+            "NCT06700304",
+            "NCT06810219",
+            "NCT06829212",
+            "NCT06992596",
+            "NCT07127172",
+            "NCT07209943",
+            "NCT07224256",
+            "NCT07357428",
+            "NCT07407725",
+            "NCT07446114",
+            "NCT07491562",
+            "NCT07521930",
+            "NCT07533903",
+            "NCT07543367",
+            "NCT07698496",
+            "NCT07836751",
+            "NCT07871071"
+          ],
+          "subcategories": [
+            {
+              "label": "Communication/BCI",
+              "trialIds": [
+                "NCT00912041",
+                "NCT03567213",
+                "NCT03698149",
+                "NCT04380649",
+                "NCT05035823",
+                "NCT05470478",
+                "NCT05724173",
+                "NCT05936619",
+                "NCT06094205",
+                "NCT06207591",
+                "NCT06429735",
+                "NCT06511934",
+                "NCT06700304",
+                "NCT06810219",
+                "NCT06829212",
+                "NCT06992596",
+                "NCT07127172",
+                "NCT07209943",
+                "NCT07224256",
+                "NCT07357428",
+                "NCT07407725",
+                "NCT07446114",
+                "NCT07521930",
+                "NCT07533903",
+                "NCT07543367",
+                "NCT07698496",
+                "NCT07871071"
+              ]
+            },
+            {
+              "label": "Mobility/assistive devices",
+              "trialIds": [
+                "NCT04798378",
+                "NCT07491562",
+                "NCT07836751"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Diagnostics & monitoring",
+          "trialIds": [
+            "NCT03174938",
+            "NCT04396873",
+            "NCT04882904",
+            "NCT05370079",
+            "NCT05395624",
+            "NCT05602142",
+            "NCT05747937",
+            "NCT06147843",
+            "NCT06284161",
+            "NCT06396260",
+            "NCT06891716",
+            "NCT07091799",
+            "NCT07213440",
+            "NCT07312240",
+            "NCT07380204",
+            "NCT07509125"
+          ],
+          "subcategories": [
+            {
+              "label": "Diagnostics/imaging",
+              "trialIds": [
+                "NCT04396873",
+                "NCT05395624",
+                "NCT05602142",
+                "NCT05747937",
+                "NCT06284161",
+                "NCT06396260",
+                "NCT06891716",
+                "NCT07312240",
+                "NCT07380204",
+                "NCT07509125"
+              ]
+            },
+            {
+              "label": "Biomarkers/monitoring",
+              "trialIds": [
+                "NCT03174938",
+                "NCT04882904",
+                "NCT05370079",
+                "NCT06147843",
+                "NCT06396260",
+                "NCT07091799",
+                "NCT07213440",
+                "NCT07312240"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Supportive care & rehabilitation",
+          "trialIds": [
+            "NCT06051123",
+            "NCT06286917",
+            "NCT06609213",
+            "NCT06881979",
+            "NCT07341984",
+            "NCT07636538"
+          ],
+          "subcategories": [
+            {
+              "label": "Rehabilitation",
+              "trialIds": [
+                "NCT06881979",
+                "NCT07341984",
+                "NCT07636538"
+              ]
+            },
+            {
+              "label": "Respiratory support",
+              "trialIds": [
+                "NCT06286917"
+              ]
+            },
+            {
+              "label": "Nutrition support",
+              "trialIds": [
+                "NCT06609213"
+              ]
+            },
+            {
+              "label": "Microbiome therapies",
+              "trialIds": [
+                "NCT06051123"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Care delivery & psychosocial support",
+          "trialIds": [
+            "NCT05632757",
+            "NCT06021938",
+            "NCT06377033",
+            "NCT06782724",
+            "NCT07454733",
+            "NCT07473765"
+          ],
+          "subcategories": [
+            {
+              "label": "Psychosocial/caregiver support",
+              "trialIds": [
+                "NCT05632757",
+                "NCT06021938",
+                "NCT06782724",
+                "NCT07473765"
+              ]
+            },
+            {
+              "label": "Care delivery",
+              "trialIds": [
+                "NCT06377033",
+                "NCT07454733"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Speech & communication research",
+          "trialIds": [
+            "NCT06266403",
+            "NCT06819124",
+            "NCT06828523"
+          ],
+          "subcategories": [
+            {
+              "label": "Speech/communication research",
+              "trialIds": [
+                "NCT06266403",
+                "NCT06819124",
+                "NCT06828523"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Basic science & disease models",
+          "trialIds": [
+            "NCT06450691",
+            "NCT06551649"
+          ],
+          "subcategories": [
+            {
+              "label": "Basic science/disease models",
+              "trialIds": [
+                "NCT06450691",
+                "NCT06551649"
+              ]
+            }
+          ]
+        }
+      ],
+      "studies": [
+        {
+          "nctId": "NCT06551649",
+          "categories": [
+            "Basic science/disease models"
+          ]
+        },
+        {
+          "nctId": "NCT06450691",
+          "categories": [
+            "Basic science/disease models"
+          ]
+        },
+        {
+          "nctId": "NCT04882904",
+          "categories": [
+            "Biomarkers/monitoring"
+          ]
+        },
+        {
+          "nctId": "NCT05370079",
+          "categories": [
+            "Biomarkers/monitoring"
+          ]
+        },
+        {
+          "nctId": "NCT06147843",
+          "categories": [
+            "Biomarkers/monitoring"
+          ]
+        },
+        {
+          "nctId": "NCT07213440",
+          "categories": [
+            "Biomarkers/monitoring"
+          ]
+        },
+        {
+          "nctId": "NCT07091799",
+          "categories": [
+            "Biomarkers/monitoring"
+          ]
+        },
+        {
+          "nctId": "NCT03174938",
+          "categories": [
+            "Biomarkers/monitoring"
+          ]
+        },
+        {
+          "nctId": "NCT07312240",
+          "categories": [
+            "Biomarkers/monitoring",
+            "Diagnostics/imaging"
+          ]
+        },
+        {
+          "nctId": "NCT07454733",
+          "categories": [
+            "Care delivery"
+          ]
+        },
+        {
+          "nctId": "NCT06377033",
+          "categories": [
+            "Care delivery"
+          ]
+        },
+        {
+          "nctId": "NCT07209943",
+          "categories": [
+            "Communication/BCI"
+          ]
+        },
+        {
+          "nctId": "NCT06810219",
+          "categories": [
+            "Communication/BCI"
+          ]
+        },
+        {
+          "nctId": "NCT07871071",
+          "categories": [
+            "Communication/BCI"
+          ]
+        },
+        {
+          "nctId": "NCT00912041",
+          "categories": [
+            "Communication/BCI"
+          ]
+        },
+        {
+          "nctId": "NCT05035823",
+          "categories": [
+            "Communication/BCI"
+          ]
+        },
+        {
+          "nctId": "NCT07407725",
+          "categories": [
+            "Communication/BCI"
+          ]
+        },
+        {
+          "nctId": "NCT07357428",
+          "categories": [
+            "Communication/BCI"
+          ]
+        },
+        {
+          "nctId": "NCT04380649",
+          "categories": [
+            "Communication/BCI"
+          ]
+        },
+        {
+          "nctId": "NCT03698149",
+          "categories": [
+            "Communication/BCI"
+          ]
+        },
+        {
+          "nctId": "NCT07698496",
+          "categories": [
+            "Communication/BCI"
+          ]
+        },
+        {
+          "nctId": "NCT05724173",
+          "categories": [
+            "Communication/BCI"
+          ]
+        },
+        {
+          "nctId": "NCT06094205",
+          "categories": [
+            "Communication/BCI"
+          ]
+        },
+        {
+          "nctId": "NCT06511934",
+          "categories": [
+            "Communication/BCI"
+          ]
+        },
+        {
+          "nctId": "NCT07533903",
+          "categories": [
+            "Communication/BCI"
+          ]
+        },
+        {
+          "nctId": "NCT07446114",
+          "categories": [
+            "Communication/BCI"
+          ]
+        },
+        {
+          "nctId": "NCT07543367",
+          "categories": [
+            "Communication/BCI"
+          ]
+        },
+        {
+          "nctId": "NCT07521930",
+          "categories": [
+            "Communication/BCI"
+          ]
+        },
+        {
+          "nctId": "NCT03567213",
+          "categories": [
+            "Communication/BCI"
+          ]
+        },
+        {
+          "nctId": "NCT06207591",
+          "categories": [
+            "Communication/BCI"
+          ]
+        },
+        {
+          "nctId": "NCT05936619",
+          "categories": [
+            "Communication/BCI"
+          ]
+        },
+        {
+          "nctId": "NCT06429735",
+          "categories": [
+            "Communication/BCI"
+          ]
+        },
+        {
+          "nctId": "NCT06829212",
+          "categories": [
+            "Communication/BCI"
+          ]
+        },
+        {
+          "nctId": "NCT07224256",
+          "categories": [
+            "Communication/BCI"
+          ]
+        },
+        {
+          "nctId": "NCT05470478",
+          "categories": [
+            "Communication/BCI"
+          ]
+        },
+        {
+          "nctId": "NCT06700304",
+          "categories": [
+            "Communication/BCI"
+          ]
+        },
+        {
+          "nctId": "NCT07127172",
+          "categories": [
+            "Communication/BCI"
+          ]
+        },
+        {
+          "nctId": "NCT06992596",
+          "categories": [
+            "Communication/BCI"
+          ]
+        },
+        {
+          "nctId": "NCT05747937",
+          "categories": [
+            "Diagnostics/imaging"
+          ]
+        },
+        {
+          "nctId": "NCT04396873",
+          "categories": [
+            "Diagnostics/imaging"
+          ]
+        },
+        {
+          "nctId": "NCT06284161",
+          "categories": [
+            "Diagnostics/imaging"
+          ]
+        },
+        {
+          "nctId": "NCT07380204",
+          "categories": [
+            "Diagnostics/imaging"
+          ]
+        },
+        {
+          "nctId": "NCT05395624",
+          "categories": [
+            "Diagnostics/imaging"
+          ]
+        },
+        {
+          "nctId": "NCT05602142",
+          "categories": [
+            "Diagnostics/imaging"
+          ]
+        },
+        {
+          "nctId": "NCT07509125",
+          "categories": [
+            "Diagnostics/imaging"
+          ]
+        },
+        {
+          "nctId": "NCT06891716",
+          "categories": [
+            "Diagnostics/imaging"
+          ]
+        },
+        {
+          "nctId": "NCT06396260",
+          "categories": [
+            "Biomarkers/monitoring",
+            "Diagnostics/imaging"
+          ]
+        },
+        {
+          "nctId": "NCT06051123",
+          "categories": [
+            "Microbiome therapies"
+          ]
+        },
+        {
+          "nctId": "NCT07491562",
+          "categories": [
+            "Mobility/assistive devices"
+          ]
+        },
+        {
+          "nctId": "NCT04798378",
+          "categories": [
+            "Mobility/assistive devices"
+          ]
+        },
+        {
+          "nctId": "NCT07836751",
+          "categories": [
+            "Mobility/assistive devices"
+          ]
+        },
+        {
+          "nctId": "NCT06609213",
+          "categories": [
+            "Nutrition support"
+          ]
+        },
+        {
+          "nctId": "NCT06828523",
+          "categories": [
+            "Speech/communication research"
+          ]
+        },
+        {
+          "nctId": "NCT06266403",
+          "categories": [
+            "Speech/communication research"
+          ]
+        },
+        {
+          "nctId": "NCT06819124",
+          "categories": [
+            "Speech/communication research"
+          ]
+        },
+        {
+          "nctId": "NCT06021938",
+          "categories": [
+            "Psychosocial/caregiver support"
+          ]
+        },
+        {
+          "nctId": "NCT05632757",
+          "categories": [
+            "Psychosocial/caregiver support"
+          ]
+        },
+        {
+          "nctId": "NCT06782724",
+          "categories": [
+            "Psychosocial/caregiver support"
+          ]
+        },
+        {
+          "nctId": "NCT07473765",
+          "categories": [
+            "Psychosocial/caregiver support"
+          ]
+        },
+        {
+          "nctId": "NCT07341984",
+          "categories": [
+            "Rehabilitation"
+          ]
+        },
+        {
+          "nctId": "NCT07636538",
+          "categories": [
+            "Rehabilitation"
+          ]
+        },
+        {
+          "nctId": "NCT06881979",
+          "categories": [
+            "Rehabilitation"
+          ]
+        },
+        {
+          "nctId": "NCT06286917",
+          "categories": [
+            "Respiratory support"
+          ]
+        }
+      ]
+    }
+  }
+}

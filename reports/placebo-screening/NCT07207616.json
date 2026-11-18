@@ -1,0 +1,39 @@
+{
+  "nctId": "NCT07207616",
+  "label": "No placebo",
+  "rationale": "The record describes a non-randomized educational intervention with pre-post testing, not a placebo-controlled study. Both arms are the same educational intervention delivered online and in person, and there is no inactive, sham, or active-placebo comparator described.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "studyType",
+      "quote": "Interventional"
+    },
+    {
+      "path": "allocation",
+      "quote": "Non Randomized"
+    },
+    {
+      "path": "summary",
+      "quote": "non-randomized intervention"
+    },
+    {
+      "path": "armGroups.0.description",
+      "quote": "participants accessed interactive educational materials"
+    },
+    {
+      "path": "armGroups.1.description",
+      "quote": "participants practiced various ALS techniques"
+    }
+  ],
+  "title": "Level and Determinants of Advanced Life Support Knowledge Among Nurses",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "b5fcdf24499d5a560f25cde6f3d85cd486f9f3ec2b3b9c42087bd3f1a9adf2d9",
+  "screenedAt": "2026-11-06T22:11:12.575Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

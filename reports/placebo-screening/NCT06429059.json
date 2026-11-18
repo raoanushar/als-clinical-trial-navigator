@@ -1,0 +1,31 @@
+{
+  "nctId": "NCT06429059",
+  "label": "No placebo",
+  "rationale": "This is an open-label, randomized pilot trial in which participants receive one of four individualized supplements, with no placebo arm described. The record explicitly says participants are their own controls and that after classification they receive 1 of 4 treatments, which supports an active-treatment-only design rather than placebo comparison.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "detailedDescription",
+      "quote": "open-label pilot trial utilizing 50 participants as their own controls"
+    },
+    {
+      "path": "detailedDescription",
+      "quote": "they will receive 1 of 4 treatments"
+    },
+    {
+      "path": "summary",
+      "quote": "participants in this study will receive one of four individualized supplements"
+    }
+  ],
+  "title": "ROAR-DIGAP: A Widely Inclusive, Largely Virtual Pilot Trial Utilizing DIGAP (Deep Integrated Genomics Analysis Platform) To Personalize Treatments",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "a5dc6247b580a7c2935051cf7f9fc8ee36876d9f1b4a161251a24e6b1e746193",
+  "screenedAt": "2026-11-06T22:08:07.392Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as no placebo."
+  }
+}

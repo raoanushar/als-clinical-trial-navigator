@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT07002034",
+  "label": "Placebo",
+  "rationale": "The study is explicitly described as comparing RE104 to an active-placebo, and it is randomized and double-blind. Even though the arm list only shows two RE104 dose arms, the summary states an active-placebo comparator is part of the study design, so this counts as a placebo-controlled study and the affected comparator part should be reviewed.",
+  "confidence": "high",
+  "needsReview": true,
+  "reviewReason": "The arm groups shown do not include the active-placebo arm, creating a conflict between the summary/design language and the listed arms.",
+  "evidence": [
+    {
+      "path": "summary",
+      "quote": "as compared to active-placebo"
+    },
+    {
+      "path": "officialTitle",
+      "quote": "Dose-Controlled Study"
+    },
+    {
+      "path": "officialTitle",
+      "quote": "Randomized, Double-Blind"
+    },
+    {
+      "path": "armGroups.0.type",
+      "quote": "ACTIVE_COMPARATOR"
+    }
+  ],
+  "title": "RE104 Safety and Efficacy Study in Adjustment Disorder in Cancer and Other Medical Illnesses",
+  "model": "gpt-5.4-mini",
+  "version": "bed06c6982c7537036b0ad5c2c21abf7a43afe0bb208d4966982c4ebd83c2e3b",
+  "sourceHash": "15e7d9fe4f5ff6cf639cb7355628b37c996341d47ea2a45831a6b1b151c3cfa3",
+  "screenedAt": "2026-11-11T03:48:45.206Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as placebo."
+  }
+}

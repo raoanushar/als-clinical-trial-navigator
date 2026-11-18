@@ -1,0 +1,31 @@
+{
+  "nctId": "NCT07929792",
+  "label": "No placebo",
+  "rationale": "This is a single-group device feasibility study with no comparison group. The record explicitly says each participant is compared with their own baseline, so there is no placebo or sham comparator in the current study.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "summary",
+      "quote": "There is no comparison group"
+    },
+    {
+      "path": "interventionModel",
+      "quote": "Single Group"
+    },
+    {
+      "path": "armGroups.0.description",
+      "quote": "Implantation of the N1 Implant"
+    }
+  ],
+  "title": "An Early Feasibility Study of a Robotically Implanted Brain-Computer Interface for Neural Control of External Devices in Spinal Cord Injury, Amyotrophic Lateral Sclerosis, and Chronic Ischemic Stroke",
+  "model": "gpt-5.4-mini",
+  "version": "bed06c6982c7537036b0ad5c2c21abf7a43afe0bb208d4966982c4ebd83c2e3b",
+  "sourceHash": "379fbbf36bed04a08c02c7002be215984bb2558910aa3e79fca075940c376530",
+  "screenedAt": "2026-11-11T03:48:44.822Z",
+  "rule": {
+    "label": "No placebo",
+    "reason": "All recorded arms have recognized non-placebo types and no placebo mention in arms/interventions. Inferred from saved data; sham controls count as placebo."
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT05279755",
+  "label": "Placebo",
+  "rationale": "This study explicitly includes placebo comparators. The record states Part C is double-blind and placebo-controlled, and the arm groups list prosetin-matched placebo in Parts A, B, and C, while Part D is open-label prosetin only.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "officialTitle",
+      "quote": "Double-Blind, Placebo-Controlled Dose Escalating Study"
+    },
+    {
+      "path": "detailedDescription",
+      "quote": "Part C is a double-blind, placebo-controlled"
+    },
+    {
+      "path": "armGroups.4.description",
+      "quote": "prosetin-matched placebo for 14 days"
+    },
+    {
+      "path": "armGroups.6.description",
+      "quote": "once-daily dose of prosetin for up to 52 weeks"
+    }
+  ],
+  "title": "A Study to Evaluate the Safety and Pharmacokinetics of Single and Multiple Doses of Prosetin in Healthy Volunteers and Participants With ALS",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "0e312ca7233bc0be16319eb7b8871064f06dd05482a13ce48a8deb969c7e1368",
+  "screenedAt": "2026-11-06T22:21:07.743Z",
+  "rule": {
+    "label": "Placebo",
+    "reason": "A registered arm is typed PLACEBO_COMPARATOR."
+  }
+}

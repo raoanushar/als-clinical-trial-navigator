@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT05151471",
+  "label": "Placebo",
+  "rationale": "The study includes an explicit placebo comparator in one arm: Group 2 receives oral edaravone for 10 days followed by an 18-day placebo regimen. This is a randomized, double-blind extension study comparing two dosing regimens, and only the on/off arm uses placebo.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "armGroups.1.description",
+      "quote": "10 days followed by 18-day placebo"
+    },
+    {
+      "path": "armGroups.1.interventionNames.1",
+      "quote": "Drug: Placebo"
+    },
+    {
+      "path": "officialTitle",
+      "quote": "Randomized, Double-blind Extension Study"
+    },
+    {
+      "path": "summary",
+      "quote": "compare the efficacy of two dosing regimens"
+    }
+  ],
+  "title": "Efficacy and Safety Extension Study of Oral Edaravone Administered in Subjects With ALS",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "037c7a1fe963423b96709de8563dc10a86211edb2224840127aba41411c950b8",
+  "screenedAt": "2026-11-06T22:11:07.396Z",
+  "rule": {
+    "label": "Not specified",
+    "reason": "Placebo is mentioned in the saved arms or interventions, but no arm is typed PLACEBO_COMPARATOR. Needs interpretation."
+  }
+}

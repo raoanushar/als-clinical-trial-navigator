@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT05095571",
+  "label": "No placebo",
+  "rationale": "This is an open-label extension study with a single active-treatment arm, not a placebo-controlled comparison in the extension itself. The record says all patients receive EH301 and that patients from both original NO-ALS arms may enter the prolongation study.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "targetingInterventions.0.description",
+      "quote": "open label study with active treatment of all patients"
+    },
+    {
+      "path": "interventionModel",
+      "quote": "Single Group"
+    },
+    {
+      "path": "armGroups.0.label",
+      "quote": "NO-ALS Extension Study High Dose EH301"
+    },
+    {
+      "path": "eligibilityCriteria",
+      "quote": "Patients from both arm 1 and arm 2"
+    }
+  ],
+  "title": "A Trial of Nicotinamide/Pterostilbene Supplement in ALS: The NO-ALS Extension Study",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "e5340d26fd0597838af94083f3c6794badd21d4e48481d4af74b8eb0742afbaf",
+  "screenedAt": "2026-11-06T22:14:51.440Z",
+  "rule": {
+    "label": "Not specified",
+    "reason": "At least one arm has a missing or ambiguous type (such as OTHER)."
+  }
+}

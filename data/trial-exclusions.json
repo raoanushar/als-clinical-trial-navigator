@@ -1,0 +1,54 @@
+{
+  "NCT07596446": {
+    "reason": "Cardiac-arrest study, not amyotrophic lateral sclerosis; removed at user request.",
+    "excludedAt": "2026-10-24T04:11:01.412931+00:00"
+  },
+  "NCT06824961": {
+    "title": "Does Increasing the Compression Pause From 3 to 5 Seconds in Mechanical Compression Devices Increase Ventilation Success Rate and Return of Spontaneous Circulation?",
+    "reason": "Cardiac arrest and CPR ventilation; no ALS-disease population described.",
+    "excludedAt": "2026-10-24T04:18:57.741491+00:00",
+    "requestedBy": "User",
+    "source": "Review of cached trial record; user approved exclusion",
+    "action": "Exclude from portal datasets and screening; retain original imported record"
+  },
+  "NCT06543823": {
+    "title": "SUPRATHEL 250 as a Treatment for Oropharyngeal Wounds",
+    "reason": "Tonsillectomy wound healing; no ALS-disease population described.",
+    "excludedAt": "2026-10-24T04:18:57.741491+00:00",
+    "requestedBy": "User",
+    "source": "Review of cached trial record; user approved exclusion",
+    "action": "Exclude from portal datasets and screening; retain original imported record"
+  },
+  "NCT07557771": {
+    "title": "Wideband Tympanometry as a Non-behavioral Test of the Speech-weighted Middle Ear Transfer Function.",
+    "reason": "Hearing loss and middle-ear testing; no ALS-disease population described.",
+    "excludedAt": "2026-10-24T04:18:57.741491+00:00",
+    "requestedBy": "User",
+    "source": "Review of cached trial record; user approved exclusion",
+    "action": "Exclude from portal datasets and screening; retain original imported record"
+  },
+  "NCT07239531": {
+    "title": "Combined Interval Training and Scenario Simulation for ALS Training of Medical Students",
+    "reason": "Advanced life support training for medical students.",
+    "excludedAt": "2026-10-24T04:18:57.741491+00:00",
+    "requestedBy": "User",
+    "source": "Review of cached trial record; user approved exclusion",
+    "action": "Exclude from portal datasets and screening; retain original imported record"
+  },
+  "NCT07650019": {
+    "title": "EDA-Based Adaptive Support in VR ALS Training",
+    "reason": "Virtual-reality advanced life support training.",
+    "excludedAt": "2026-10-24T04:18:57.741491+00:00",
+    "requestedBy": "User",
+    "source": "Review of cached trial record; user approved exclusion",
+    "action": "Exclude from portal datasets and screening; retain original imported record"
+  },
+  "NCT07085832": {
+    "title": "Assessment of Cardiopumonary Resuscitation (CPR) Competency Post ALS Course",
+    "reason": "CPR competency following advanced life support training.",
+    "excludedAt": "2026-10-24T04:18:57.741491+00:00",
+    "requestedBy": "User",
+    "source": "Review of cached trial record; user approved exclusion",
+    "action": "Exclude from portal datasets and screening; retain original imported record"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "nctId": "NCT05633459",
+  "label": "Placebo",
+  "rationale": "The record explicitly describes placebo comparator arms in the double-blind study periods, including a 6:2 randomization to QRL-201 versus placebo. The open-label extension uses only QRL-201, but placebo is clearly part of the overall study design.",
+  "confidence": "high",
+  "needsReview": false,
+  "reviewReason": "",
+  "evidence": [
+    {
+      "path": "officialTitle",
+      "quote": "Randomized, Double-Blind Placebo Controlled"
+    },
+    {
+      "path": "detailedDescription",
+      "quote": "6:2 ratio of QRL-201 to placebo"
+    },
+    {
+      "path": "armGroups.1.type",
+      "quote": "PLACEBO_COMPARATOR"
+    },
+    {
+      "path": "armGroups.3.type",
+      "quote": "PLACEBO_COMPARATOR"
+    }
+  ],
+  "title": "A Study Evaluating the Safety and Tolerability of QRL-201 in ALS",
+  "model": "gpt-5.4-mini",
+  "version": "98c908e18d72cfadfc3337b0e7d0436a05f9a3a6886fac693233f130b535f474",
+  "sourceHash": "4a1d270e798e6ec50612aff0fcefd72fa15b8c6f9fd12d748d30b011ea2ca680",
+  "screenedAt": "2026-11-06T22:21:23.513Z",
+  "rule": {
+    "label": "Placebo",
+    "reason": "A registered arm is typed PLACEBO_COMPARATOR."
+  }
+}
