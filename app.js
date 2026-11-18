@@ -2211,6 +2211,7 @@ let savedPortalViews = [];
 try { const stored = JSON.parse(localStorage.getItem("sava-saved-views") || "[]"); if (Array.isArray(stored)) savedPortalViews = stored.filter(view => view && typeof view.name === "string" && typeof view.query === "string" && view.filters); } catch {}
 function renderSavedPortalViews() {
   const list = document.getElementById("saved-view-list");
+  if (!list) return;
   list.innerHTML = savedPortalViews.length ? savedPortalViews.map((view, index) => `<div class="saved-view-row"><button data-view="${index}">${escapeHtml(view.name)}</button><button data-delete-view="${index}" aria-label="Delete ${escapeHtml(view.name)}">×</button></div>`).join("") : "";
   list.querySelectorAll("[data-view]").forEach(button => button.addEventListener("click", () => {
     const view = savedPortalViews[Number(button.dataset.view)];
